@@ -6,6 +6,8 @@ the [SCSS](http://sass-lang.com/) syntax, and [KSS](https://github.com/kneath/ks
 If you're visiting from the internet, feel free to learn from our style. This is a guide we use for our own apps
 internally at GitHub. We encourage you to set up one that works for your own team.
 
+Check the styleguide at [http://belgianpolice.github.io/styleguide/](http://belgianpolice.github.io/styleguide/).
+
 ## Installation
 
 Run it with:
