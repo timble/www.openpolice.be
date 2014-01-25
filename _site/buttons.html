@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Belgian Police CSS Styleguide</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="stylesheets/layout.css">
+  <link rel="stylesheet" href="stylesheets/styleguide.css">
+  <link rel="stylesheet" href="http://police.dev/theme/mobile/css/styleguide.css">
+</head>
+<body>
+
+  <header>
+    Belgian Polcie CSS Styleguide
+  </header>
+
+  <div id="wrapper">
+
+    <nav role="main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="buttons.html">Buttons</a></li>
+        <li><a href="forms.html">Forms</a></li>
+      </ul>
+    </nav>
+
+    <div class="styleguide-example">
+
+  <h3>1.1 <!-- <em>styleguide.css</em> --></h3>
+  <div class="styleguide-description">
+    <p>Your standard form button.</p>
+    
+      <ul class="styleguide-modifier">
+        
+          <li><strong>:hover</strong> - Buttons love hover states.</li>
+        
+          <li><strong>:active</strong> - Buttons love active states.</li>
+        
+          <li><strong>:disabled</strong> - For when you shouldn't be able to click on it.</li>
+        
+          <li><strong>.disabled</strong> - Same as the disabled pseudo-class.</li>
+        
+          <li><strong>.btn-link</strong> - Link</li>
+        
+      </ul>
+    
+  </div>
+  <div class="styleguide-element">
+      <button class="btn $modifier_class">Example Button</button>
+
+  </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">:hover</span>
+        <button class="btn pseudo-class-hover">Example Button</button>
+
+    </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">:active</span>
+        <button class="btn pseudo-class-active">Example Button</button>
+
+    </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">:disabled</span>
+        <button class="btn pseudo-class-disabled">Example Button</button>
+
+    </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">.disabled</span>
+        <button class="btn disabled">Example Button</button>
+
+    </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">.btn-link</span>
+        <button class="btn btn-link">Example Button</button>
+
+    </div>
+  
+  <div class="styleguide-html">
+    <pre class="styleguide-code">  &lt;button class=&quot;btn $modifier_class&quot;&gt;Example Button&lt;/button&gt;
+</pre>
+  </div>
+
+</div>
+
+<div class="styleguide-example">
+
+  <h3>1.2 <!-- <em>styleguide.css</em> --></h3>
+  <div class="styleguide-description">
+    <p>Your bigger form button.</p>
+    
+      <ul class="styleguide-modifier">
+        
+          <li><strong>:hover</strong> - Buttons love hover states.</li>
+        
+          <li><strong>:active</strong> - Buttons love active states.</li>
+        
+          <li><strong>:disabled</strong> - For when you shouldn't be able to click on it.</li>
+        
+          <li><strong>.disabled</strong> - Same as the disabled pseudo-class.</li>
+        
+      </ul>
+    
+  </div>
+  <div class="styleguide-element">
+      <button class="btn btn-large $modifier_class">Example Button</button>
+
+  </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">:hover</span>
+        <button class="btn btn-large pseudo-class-hover">Example Button</button>
+
+    </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">:active</span>
+        <button class="btn btn-large pseudo-class-active">Example Button</button>
+
+    </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">:disabled</span>
+        <button class="btn btn-large pseudo-class-disabled">Example Button</button>
+
+    </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">.disabled</span>
+        <button class="btn btn-large disabled">Example Button</button>
+
+    </div>
+  
+  <div class="styleguide-html">
+    <pre class="styleguide-code">  &lt;button class=&quot;btn btn-large $modifier_class&quot;&gt;Example Button&lt;/button&gt;
+</pre>
+  </div>
+
+</div>
+
+
+  </div><!-- /#wrapper -->
+
+  <script src="javascripts/kss.js"></script>
+
+</body>
+</html>
