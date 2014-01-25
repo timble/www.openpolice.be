@@ -12,3 +12,13 @@ Run it with:
 
     bundle install
     bundle exec ruby app.rb
+
+## Publish site
+
+Download the local website using:
+
+    wget --page-requisites --convert-links --recursive --html-extension --directory-prefix=_site -nH http://localhost:4567
+
+Publish to the gh-pages branch
+
+    rake site:publish
