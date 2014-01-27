@@ -15,6 +15,11 @@ get '/forms' do
   erb :forms
 end
 
+get '/media' do
+  @styleguide = Kss::Parser.new('public/stylesheets')
+  erb :media
+end
+
 helpers do
   # Generates a styleguide block. A little bit evil with @_out_buf, but
   # if you're using something like Rails, you can write a much cleaner helper
