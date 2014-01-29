@@ -5,18 +5,18 @@ Your standard form button.
 :active     - Buttons love active states.
 :disabled   - For when you shouldn't be able to click on it.
 .disabled   - Same as the disabled pseudo-class.
-.btn-link   - Link
+.button--link   - Link
 
 Styleguide 1.1
 */
 
 /*
-Your bigger form button.
+Your primary form button.
 
-:hover        - Buttons love hover states.
-:active       - Buttons love active states.
-:disabled     - For when you shouldn't be able to click on it.
-.disabled     - Same as the disabled pseudo-class.
+:hover      - Buttons love hover states.
+:active     - Buttons love active states.
+:disabled   - For when you shouldn't be able to click on it.
+.disabled   - Same as the disabled pseudo-class.
 
 Styleguide 1.2
 */
