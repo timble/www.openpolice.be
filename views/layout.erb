@@ -3,30 +3,29 @@
 <head>
   <title>Belgian Police CSS Styleguide</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="/stylesheets/layout.css">
+  <link rel="stylesheet" href="/stylesheets/default.css">
   <link rel="stylesheet" href="/stylesheets/styleguide.css">
-  <link rel="stylesheet" href="/stylesheets/core.css">
+  <link rel="stylesheet" href="/stylesheets/blocks.css">
 </head>
 <body>
+  <div id="wrap">
+    <div class="container container__content">
+      <aside class="sidebar" style="margin-top: 0;">
+        <img width="160" height="42" src="/images/logo-en.jpg" style="margin-bottom: 40px"/>
 
-  <header>
-    Belgian Polcie CSS Styleguide
-  </header>
+        <ul class="nav nav--list">
+          <li><a href="/">Overview</a></li>
+          <li><a href="/buttons">Buttons</a></li>
+          <li><a href="/forms">Forms</a></li>
+          <li><a href="/media">Media</a></li>
+        </ul>
+      </aside>
 
-  <div id="wrapper">
-
-    <nav role="main">
-      <ul>
-        <li><a href="/">Overview</a></li>
-        <li><a href="/buttons">Buttons</a></li>
-        <li><a href="/forms">Forms</a></li>
-        <li><a href="/media">Media</a></li>
-      </ul>
-    </nav>
-
-    <%= yield %>
-
-  </div><!-- /#wrapper -->
+      <div class="component">
+        <%= yield %>
+      </div>
+    </div>
+  </div>
 
   <script src="/javascripts/kss.js"></script>
   <script src="/javascripts/holder.js"></script>
