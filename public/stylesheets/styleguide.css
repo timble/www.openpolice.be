@@ -97,3 +97,7 @@ h1.styleguide {
 }
 
 /* @end */
+
+.container__content .sidebar {
+    display: block;
+}
