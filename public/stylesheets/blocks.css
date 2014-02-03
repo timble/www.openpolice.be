@@ -1,4 +1,16 @@
 /*
+Article
+
+Styleguide 1.1
+*/
+
+/*
+Breadcrumb
+
+Styleguide 2.1
+*/
+
+/*
 Your standard form button.
 
 :hover      - Buttons love hover states.
@@ -7,7 +19,7 @@ Your standard form button.
 .disabled   - Same as the disabled pseudo-class.
 .button--link   - Link
 
-Styleguide 1.1
+Styleguide 3.1
 */
 
 /*
@@ -18,47 +30,59 @@ Your primary form button.
 :disabled   - For when you shouldn't be able to click on it.
 .disabled   - Same as the disabled pseudo-class.
 
-Styleguide 1.2
+Styleguide 3.2
 */
 
 /*
 Typical input field
 
-Styleguide 2.1
+Styleguide 4.1
 */
 
 /*
 For search panels
 
-Styleguide 2.2
+Styleguide 4.2
+*/
+
+/*
+Gallery
+
+Styleguide 5.1
 */
 
 /*
 Media
 
-Styleguide 3.1
+Styleguide 6.1
 */
 
 /*
 Navigation bar
 
-Styleguide 4.1
+Styleguide 7.1
 */
 
 /*
 List
 
-Styleguide 4.2
+Styleguide 7.2
 */
 
 /*
 Spills
 
-Styleguide 4.3
+Styleguide 7.3
+*/
+
+/*
+Pagination
+
+Styleguide 8.1
 */
 
 /*
 Table
 
-Styleguide 5.1
+Styleguide 9.1
 */

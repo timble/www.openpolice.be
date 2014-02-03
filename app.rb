@@ -5,6 +5,16 @@ get '/' do
   erb :index
 end
 
+get '/article' do
+  @styleguide = Kss::Parser.new('public/stylesheets')
+  erb :article
+end
+
+get '/breadcrumb' do
+  @styleguide = Kss::Parser.new('public/stylesheets')
+  erb :breadcrumb
+end
+
 get '/buttons' do
   @styleguide = Kss::Parser.new('public/stylesheets')
   erb :buttons
@@ -15,6 +25,11 @@ get '/forms' do
   erb :forms
 end
 
+get '/gallery' do
+  @styleguide = Kss::Parser.new('public/stylesheets')
+  erb :gallery
+end
+
 get '/media' do
   @styleguide = Kss::Parser.new('public/stylesheets')
   erb :media
@@ -23,6 +38,11 @@ end
 get '/navigation' do
   @styleguide = Kss::Parser.new('public/stylesheets')
   erb :navigation
+end
+
+get '/pagination' do
+  @styleguide = Kss::Parser.new('public/stylesheets')
+  erb :pagination
 end
 
 get '/table' do
