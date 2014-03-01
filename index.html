@@ -1,9 +1,12 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <link type="text/css" rel="stylesheet" href="css/default.css"  />
+    <link type="text/css" rel="stylesheet" href="css/default.css" />
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/navbar.js"></script>
 </head>
-<body>
+<body id="page" class="no-js">
+<script type="text/javascript">function hasClass(e,t){return e.className.match(new RegExp("(\\s|^)"+t+"(\\s|$)"))}var el=document.getElementById("page");var cl="no-js";if(hasClass(el,cl)){var reg=new RegExp("(\\s|^)"+cl+"(\\s|$)");el.className=el.className.replace(reg,"js-enabled")}</script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -13,30 +16,43 @@
     ga('create', 'UA-20242887-6', 'belgianpolice.github.io');
     ga('send', 'pageview');
 </script>
-<div id="wrap" class="container-fluid">
-    <div class="container-header">
-        <div class="row-fluid">
-            <div class="span3 alpha">
-                <div class="logo" itemscope itemtype="http://schema.org/Organization">
-                    <a itemprop="url" href="#">
-                        <img width="160" itemprop="logo" src="img/logo.jpg" />
-                        <div>Developer</div>
-                    </a>
+<div id="wrap">
+    <div class="container container__header">
+        <div class="organization" itemscope itemtype="http://schema.org/Organization">
+            <a itemprop="url" href="/">
+                <img class="organization__logo" width="160" itemprop="logo" src="img/logo.jpg" />
+                <div class="organization__name">Belgian Police</div>
+            </a>
+        </div>
+        <div class="navigation">
+            <span class="slogan">
+                Open Development, Open Data & Open Government
+            </span>
+            <div class="navbar">
+                <div class="navbar__handlebar">
+                    <div class="navbar__handle">&equiv;</div>
+                    <a class="navbar__logo" href="/">Belgian Police </a>
                 </div>
+                <nav role="navigation">
+                    <ul class="nav">
+                        <li><a href="http://belgianpolice.github.io/styleguide">Styleguide</a></li>
+                        <li><a href="http://github.com/belgianpolice/internet-platform">Internet Platform</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </div>
 
-    <div class="container-content" style="padding-top: 0">
-        <div class="row-fluid">
-            <div class="span8">
+    <div class="container container__content">
+        <div class="clearfix">
+            <div class="homepage__sticky">
                 <h1>Police Internet Platform</h1>
                 <p>The Police Internet Platform is an open-source platform specifically built for the internet websites of the Belgian Police.
                     It uses a component based architecture. Written in PHP 5.3, HTML, CSS and Javascript, and made by passionate open source technologists.</p>
                 <p><a href="http://github.com/belgianpolice/internet-platform">Find us on GitHub</a>.</p>
                 <h2>Built on Open Source software</h2>
                 <p>The Police Internet Platform is built on open source software and wouldn't be as productive without these open source projects around. We simply just want to say thank you to the following projects for helping us out:</p>
-                <ul class="nav nav-pills nav-stacked column--double">
+                <ul class="nav nav nav--pills column--double">
                     <li><a href="http://getbootstrap.com">Bootstrap</a></li>
                     <li><a href="http://www.capistranorb.com">Capistrano</a></li>
                     <li><a href="http://getcomposer.org">Composer</a></li>
@@ -45,6 +61,8 @@
                     <li><a href="http://www.joomla.org">Joomla</a></li>
                     <li><a href="http://jquery.com">jQuery</a></li>
                     <li><a href="http://linux.org">Linux</a></li>
+                    <li><a href="http://github.com/dimsemenov/Magnific-Popup">Magnific-Popup</a></li>
+                    <li><a href="http://github.com/sj26/mailcatcher">MailCatcher</a></li>
                     <li><a href="http://mootools.net">MooTools</a></li>
                     <li><a href="http://nginx.org">nginx</a></li>
                     <li><a href="http://www.nooku.org">Nooku</a></li>
@@ -58,7 +76,7 @@
                     <li><a href="https://www.virtualbox.org">VirtualBox</a></li>
                 </ul>
             </div>
-            <div class="span4">
+            <div class="homepage__contact">
                 <h3>Developers wanted</h3>
                 <p>If you are a web developer working inside the Belgian Police organisation, please subscribe to our mailing list.</p>
                 <form action="http://campaign.lokalepolitie.be/t/r/s/nidjlt/" method="post">
