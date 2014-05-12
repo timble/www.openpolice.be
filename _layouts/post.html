@@ -1,46 +1,39 @@
 {% include header.html %}
 
-<div class="post__container">
-    <div class="group">
-
-        <div class="post__body">
-            <header class="post__header">
-                <h1 class="post__title" role="heading">{{ page.title }}</h1>
-                <div class="post__date">Written {% if page.author %}by {% if page.authorGplus %}<a href="{{ page.authorGplus }}">{{ page.author }}</a>{% else %}{{ page.author }}{% endif %}{% endif %} on {{ page.date | date: "%-d %B %Y" }}</div>
-            </header>
-
-            <div class="post__content">
-                {% if page.image %}
-                <img class="blog__image" src="{{ site.url }}/images/{{ page.category }}/{{ page.image }}" {% if page.image %} alt="{{ page.imagealt }}"{% endif %} />
-                {% endif %}
-                {{ content }}
-            </div>
-        </div>
-
-        {% if page.category == 'blog' %}
-        <div class="post__footer">
-            {% include disqus.html %}
-        </div>
-        {% endif %}
-
-
-        {% if page.cat_previous.url or page.cat_next.url %}
-        <div class="prev_next_post">
-            <!-- prev and next pages -->
-            {% if page.cat_previous.url %}
-            <div class="prevpost">
-                &laquo; <a rel="prev" href="{{ page.cat_previous.url }}">{{ page.cat_previous.title }}</a>
-            </div>
-            {% endif %}
-            {% if page.cat_next.url %}
-            <div class="nextpost">
-                <a rel="next" href="{{ page.cat_next.url }}">{{ page.cat_next.title }}</a> &raquo;
-            </div>
-            {% endif %}
-        </div>
-        {% endif %}
-
+<article class="article" itemscope="" itemtype="http://schema.org/Article">
+    <header class="article__header">
+        <h1 itemprop="name">{{page.title}}</h1>
+        <time class="text--small" itemprop="datePublished" datetime="{{page.date}}">
+            {{ page.date | date: "%-d %B %Y" }}
+        </time>
+    </header>
+    <a class="article__thumbnail" href="{{site.url}}/images/blog/{{post.image}}" data-gallery="enabled">
+        <img width="400" height="300" itemprop="image" src="{{site.url}}/images/blog/{{page.image}}"{% if page.image %} alt="{{page.imagealt}}"{% endif %}>
+    </a>
+    <div itemprop="articleBody">
+        {{ content }}
     </div>
+    {% if page.category == 'blog' %}
+    <div class="post__footer">
+        {% include disqus.html %}
+    </div>
+    {% endif %}
+</article>
+
+{% if page.cat_previous.url or page.cat_next.url %}
+<div class="prev_next_post">
+    <!-- prev and next pages -->
+    {% if page.cat_previous.url %}
+    <div class="prevpost">
+        &laquo; <a rel="prev" href="{{ page.cat_previous.url }}">{{ page.cat_previous.title }}</a>
+    </div>
+    {% endif %}
+    {% if page.cat_next.url %}
+    <div class="nextpost">
+        <a rel="next" href="{{ page.cat_next.url }}">{{ page.cat_next.title }}</a> &raquo;
+    </div>
+    {% endif %}
 </div>
+{% endif %}
 
 {% include footer.html %}
