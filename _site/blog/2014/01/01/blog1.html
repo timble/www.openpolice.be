@@ -79,7 +79,7 @@
             1 January 2014
         </time>
     </header>
-    <a class="article__thumbnail" href="/images/blog/" data-gallery="enabled">
+    <a class="article__thumbnail" href="/images/blog/testimage1.jpg" data-gallery="enabled">
         <img width="400" height="300" itemprop="image" src="/images/blog/testimage1.jpg" alt="">
     </a>
     <div itemprop="articleBody">
@@ -113,7 +113,8 @@
         </div>
     </div>
     <script type="text/javascript" src="/js/libraries/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/js/libraries/jquery.magnific-popup.min.js"></script>
     
-    
+    <script type="text/javascript">$(document).ready(function(){$(".article__thumbnail").magnificPopup({type:"image"});});</script>
 </body>
 </html>

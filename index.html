@@ -13,8 +13,8 @@ rooturl: home
                 <div class="text--small">{{ post.date | date: "%-d %B %Y" }}</div>
             </header>
             {% if post.image %}
-            <a class="article__thumbnail" tabindex="-1" href="{{site.url}}">
-                <img wsrc="{{site.url}}/images/blog/{{post.image}}"{% if post.image %} alt="{{post.imagealt}}"{% endif %}>
+            <a class="article__thumbnail" tabindex="-1" href="{{ post.url }}">
+                <img src="{{site.url}}/images/blog/{{post.image}}"{% if post.image %} alt="{{post.imagealt}}"{% endif %}>
             </a>
             {% endif %}
             {{ post.excerpt }}
