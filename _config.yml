@@ -1,0 +1,17 @@
+# Pagination
+paginate: 10
+pagination: true
+
+
+# Site info
+name: Police
+# url: http://localhost:4000
+
+
+# Code highlighting
+highlighter: rouge
+
+
+
+# Blog separator
+excerpt_separator: <!--more-->

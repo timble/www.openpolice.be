@@ -1,0 +1,30 @@
+// Setup
+@import "misc/mixins";
+//@import "misc/boxsizing";
+
+// Utilities
+//@import "utilities/icons";
+//@import "utilities/basefont";
+//@import "utilities/normalize";
+@import "utilities/sass-ie";
+//@import "utilities/responsivemenu";
+@import "utilities/syntax";
+
+// Atoms
+
+// Molecules
+
+// Organisms
+
+
+.pagination {
+  margin: 0 auto 1em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+}

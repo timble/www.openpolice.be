@@ -1,0 +1,11 @@
+---
+title: ie8.css
+---
+
+$old-ie: true;
+$fix-mqs: 60em;
+@import 'styles';
+
+.grid__item--omega--ie {
+  margin-right: 0!important;
+}

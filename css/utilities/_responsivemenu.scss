@@ -1,0 +1,61 @@
+/* We need the relative position and z-index so JavaScript knows when to create the desktop menu */
+body.js-enabled {
+  position: relative;
+  z-index: 0;
+}
+
+/* Change amount of pixels to width when you want the mobile menu to become a desktop one */
+@include respond-min($breakpoint-beta) {
+
+  /* We need the z-index so JavaScript knows when to create the desktop menu */
+  body.js-enabled {
+    z-index: 1;
+  }
+
+  /* List items should have position relative to make children Unordered lists position absolute
+     Need this to fold out nicely */
+  body.js-enabled ul.responsive-menu li {
+    position: relative;
+  }
+
+  /* Initially hide the submenu's when JS is enabled */
+  body.js-enabled ul.responsive-menu ul {
+    display: none;
+  }
+
+  /* Show the submenu's on hover */
+  body.js-enabled ul.responsive-menu li:hover > ul {
+    display: block !important;
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+
+  /* When using a vertical menu */
+  body.js-enabled ul.responsive-menu.vertical li:hover > ul {
+    top: 0;
+    left: 100%;
+  }
+
+  /* Submenu items pop out to the right */
+  body.js-enabled ul.responsive-menu ul li:hover ul {
+    top: 0;
+    left: 100%;
+  }
+}
+
+/* Toggle buttons */
+.menu_toggle_button,
+.sub_toggle {
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* Mkae buttons at least 44x44px for touch devices */
+.menu_toggle_button {
+  font-size: 44px;
+  line-height: 44px;
+  text-align: center;
+  min-width: 44px;
+  min-height: 44px;
+}
