@@ -1,10 +1,14 @@
 ---
 layout: post
-title: Blog2
+title: Venenatis Pharetra Fermentum Commodo Mattis
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 category: blog
-#image: 2013/devices.jpg
+image: testimage1.jpg
 ---
 
-Blog 2
+Blog 1
+
+<!--more-->
+
+Lorem ipsum

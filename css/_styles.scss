@@ -29,3 +29,22 @@
     display: inline-block;
   }
 }
+
+.highlight {
+  @include cf;
+  background: #eee;
+  border-radius: 6px;
+  margin: 0 0 1.5em;
+
+  pre {
+    margin: 0;
+    padding: 8px;
+    overflow: auto;
+  }
+
+  .lineno {
+    background: #ddd;
+    display: inline-block;
+    padding: 0 5px;
+  }
+}

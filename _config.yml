@@ -9,7 +9,7 @@ name: Police blog
 
 
 # Code highlighting
-highlighter: rouge
+highlighter: pygments
 
 
 # Blog separator

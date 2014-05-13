@@ -1,14 +1,10 @@
 ---
 layout: post
-title: Blog1
+title: Tellus Inceptos Lorem Justo
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 category: blog
-image: testimage1.jpg
+#image: 2013/devices.jpg
 ---
 
-Blog 1
-
-<!--more-->
-
-Lorem ipsum
+Blog 2

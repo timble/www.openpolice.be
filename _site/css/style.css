@@ -661,3 +661,21 @@ img.mfp-img {
     margin: 0;
     padding: 0;
     display: inline-block; }
+
+.highlight {
+  background: #eee;
+  border-radius: 6px;
+  margin: 0 0 1.5em; }
+  .highlight:before, .highlight:after {
+    content: "";
+    display: table; }
+  .highlight:after {
+    clear: both; }
+  .highlight pre {
+    margin: 0;
+    padding: 8px;
+    overflow: auto; }
+  .highlight .lineno {
+    background: #ddd;
+    display: inline-block;
+    padding: 0 5px; }

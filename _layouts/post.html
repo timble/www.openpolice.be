@@ -11,17 +11,14 @@ extra_footer_markup: '<script type="text/javascript">$(document).ready(function(
             {{ page.date | date: "%-d %B %Y" }}
         </time>
     </header>
+    {% if page.image %}
     <a class="article__thumbnail" href="{{site.url}}/images/blog/{{page.image}}" data-gallery="enabled">
         <img width="400" height="300" itemprop="image" src="{{site.url}}/images/blog/{{page.image}}"{% if page.image %} alt="{{page.imagealt}}"{% endif %}>
     </a>
+    {% endif %}
     <div itemprop="articleBody">
         {{ content }}
     </div>
-    {% if page.category == 'blog' %}
-    <div class="post__footer">
-        {% include disqus.html %}
-    </div>
-    {% endif %}
 </article>
 
 {% if page.cat_previous.url or page.cat_next.url %}

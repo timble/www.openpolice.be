@@ -64,14 +64,14 @@
             <aside class="sidebar">
                 <div class="sidebar__element">
                     <h3>Latest blogs</h3>
-                    <ul>
-                        {% for post in paginator.posts %}
-                        <li>
-                            <a href="{{ post.url }}">{{ post.title }}</a><br />
-                            {{ post.date | date: "%-d %B %Y" }}
-                        </li>
-                        {% endfor %}
-                    </ul>
+                    {% for post in site.posts limit:5 %}
+                    <div class="media">
+                        <div class="media__body">
+                            <a class="media__heading" href="{{post.url}}">{{post.title}}</a>
+                            <div class="muted" style="font-size: 0.85em">{{ post.date | date: "%-d %B %Y" }}</div>
+                        </div>
+                    </div>
+                    {% endfor %}
                     <a href="#">View all blogs →</a>
                 </div>
             </aside>
