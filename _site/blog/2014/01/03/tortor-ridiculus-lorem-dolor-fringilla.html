@@ -11,7 +11,7 @@
     <link rel="apple-touch-icon" type="image/png" href="/images/xtouch-icon.png"/>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" href="http://www.lokalepolitie.be/theme/mobile/A.components,,_select2,,_select2.css,,q1389963312+css,,_default.css,,q1398697970,Mcc.T7bLJbm4vj.css.pagespeed.cf.4uQ2Hye0Dt.css">
+    <link rel="stylesheet" href="http://belgianpolice.github.io/css/default.css">
     <link rel="stylesheet" href="/css/style.css">
     
     
@@ -60,7 +60,7 @@
             </div>
         </div>
 
-        <div class="container container__content" style="padding-top: 20px;">
+        <div class="container container__content">
             <aside class="sidebar">
                 <div class="sidebar__element">
                     <h3>Latest blogs</h3>
@@ -86,7 +86,6 @@
                         </div>
                     </div>
                     
-                    <a href="#">View all blogs →</a>
                 </div>
             </aside>
             <div class="component">
@@ -98,6 +97,10 @@
             3 January 2014
         </time>
     </header>
+    
+    <a class="article__thumbnail" href="/images/blog/testimage3.jpg" data-gallery="enabled">
+        <img width="400" height="300" itemprop="image" src="/images/blog/testimage3.jpg" alt="">
+    </a>
     
     <div itemprop="articleBody">
         <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue.</p>
@@ -119,12 +122,21 @@
     </div>
 </article>
 
+<hr />
+
 
 <div class="prev_next_post">
     <!-- prev and next pages -->
     
     <div class="prevpost">
-        &laquo; <a rel="prev" href="/blog/2014/01/02/tellus-inceptos-lorem-justo.html">Tellus Inceptos Lorem Justo</a>
+        <h4>Previous post</h4>
+        <div class="media">
+            
+            <div class="media__body">
+                <a class="media__heading" href="/blog/2014/01/02/tellus-inceptos-lorem-justo.html">Tellus Inceptos Lorem Justo</a>
+                <div class="muted" style="font-size: 0.85em">2 January 2014</div>
+            </div>
+        </div>
     </div>
     
     
@@ -136,6 +148,7 @@
     </div>
     <script type="text/javascript" src="/js/libraries/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="/js/libraries/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="/js/navbar.js"></script>
     
     <script type="text/javascript">$(document).ready(function(){$(".article__thumbnail").magnificPopup({type:"image"});});</script>
 </body>

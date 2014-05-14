@@ -653,15 +653,6 @@ img.mfp-img {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
-.pagination {
-  margin: 0 auto 1em;
-  padding: 0;
-  list-style: none; }
-  .pagination li {
-    margin: 0;
-    padding: 0;
-    display: inline-block; }
-
 .highlight {
   background: #eee;
   border-radius: 6px;
@@ -680,5 +671,37 @@ img.mfp-img {
     display: inline-block;
     padding: 0 5px; }
 
-.grid__item--omega--ie {
-  margin-right: 0 !important; }
+.media__object--rev {
+  float: right;
+  margin: 0 0 0 1em; }
+
+.pagination {
+  margin: 0 auto 1em;
+  padding: 0;
+  list-style: none; }
+  .pagination li {
+    margin: 0;
+    padding: 0;
+    display: inline-block; }
+
+.prev_next_post {
+  display: table;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+  .prev_next_post .prevpost,
+  .prev_next_post .nextpost {
+    display: table-cell;
+    vertical-align: top; }
+  .prev_next_post .prevpost {
+    padding-right: 5px;
+    text-align: left; }
+  .prev_next_post .nextpost {
+    padding-left: 5px;
+    text-align: right; }
+
+.pagination {
+  display: block; }
+
+.pagination__offset {
+  display: inline-block !important; }

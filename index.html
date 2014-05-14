@@ -10,7 +10,9 @@ rooturl: home
         <article class="article">
             <header class="article__header">
                 <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                <div class="text--small">{{ post.date | date: "%-d %B %Y" }}</div>
+                <time class="text--small" itemprop="datePublished" datetime="{{page.date}}">
+                    {{ post.date | date: "%-d %B %Y" }}
+                </time>
             </header>
             {% if post.image %}
             <a class="article__thumbnail" tabindex="-1" href="{{ post.url }}">

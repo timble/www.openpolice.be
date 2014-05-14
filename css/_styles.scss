@@ -1,50 +1,20 @@
 // Setup
 @import "misc/mixins";
-//@import "misc/boxsizing";
 
 // Utilities
-//@import "utilities/icons";
-//@import "utilities/basefont";
-//@import "utilities/normalize";
 @import "utilities/sass-ie";
-//@import "utilities/responsivemenu";
 @import "utilities/magnific-popup";
 @import "utilities/syntax";
 
-// Atoms
-
 // Molecules
-
-// Organisms
-
+@import "molecules/code-highlight";
+@import "molecules/media-object";
+@import "molecules/pagination";
+@import "molecules/post-navigation";
 
 .pagination {
-  margin: 0 auto 1em;
-  padding: 0;
-  list-style: none;
-
-  li {
-    margin: 0;
-    padding: 0;
-    display: inline-block;
-  }
+  display: block;
 }
-
-.highlight {
-  @include cf;
-  background: #eee;
-  border-radius: 6px;
-  margin: 0 0 1.5em;
-
-  pre {
-    margin: 0;
-    padding: 8px;
-    overflow: auto;
-  }
-
-  .lineno {
-    background: #ddd;
-    display: inline-block;
-    padding: 0 5px;
-  }
+.pagination__offset {
+  display: inline-block !important;
 }

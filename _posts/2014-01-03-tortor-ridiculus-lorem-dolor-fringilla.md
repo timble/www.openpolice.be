@@ -4,7 +4,7 @@ title: Tortor Ridiculus Lorem Dolor Fringilla
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 category: blog
-#image: 2013/devices.jpg
+image: testimage3.jpg
 ---
 
 Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue.
