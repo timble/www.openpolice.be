@@ -699,9 +699,3 @@ img.mfp-img {
   .prev_next_post .nextpost {
     padding-left: 5px;
     text-align: right; }
-
-.pagination {
-  display: block; }
-
-.pagination__offset {
-  display: inline-block !important; }

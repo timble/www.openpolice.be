@@ -29,7 +29,7 @@ rooturl: home
         <div class="pagination">
             <ul>
                 {% if paginator.previous_page %}
-                <li class="pagination__offset">
+                <li class="pagination__previous">
                     {% if paginator.previous_page == 1 %}
                     <a href="/">Previous</a>
                     {% else %}
@@ -37,17 +37,17 @@ rooturl: home
                     {% endif %}
                 </li>
                 {% else %}
-                <li class="pagination__offset disabled">
+                <li class="pagination__previous disabled">
                     <a>Previous</a>
                 </li>
                 {% endif %}
 
                 {% if paginator.page == 1 %}
-                <li class="pagination__offset disabled {% if paginator.page == 1 %}disabled{% endif %}">
+                <li class="pagination__offset disabled">
                     <a>1</a>
                 </li>
                 {% else %}
-                <li class="pagination__offset page {% if paginator.page == 1 %}disabled{% endif %}">
+                <li class="pagination__offset">
                     <a href="/">1</a>
                 </li>
                 {% endif %}
@@ -59,11 +59,11 @@ rooturl: home
                 {% endfor %}
 
                 {% if paginator.next_page %}
-                <li class="pagination__offset">
+                <li class="pagination__next">
                     <a href="{{ paginator.next_page_path }}">Next</a>
                 </li>
                 {% else %}
-                <li class="pagination__offset disabled">
+                <li class="pagination__next disabled">
                     <a>Next</a>
                 </li>
                 {% endif %}
