@@ -12,6 +12,7 @@ Since the initial release of [Politie Leuven](http://www.lokalepolitie.be/5388) 
 <!--more-->
 
 A few of the most important changes:
+
 * Hamburger icon on small screens is replaced with an (animated) button, <a href="{{site.url}}/images/blog/2014/menu-button.jpg" data-gallery="enabled">see screenshot</a>
 * On medium screens the menu is fully visible, <a href="{{site.url}}/images/blog/2014/medium-screens.jpg" data-gallery="enabled">see screenshot</a>
 * News on the homepage groups 3 articles (one with introtext), <a href="{{site.url}}/images/blog/2014/news.jpg" data-gallery="enabled">see screenshot</a>
