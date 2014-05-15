@@ -1,0 +1,24 @@
+# Pagination
+paginate: 3
+pagination: true
+
+
+# Site info
+name: Belgian Police Internet Platform - Blog
+# url: http://localhost:4000
+
+
+# Navigation
+navigation:
+- text: Styleguide
+  url: styleguide
+- text: Blog
+  url: blog
+
+
+# Code highlighting
+highlighter: pygments
+
+
+# Blog separator
+# excerpt_separator: <!--more-->
