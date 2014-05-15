@@ -19,9 +19,6 @@ navigation:
 # Code highlighting
 highlighter: pygments
 
-# Markdown interpreter
-markdown: kramdown
-
 
 # Blog separator
 # excerpt_separator: <!--more-->
