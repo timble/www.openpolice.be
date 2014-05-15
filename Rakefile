@@ -6,7 +6,7 @@ require "jekyll"
 
 
 # Change your GitHub reponame eg. "kippt/jekyll-incorporated"
-GITHUB_REPONAME = "belgianpolice/blog"
+GITHUB_REPONAME = "belgianpolice/belgianpolice.github.io"
 
 
 namespace :site do
@@ -15,7 +15,7 @@ namespace :site do
     Jekyll::Site.new(Jekyll.configuration({
       "source"      => ".",
       "destination" => "_site",
-      "url" => "http://belgianpolice.github.com/blog"
+      "url" => "http://belgianpolice.github.com"
     })).process
   end
 
