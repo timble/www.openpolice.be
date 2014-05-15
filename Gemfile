@@ -4,4 +4,4 @@ gem 'jekyll'
 gem 'jekyll-assets'
 gem 'rake'
 gem 'sass'
-gem "jekyll-sass-converter"
+gem 'jekyll-sass-converter'

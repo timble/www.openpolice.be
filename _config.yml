@@ -20,6 +20,11 @@ navigation:
 highlighter: pygments
 
 
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+
 # Blog separator
 # excerpt_separator: <!--more-->
 
