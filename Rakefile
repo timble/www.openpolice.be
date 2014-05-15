@@ -20,7 +20,7 @@ namespace :site do
   end
 
 
-  desc "Generate and publish blog to gh-pages"
+  desc "Generate and publish blog to master"
   task :publish => [:generate] do
     Dir.mktmpdir do |tmp|
       cp_r "_site/.", tmp
@@ -30,7 +30,7 @@ namespace :site do
       message = "Site updated at #{Time.now.utc}"
       system "git commit -m #{message.inspect}"
       system "git remote add origin git@github.com:#{GITHUB_REPONAME}.git"
-      system "git push origin master:refs/heads/gh-pages --force"
+      system "git push origin master:refs/heads/master --force"
     end
   end
 end
