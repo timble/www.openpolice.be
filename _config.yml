@@ -8,6 +8,14 @@ name: Belgian Police Internet Platform - Blog
 # url: http://localhost:4000
 
 
+# Navigation
+navigation:
+- text: Styleguide
+  url: styleguide
+- text: Blog
+  url: blog
+
+
 # Code highlighting
 highlighter: pygments
 

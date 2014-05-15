@@ -56,9 +56,13 @@
                     </div>
                     <nav role="navigation">
                         <ul class="nav">
-                            <li><a href="http://belgianpolice.github.io/styleguide">Styleguide</a></li>
-                            <li><a href="http://github.com/belgianpolice/internet-platform">Internet Platform</a></li>
-                            <li class="active"><a href="http://belgianpolice.github.io/blog/">Blog</a></li>
+                            {% for link in site.navigation %}
+                            {% assign current = nil %}
+                            {% if link.url == page.rooturl or link.url == page.category %}{% assign current = 'active' %}{% endif %}
+                            <li class="navigation__item {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}" role="menuitem">
+                                <a class="navigation__link {{ current }}" href="/{{ link.url }}/">{{ link.text }}</a>
+                            </li>
+                            {% endfor %}
                         </ul>
                     </nav>
                 </div>
