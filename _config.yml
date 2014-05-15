@@ -1,7 +1,6 @@
 # Pagination
 paginate: 3
 pagination: true
-paginate_path: "blog/page:num"
 
 
 # Site info
@@ -26,3 +25,6 @@ markdown: kramdown
 
 # Blog separator
 # excerpt_separator: <!--more-->
+
+# We don't want to publish some files
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
