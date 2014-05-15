@@ -671,6 +671,9 @@ img.mfp-img {
     display: inline-block;
     padding: 0 5px; }
 
+.smaller_font {
+  font-size: .85em; }
+
 .media__object--rev {
   float: right;
   margin: 0 0 0 1em; }

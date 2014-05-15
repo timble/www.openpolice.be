@@ -37,7 +37,7 @@ extra_footer_markup: '<script type="text/javascript">$(document).ready(function(
             {% endif %}
             <div class="media__body">
                 <a class="media__heading" href="{{ page.cat_previous.url }}">{{ page.cat_previous.title }}</a>
-                <div class="muted" style="font-size: 0.85em">{{ page.cat_previous.date | date: "%-d %B %Y" }}</div>
+                <div class="muted smaller_font">{{ page.cat_previous.date | date: "%-d %B %Y" }}</div>
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@ extra_footer_markup: '<script type="text/javascript">$(document).ready(function(
             {% endif %}
             <div class="media__body">
                 <a class="media__heading" href="{{ page.cat_next.url }}">{{ page.cat_next.title }}</a>
-                <div class="muted" style="font-size: 0.85em">{{ page.cat_next.date | date: "%-d %B %Y" }}</div>
+                <div class="muted smaller_font">{{ page.cat_next.date | date: "%-d %B %Y" }}</div>
             </div>
         </div>
     </div>
