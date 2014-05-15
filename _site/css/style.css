@@ -671,6 +671,18 @@ img.mfp-img {
     display: inline-block;
     padding: 0 5px; }
 
+.exception:before, .exception:after,
+.cta_area:before,
+.cta_area:after {
+  content: "";
+  display: table; }
+.exception:after,
+.cta_area:after {
+  clear: both; }
+
+.cta_area {
+  margin-top: 30px; }
+
 .smaller_font {
   font-size: .85em; }
 

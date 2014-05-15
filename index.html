@@ -4,71 +4,70 @@ title: Police blog
 rooturl: home
 ---
 
-<div class="post__container">
-    <div class="group">
-        {% for post in paginator.posts %}
-        <article class="article">
-            <header class="article__header">
-                <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
-                <time class="text--small" itemprop="datePublished" datetime="{{page.date}}">
-                    {{ post.date | date: "%-d %B %Y" }}
-                </time>
-            </header>
-            {% if post.image %}
-            <a class="article__thumbnail" tabindex="-1" href="{{ post.url }}">
-                <img src="{{site.url}}/images/blog/{{post.image}}"{% if post.image %} alt="{{post.imagealt}}"{% endif %}>
-            </a>
-            {% endif %}
-            {{ post.excerpt }}
-            {% if post.excerpt != post.content %}
-            <a href="{{ post.url }}">Read more →</a>
-            {% endif %}
-        </article>
-        {% endfor %}
+    <div class="post__container">
+        <div class="group">
+            {% for post in paginator.posts %}
+            <article class="article">
+                <header class="article__header">
+                    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+                    <time class="text--small" itemprop="datePublished" datetime="{{page.date}}">
+                        {{ post.date | date: "%-d %B %Y" }}
+                    </time>
+                </header>
+                {% if post.image %}
+                <a class="article__thumbnail" tabindex="-1" href="{{ post.url }}">
+                    <img src="{{site.url}}/images/blog/{{post.image}}"{% if post.image %} alt="{{post.imagealt}}"{% endif %}>
+                </a>
+                {% endif %}
+                {{ post.excerpt }}
+                {% if post.excerpt != post.content %}
+                <a href="{{ post.url }}">Read more →</a>
+                {% endif %}
+            </article>
+            {% endfor %}
 
-        <div class="pagination">
-            <ul>
-                {% if paginator.previous_page %}
-                <li class="pagination__previous">
-                    {% if paginator.previous_page == 1 %}
-                    <a href="/">Previous</a>
+            <div class="pagination">
+                <ul>
+                    {% if paginator.previous_page %}
+                    <li class="pagination__previous">
+                        {% if paginator.previous_page == 1 %}
+                        <a href="/">Previous</a>
+                        {% else %}
+                        <a href="{{ paginator.previous_page_path }}">Previous</a>
+                        {% endif %}
+                    </li>
                     {% else %}
-                    <a href="{{ paginator.previous_page_path }}">Previous</a>
+                    <li class="pagination__previous disabled">
+                        <a>Previous</a>
+                    </li>
                     {% endif %}
-                </li>
-                {% else %}
-                <li class="pagination__previous disabled">
-                    <a>Previous</a>
-                </li>
-                {% endif %}
 
-                {% if paginator.page == 1 %}
-                <li class="pagination__offset disabled">
-                    <a>1</a>
-                </li>
-                {% else %}
-                <li class="pagination__offset">
-                    <a href="/">1</a>
-                </li>
-                {% endif %}
+                    {% if paginator.page == 1 %}
+                    <li class="pagination__offset disabled">
+                        <a>1</a>
+                    </li>
+                    {% else %}
+                    <li class="pagination__offset">
+                        <a href="/">1</a>
+                    </li>
+                    {% endif %}
 
-                {% for count in (2..paginator.total_pages) %}
-                <li class="pagination__offset {% if count == paginator.page %}disabled{% endif %}">
-                    <a href="/page{{ count }}">{{ count }}</a>
-                </li>
-                {% endfor %}
+                    {% for count in (2..paginator.total_pages) %}
+                    <li class="pagination__offset {% if count == paginator.page %}disabled{% endif %}">
+                        <a href="/page{{ count }}">{{ count }}</a>
+                    </li>
+                    {% endfor %}
 
-                {% if paginator.next_page %}
-                <li class="pagination__next">
-                    <a href="{{ paginator.next_page_path }}">Next</a>
-                </li>
-                {% else %}
-                <li class="pagination__next disabled">
-                    <a>Next</a>
-                </li>
-                {% endif %}
-            </ul>
+                    {% if paginator.next_page %}
+                    <li class="pagination__next">
+                        <a href="{{ paginator.next_page_path }}">Next</a>
+                    </li>
+                    {% else %}
+                    <li class="pagination__next disabled">
+                        <a>Next</a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
         </div>
-
     </div>
-</div>
