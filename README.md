@@ -1,5 +1,5 @@
 # Blog
-A product blog about developing and iterating the Belgian Police Internet Platform. For the people who publish content to their sites and anyone else who is interested.
+A product blog about developing and iterating the Belgian Police Internet Platform. For the people who publish content to their site and anyone else who is interested.
 
 ## Installation & Usage
     bundle install
