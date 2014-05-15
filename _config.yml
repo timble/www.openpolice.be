@@ -1,5 +1,5 @@
 # Pagination
-paginate: 1
+paginate: 3
 pagination: true
 
 
@@ -13,4 +13,4 @@ highlighter: pygments
 
 
 # Blog separator
-excerpt_separator: <!--more-->
+# excerpt_separator: <!--more-->
