@@ -30,3 +30,7 @@ sass:
 
 # We don't want to publish some files
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+
+# Static information
+blog_description: A product blog about developing and iterating the Belgian Police Internet Platform. For the people who publish content to their site and anyone else who is interested.
