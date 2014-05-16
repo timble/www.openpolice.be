@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Belgian Police - CSS Styleguide</title>
+  <title>CSS Styleguide - Belgian Police Internet Platform</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="http://belgianpolice.github.io/css/default.css">
+
+  <link rel="shortcut icon" type="image/ico" href="http://belgianpolice.github.com/images/favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="http://belgianpolice.github.com/images/xtouch-icon.png" />
+  <link rel="apple-touch-icon" type="image/png" href="http://belgianpolice.github.com/images/xtouch-icon.png"/>
+
+  <link rel="stylesheet" href="http://www.lokalepolitie.be/theme/mobile/css/default.css">
   <link rel="stylesheet" href="/stylesheets/styleguide.css">
   <link rel="stylesheet" href="/stylesheets/blocks.css">
 
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script type="text/javascript" src="http://belgianpolice.github.io/js/navbar.js"></script>
+  <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/apollo.min.js"></script>
 </head>
 <body id="page" class="no-js">
   <script type="text/javascript">function hasClass(e,t){return e.className.match(new RegExp("(\\s|^)"+t+"(\\s|$)"))}var el=document.getElementById("page");var cl="no-js";if(hasClass(el,cl)){var reg=new RegExp("(\\s|^)"+cl+"(\\s|$)");el.className=el.className.replace(reg,"js-enabled")}</script>
@@ -24,30 +29,40 @@
   </script>
 
   <div id="wrap">
-    <div class="container container__header" style="margin-bottom:0;">
-        <div class="organization" itemscope itemtype="http://schema.org/Organization">
-            <a itemprop="url" href="http://belgianpolice.github.io">
-                <img class="organization__logo" width="160" itemprop="logo" src="http://belgianpolice.github.io/img/logo.jpg" />
-                <div class="organization__name">Belgian Police</div>
-            </a>
-        </div>
-        <div class="navigation">
-            <span class="slogan">
-                Open Development, Open Data & Open Government
-            </span>
-            <div class="navbar">
-                <div class="navbar__handlebar">
-                    <div class="navbar__handle">&equiv;</div>
-                    <a class="navbar__logo" href="http://belgianpolice.github.io">Belgian Police </a>
-                </div>
-                <nav role="navigation">
-                    <ul class="nav">
-                        <li class="active"><a href="http://belgianpolice.github.io/styleguide">Styleguide</a></li>
-                        <li><a href="http://github.com/belgianpolice/internet-platform">Internet Platform</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
+    <div class="container container__header">
+      <div class="organization" itemscope="" itemtype="http://schema.org/Organization">
+          <a itemprop="url" href="/">
+              <img class="organization__logo" width="160" itemprop="logo" src="http://belgianpolice.github.com/images/logo.jpg">
+              <div class="organization__name">Belgian Police</div>
+          </a>
+      </div>
+      <div class="navigation">
+          <span class="slogan">
+              Open Development, Open Data &amp; Open Government
+          </span>
+          <div class="navbar">
+              <div class="navbar__handlebar">
+                  <a class="navbar__logo" href="http://belgianpolice.github.io">
+                      <img class="navbar__avatar" width="37" height="37" alt="Belgian Police logo" src="http://belgianpolice.github.com/images/avatar.png">
+                      Belgian Police
+                  </a>
+                  <a id="button" class="navbar__handle lines-button x" href="#" onclick="Apollo.toggleClass(document.getElementById('navigation'), 'is-shown');Apollo.toggleClass(document.getElementById('button'), 'close')">MENU <span class="lines"></span></a>
+              </div>
+              <div id="navigation">
+                  <nav role="navigation">
+                      <ul class="nav">
+                          <li class="navigation__item first" role="menuitem">
+                              <a class="navigation__link " href="http://belgianpolice.github.io/blog">Blog</a>
+                          </li>
+                          <li class="navigation__item last active" role="menuitem">
+                              <a class="navigation__link " href="http://belgianpolice.github.io/styleguide">Styleguide</a>
+                          </li>
+
+                      </ul>
+                  </nav>
+              </div>
+          </div>
+      </div>
     </div>
     <div class="container container__content">
       <aside class="sidebar">
@@ -68,6 +83,17 @@
       <div class="component">
         <%= yield %>
       </div>
+    </div>
+
+    <div class="container container__footer_menu">
+        <ul class="nav nav--list">
+            <li class="navigation__item first " role="menuitem">
+                <a class="navigation__link" href="http://belgianpolice.github.io/blog">Blog</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://belgianpolice.github.io/styleguide">Styleguide</a>
+            </li>
+        </ul>
     </div>
   </div>
 
