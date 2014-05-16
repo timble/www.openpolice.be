@@ -15,7 +15,7 @@ namespace :site do
     Jekyll::Site.new(Jekyll.configuration({
       "source"      => ".",
       "destination" => "_site",
-      "url" => "http://belgianpolice.github.com"
+      "url" => "http://belgianpolice.github.io"
     })).process
   end
 
