@@ -19,7 +19,12 @@ navigation:
 # Code highlighting
 highlighter: pygments
 
+# Gems
+gems:
+  - jekyll-sitemap
 
+
+# SASS compilation
 sass:
     sass_dir: _sass
     style: :compressed
