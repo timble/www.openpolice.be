@@ -10,10 +10,10 @@ name: Belgian Police Internet Platform - Blog
 
 # Navigation
 navigation:
-- text: Styleguide
-  url: styleguide
 - text: Blog
   url: blog
+- text: Styleguide
+  url: styleguide
 
 
 # Code highlighting
