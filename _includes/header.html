@@ -16,7 +16,7 @@
     <link rel="shortcut icon" type="image/ico" href="{{ site.url }}/images/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/images/xtouch-icon.png" />
     <link rel="apple-touch-icon" type="image/png" href="{{ site.url }}/images/xtouch-icon.png"/>
-    <link rel="stylesheet" href="{{ site.url }}/css/default.css">
+    <link rel="stylesheet" href="http://www.lokalepolitie.be/theme/mobile/css/default.css">
     <link rel="stylesheet" href="{{ site.url }}/css/style.css">
     {% if page.extra_css %}<link rel="stylesheet" href="{{ site.url }}/{{ page.extra_css }}">{% endif %}
     {% if page.extra_head_markup %}{{page.extra_head_markup}}{% endif %}
@@ -28,6 +28,7 @@
     <!--[if IE 8]>
     <link rel="stylesheet" href="{{ site.url }}/css/ie8.css">
     <![endif]-->
+    <script src="http://www.lokalepolitie.be/theme/mobile/js/apollo.min.js"></script>
 
     <!--[if lte IE 8]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -54,26 +55,33 @@
                     <div class="organization__name">Belgian Police</div>
                 </a>
             </div>
+
             <div class="navigation">
-            <span class="slogan">
-                Open Development, Open Data &amp; Open Government
-            </span>
+                <span class="slogan">
+                    Open Development, Open Data &amp; Open Government
+                </span>
                 <div class="navbar">
                     <div class="navbar__handlebar">
-                        <div class="navbar__handle">≡</div>
-                        <a class="navbar__logo" href="/">Belgian Police </a>
+                        <a class="navbar__logo" href="/">
+                            <img class="navbar__avatar" width="37" height="37" alt="Belgian Police logo" src="{{site.url}}/images/avatar.png" />
+                            Belgian Police
+                        </a>
+                        <a id="button" class="navbar__handle lines-button x" href="#" onclick="Apollo.toggleClass(document.getElementById('navigation'), 'is-shown');Apollo.toggleClass(document.getElementById('button'), 'close')">MENU <span class="lines"></span></a>
+
                     </div>
-                    <nav role="navigation">
-                        <ul class="nav">
-                            {% for link in site.navigation %}
-                            {% assign current = nil %}
-                            {% if link.url == page.rooturl or link.url == page.category %}{% assign current = 'active' %}{% endif %}
-                            <li class="navigation__item {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}" role="menuitem">
-                                <a class="navigation__link {{ current }}" href="/{{ link.url }}/">{{ link.text }}</a>
-                            </li>
-                            {% endfor %}
-                        </ul>
-                    </nav>
+                    <div id="navigation">
+                        <nav role="navigation">
+                            <ul class="nav">
+                                {% for link in site.navigation %}
+                                {% assign current = nil %}
+                                {% if link.url == page.rooturl or link.url == page.category %}{% assign current = 'active' %}{% endif %}
+                                <li class="navigation__item {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}" role="menuitem">
+                                    <a class="navigation__link {{ current }}" href="/{{ link.url }}/">{{ link.text }}</a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
