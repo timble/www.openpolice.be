@@ -1,6 +1,5 @@
 ---
 layout: none
-category: blog
 ---
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -13,7 +12,6 @@ category: blog
         {% for post in site.categories.blog limit:10 %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
-            <description>{{ site.blog_description }}</description>
             <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
             <link>{{ site.url }}{{ post.url }}</link>
             <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
