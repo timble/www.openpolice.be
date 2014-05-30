@@ -13,6 +13,7 @@
     {% if page.excerpt %}<meta property="og:description" content="{{page.excerpt | strip_html | strip_newlines }}"/>{% endif %}
     {% if page.image %}<meta property="og:image" content="{{site.url}}/images/blog/{{page.image}}"/>{% endif %}
     {% if page.date %}<meta property="article:published_time" content="{{page.date | date: '%Y-%m-%d' }}"/>{% endif %}
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/blog.rss" title="RSS 2.0" />
     <link rel="shortcut icon" type="image/ico" href="{{ site.url }}/images/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/images/xtouch-icon.png" />
     <link rel="apple-touch-icon" type="image/png" href="{{ site.url }}/images/xtouch-icon.png"/>

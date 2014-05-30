@@ -8,13 +8,21 @@ layout: none
         <title>Blog - {{ site.name | xml_escape }}</title>
         <description>{{ site.blog_description }}</description>
         <link>{{ site.url }}</link>
-        <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="{{ site.url }}/blog.rss" rel="self" type="application/rss+xml" />
         {% for post in site.categories.blog limit:10 %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
             <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
             <link>{{ site.url }}{{ post.url }}</link>
             <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
+            <description>
+                {% if post.image %}
+                <a href="{{ site.url }}/images/blog/{{ post.image }}">
+                    <img width="800" src="{{ site.url }}/images/blog/{{ post.image }}" alt="{{ page.imagealt }}" />
+                </a>
+                {% endif %}
+                <![CDATA[{{ post.content }}]]>
+            </description>
         </item>
         {% endfor %}
     </channel>
