@@ -7,7 +7,7 @@ category: blog
 image: 2013/release.jpg
 ---
 
-We are very happy to inform you that one year after the demo of the new internet platform the first website, [Politie Leuven](www.lokalepolitie.be/5388), has been released a few days ago.
+We are very happy to inform you that one year after the demo of the new internet platform the first website, [Politie Leuven](http://www.lokalepolitie.be/5388), has been released a few days ago.
 
 <!--more-->
 
