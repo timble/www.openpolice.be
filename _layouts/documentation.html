@@ -1,0 +1,18 @@
+{% include header.html %}
+
+<div class="container container__content">
+    <aside class="sidebar">
+        <div class="sidebar__element">
+            <ul class="nav nav--list">
+            {% for post in site.documentation %}
+            <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endfor %}
+            </ul>
+        </div>
+    </aside>
+    <div class="component">
+        {{ content }}
+    </div>
+</div>
+
+{% include footer.html %}
