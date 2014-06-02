@@ -12,12 +12,21 @@ name: Belgian Police Internet Platform
 navigation:
 - text: Blog
   url: blog
+- text: Documentation
+  url: documentation
 - text: Styleguide
   url: styleguide
 
 
+# Collections
+collections:
+  documentation:
+    output: true
+
+
 # Code highlighting
 highlighter: pygments
+
 
 # Gems
 gems:
