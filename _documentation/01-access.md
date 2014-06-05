@@ -2,6 +2,7 @@
 layout: documentation
 title: 1. Access
 rooturl: documentation
+index: 1
 ---
 
 ## Setup

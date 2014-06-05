@@ -2,6 +2,7 @@
 layout: documentation
 title: 7. Districts
 rooturl: documentation
+index: 7
 ---
 
 ## District officer search on site
