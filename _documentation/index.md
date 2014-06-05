@@ -1,7 +1,8 @@
 ---
 layout: documentation
-title: 0. Introduction
+title: Introduction
 rooturl: documentation
+index: 0
 ---
 
 The Police Internet Platform is an open-source platform specifically built for the internet websites of the Belgian Police. It uses a component based architecture. Written in PHP, HTML, CSS and Javascript, and made by passionate open source technologists.

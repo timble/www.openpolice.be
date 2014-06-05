@@ -2,6 +2,7 @@
 layout: documentation
 title: 2. News
 rooturl: documentation
+index: 2
 ---
 
 ## Manage news

@@ -2,6 +2,7 @@
 layout: documentation
 title: 10. Profile
 rooturl: documentation
+index: 10
 ---
 
 ## Manage your profile

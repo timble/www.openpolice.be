@@ -2,6 +2,7 @@
 layout: documentation
 title: 9. Support
 rooturl: documentation
+index: 9
 ---
 
 ## Manage tickets
