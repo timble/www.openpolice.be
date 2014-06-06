@@ -5,3 +5,8 @@
 .article div p:first-of-type {
   font-weight: bold;
 }
+
+li {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
