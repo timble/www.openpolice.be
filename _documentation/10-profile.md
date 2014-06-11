@@ -9,4 +9,4 @@ index: 10
 
 Change your email address or password.
 
-![]({{site.url}}/images/documentation/users-admin-user.png)
+![](/images/documentation/users-admin-user.png)

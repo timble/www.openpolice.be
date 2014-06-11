@@ -12,11 +12,11 @@ Contacts are categorized in a single level structure.
 1. Categories, 4 fixed categories
 2. Contacts
 
-![]({{site.url}}/images/documentation/contacts-site-contacts.png)
+![](/images/documentation/contacts-site-contacts.png)
 
 ## Manage contacts
 
-![]({{site.url}}/images/documentation/contacts-admin-contacts.png)
+![](/images/documentation/contacts-admin-contacts.png)
 
 ## Create contact
 
@@ -29,13 +29,13 @@ Contacts are categorized in a single level structure.
 7. Image
 8. Open 24/7
 
-![]({{site.url}}/images/documentation/contacts-admin-contact.png)
+![](/images/documentation/contacts-admin-contact.png)
 
 ## Manage categories
 
 The categories are fixed, you can disable categories you do not need.
 
-![]({{site.url}}/images/documentation/contacts-admin-categories.png)
+![](/images/documentation/contacts-admin-categories.png)
 
 ## Create category
 
@@ -45,11 +45,11 @@ You can change:
 2. Publish state
 3. Image
 
-![]({{site.url}}/images/documentation/contacts-admin-category.png)
+![](/images/documentation/contacts-admin-category.png)
 
 ## Manage office hours
 
-![]({{site.url}}/images/documentation/contacts-admin-hours.png)
+![](/images/documentation/contacts-admin-hours.png)
 
 ## Create office hour
 
@@ -59,4 +59,4 @@ You can change:
 4. Closing time
 5. Published state
 
-![]({{site.url}}/images/documentation/contacts-admin-hour.png)
+![](/images/documentation/contacts-admin-hour.png)

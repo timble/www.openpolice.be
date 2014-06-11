@@ -10,11 +10,11 @@ index: 5
 1. Categories
 2. Articles
 
-![]({{site.url}}/images/documentation/about-site-articles.png)
+![](/images/documentation/about-site-articles.png)
 
 ## Manage articles
 
-![]({{site.url}}/images/documentation/about-admin-articles.png)
+![](/images/documentation/about-admin-articles.png)
 
 ## Create article
 
@@ -25,11 +25,11 @@ index: 5
 5. Category list
 6. Attachments (images & documents)
 
-![]({{site.url}}/images/documentation/about-admin-article.png)
+![](/images/documentation/about-admin-article.png)
 
 ## Manage categories
 
-![]({{site.url}}/images/documentation/about-admin-categories.png)
+![](/images/documentation/about-admin-categories.png)
 
 ## Create category
 
@@ -39,4 +39,4 @@ index: 5
 4. Published state
 5. Image
 
-![]({{site.url}}/images/documentation/about-admin-category.png)
+![](/images/documentation/about-admin-category.png)

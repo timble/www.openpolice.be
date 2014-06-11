@@ -9,7 +9,7 @@ index: 7
 
 Search your district officer based on street and number.
 
-![]({{site.url}}/images/documentation/districts-site-search.png)
+![](/images/documentation/districts-site-search.png)
 
 ## Search result on site
 
@@ -18,7 +18,7 @@ A district is a combination of one or more district officers and a contact (loca
 1. District officer information
 2. Contact information
 
-![]({{site.url}}/images/documentation/districts-site-district.png)
+![](/images/documentation/districts-site-district.png)
 
 ## Manage districts
 
@@ -26,7 +26,7 @@ A district is a combination of one or more district officers and a contact (loca
 2. Contact for this district
 3. Officer(s) for this district
 
-![]({{site.url}}/images/documentation/districts-admin-districts.png)
+![](/images/documentation/districts-admin-districts.png)
 
 ## Create district
 
@@ -35,14 +35,14 @@ A district is a combination of one or more district officers and a contact (loca
 3. Select a contact
 4. Select one or more officers
 
-![]({{site.url}}/images/documentation/districts-admin-district.png)
+![](/images/documentation/districts-admin-district.png)
 
 ## Manage officers
 
 1. Name of the district officer
 2. District(s) for this officer
 
-![]({{site.url}}/images/documentation/districts-admin-officers.png)
+![](/images/documentation/districts-admin-officers.png)
 
 ## Create officer
 
@@ -50,7 +50,7 @@ A district is a combination of one or more district officers and a contact (loca
 2. List of districts
 3. Profile picture
 
-![]({{site.url}}/images/documentation/districts-admin-officer.png)
+![](/images/documentation/districts-admin-officer.png)
 
 ## Manage districts-streets relations
 
@@ -60,7 +60,7 @@ A district is a combination of one or more district officers and a contact (loca
 4. Unique number from the CRAB database
 5. Unique number from the ISLP database
 
-![]({{site.url}}/images/documentation/districts-admin-relations.png)
+![](/images/documentation/districts-admin-relations.png)
 
 ## Create district-street relation
 
@@ -68,7 +68,7 @@ A district is a combination of one or more district officers and a contact (loca
 2. Select a street
 3. Add exceptions
 
-![]({{site.url}}/images/documentation/districts-admin-relation.png)
+![](/images/documentation/districts-admin-relation.png)
 
 ## ISLP export - select table
 
@@ -78,10 +78,10 @@ Export the following tables from ISLP:
 * Districts
 * Districts - Streets relations
 
-![]({{site.url}}/images/documentation/districts-islp-export-tables.jpg)
+![](/images/documentation/districts-islp-export-tables.jpg)
 
 ## ISLP export - print to Excel
 
 Print each table to Excel and attach to a support ticket.
 
-![]({{site.url}}/images/documentation/districts-islp-export-print.jpg)
+![](/images/documentation/districts-islp-export-print.jpg)

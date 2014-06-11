@@ -1,0 +1,17 @@
+<div class="pagination">
+    <ul>
+        {% for post in site.documentation %}
+        {% assign previous = page.index | minus: 1 %}
+        {% if post.index == previous %}
+        <li class="pagination__previous"><a href="{{ post.url }}">Previous</a></li>
+        {% endif %}
+        {% endfor %}
+
+        {% for post in site.documentation %}
+        {% assign next = page.index | plus: 1 %}
+        {% if post.index == next %}
+        <li class="pagination__next"><a href="{{ post.url }}">Next</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>
