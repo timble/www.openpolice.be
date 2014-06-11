@@ -1,6 +1,14 @@
 ---
 title: print.css
 ---
+@page {
+  size: auto;
+  margin: .75cm .5cm;
+}
+
+body {
+  margin: 0;
+}
 
 h1.print_title {
   border-bottom: 1px solid #ccc;
@@ -16,11 +24,15 @@ h1.print_title:nth-child(2) {
   page-break-before: avoid;
 }
 
-p + h2 {
-  page-break-before: always
+h2 {
+  page-break-after: avoid;
 }
 
-pre, blockquote {
+h2 + p {
+  page-break-before: avoid;
+}
+
+pre, blockquote, ul, p, .documentation_section {
   page-break-inside: avoid;
 }
 
