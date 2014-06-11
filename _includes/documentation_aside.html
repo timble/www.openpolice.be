@@ -1,0 +1,15 @@
+<aside class="sidebar">
+    <div class="sidebar__element">
+        <ul class="nav nav--list">
+            {% for post in site.documentation %}
+            {% assign current = nil %}
+            {% if post.url == page.url %}
+            {% assign current = ' class="active"' %}
+            {% endif %}
+            {% if post.url != '/documentation/index.html' %}
+            <li{{current}}><a href="{{ post.url }}">{{ post.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </div>
+</aside>

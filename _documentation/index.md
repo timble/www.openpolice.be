@@ -18,4 +18,4 @@ The Police Internet Platform is an open-source platform specifically built for t
 
 Developed by [Timble](http://www.timble.net).
 
-![Devices]({{site.url}}/images/documentation/devices.png)
+![Devices](/images/documentation/devices.png)

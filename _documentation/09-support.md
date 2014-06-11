@@ -7,7 +7,7 @@ index: 9
 
 ## Manage tickets
 
-![]({{site.url}}/images/documentation/support-admin-tickets.png)
+![](/images/documentation/support-admin-tickets.png)
 
 ## Create a new ticket
 
@@ -15,7 +15,7 @@ index: 9
 2. Description
 3. Attachments (screenshot, ...)
 
-![]({{site.url}}/images/documentation/support-admin-ticket.png)
+![](/images/documentation/support-admin-ticket.png)
 
 ## Add comments
 
@@ -25,4 +25,4 @@ Once the ticket is created you can communicate with our support agents by adding
 2. Attach files if needed (screenshot, ...)
 3. Submit or Submit as Solved
 
-![]({{site.url}}/images/documentation/support-admin-ticket-comment.png)
+![](/images/documentation/support-admin-ticket-comment.png)
