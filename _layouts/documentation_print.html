@@ -12,7 +12,7 @@
         {% if document.layout != 'documentation_print' %}
         <h1 class="print_title">{{ document.title }}</h1>
         {{ document.content | markdownify }}
-        {% endif; %}
+        {% endif %}
         {% endfor %}
 
         {% include documentation_pager.html %}

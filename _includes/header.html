@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="{{ site.url }}/css/style.css">
     {% if page.extra_css %}<link rel="stylesheet" href="{{ site.url }}/{{ page.extra_css }}">{% endif %}
     {% if page.extra_head_markup %}{{page.extra_head_markup}}{% endif %}
-    <link rel="stylesheet" media="print" href="{{ site.url }}/css/print.css"/>
+    {% if page.rooturl == 'documentation' %}<link rel="stylesheet" media="print" href="{{ site.url }}/css/print.css"/>{% endif %}
 
     <!--[if lte IE 7]>
     <link rel="stylesheet" href="{{ site.url }}/css/ie7.css">
