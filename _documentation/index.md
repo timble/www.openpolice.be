@@ -18,7 +18,7 @@ The Police Internet Platform is an open-source platform specifically built for t
 
 Developed by [Timble](http://www.timble.net).
 
-![Devices](/images/documentation/devices.png" %}
+{% assign image = "/images/documentation/devices.png" %}
 <a href="{{image}}" data-gallery="enabled">
 ![]({{image}})
 </a>
