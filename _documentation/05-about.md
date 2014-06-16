@@ -10,11 +10,17 @@ index: 5
 1. Categories
 2. Articles
 
-![](/images/documentation/about-site-articles.png)
+{% assign image = "/images/documentation/about-site-articles.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage articles
 
-![](/images/documentation/about-admin-articles.png)
+{% assign image = "/images/documentation/about-admin-articles.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create article
 
@@ -25,11 +31,17 @@ index: 5
 5. Category list
 6. Attachments (images & documents)
 
-![](/images/documentation/about-admin-article.png)
+{% assign image = "/images/documentation/about-admin-article.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage categories
 
-![](/images/documentation/about-admin-categories.png)
+{% assign image = "/images/documentation/about-admin-categories.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create category
 
@@ -39,4 +51,7 @@ index: 5
 4. Published state
 5. Image
 
-![](/images/documentation/about-admin-category.png)
+{% assign image = "/images/documentation/about-admin-category.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>

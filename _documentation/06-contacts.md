@@ -12,7 +12,10 @@ Contacts are categorized in a single level structure.
 1. Categories, 4 fixed categories
 2. Contacts
 
-![](/images/documentation/contacts-site-contacts.png)
+{% assign image = "/images/documentation/contacts-site-contacts.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Contact on site
 
@@ -22,11 +25,17 @@ Exceptions:
 2. Multiple office hours
 3. Note
 
-![](/images/documentation/contacts-site-contact.png)
+{% assign image = "/images/documentation/contacts-site-contact.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage contacts
 
-![](/images/documentation/contacts-admin-contacts.png)
+{% assign image = "/images/documentation/contacts-admin-contacts.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create contact
 
@@ -39,13 +48,19 @@ Exceptions:
 7. Image
 8. Open 24/7
 
-![](/images/documentation/contacts-admin-contact.png)
+{% assign image = "/images/documentation/contacts-admin-contact.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage categories
 
 The categories are fixed, you can disable categories you do not need.
 
-![](/images/documentation/contacts-admin-categories.png)
+{% assign image = "/images/documentation/contacts-admin-categories.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create category
 
@@ -55,11 +70,17 @@ You can change:
 2. Publish state
 3. Image
 
-![](/images/documentation/contacts-admin-category.png)
+{% assign image = "/images/documentation/contacts-admin-category.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage office hours
 
-![](/images/documentation/contacts-admin-hours.png)
+{% assign image = "/images/documentation/contacts-admin-hours.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create office hour
 
@@ -71,4 +92,7 @@ You can change:
 6. Note (optional)
 7. Published state
 
-![](/images/documentation/contacts-admin-hour.png)
+{% assign image = "/images/documentation/contacts-admin-hour.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>

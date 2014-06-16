@@ -9,4 +9,7 @@ index: 11
 
 Change your email address or password.
 
-![](/images/documentation/users-admin-user.png)
+{% assign image = "/images/documentation/users-admin-user.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>

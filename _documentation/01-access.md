@@ -10,7 +10,10 @@ index: 1
 
 The Belgian Police Internet Platform uses a multi-site setup. All websites use the same codebase but the configuration, database, content and users are separate. This allows you to create a website with the content of your zone but based on the same look & feel.
 
-![Multi-site](/images/documentation/multisite.png)
+{% assign image = "/images/documentation/multisite.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Site
 
@@ -26,7 +29,10 @@ During the development of your new website it is available at:
 * http://p.pol-fr.be/zonenumber
 * http://p.pol-de.be/zonenumber
 
-![Homepage](/images/documentation/site-homepage.png)
+{% assign image = "/images/documentation/site-homepage.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Production environment
 To manage your website, you have to login into the administrator area, using the latest Chrome / Firefox browser, located at:
@@ -41,7 +47,10 @@ During the development of your new website it is available at:
 * http://p.pol-fr.be/administrator/zonenumber
 * http://p.pol-de.be/administrator/zonenumber
 
-![Homepage](/images/documentation/admin-login.png)
+{% assign image = "/images/documentation/admin-login.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Staging environment
 
@@ -66,16 +75,25 @@ When you use the production (development) or staging URLs (see above steps) you'
 * User Name: police
 * Password: police
 
-![Homepage](/images/documentation/browser-authentication.png)
+{% assign image = "/images/documentation/browser-authentication.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Dashboard
 
 Once you are logged in to the administrator area of your website you'll see the dashboard with an overview of the recent activities on your site.
 
-![Homepage](/images/documentation/admin-dashboard.png)
+{% assign image = "/images/documentation/admin-dashboard.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Navigation
 
 You can navigate through the administrator area using the navigation bar at the top of the page.
 
-![Navigation](/images/documentation/admin-navigation.png)
+{% assign image = "/images/documentation/admin-navigation.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>

@@ -12,11 +12,17 @@ Questions are categorized in a single level structure.
 1. Categories
 2. Articles
 
-![](/images/documentation/questions-site-questions.png)
+{% assign image = "/images/documentation/questions-site-questions.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage questions
 
-![](/images/documentation/questions-admin-questions.png)
+{% assign image = "/images/documentation/questions-admin-questions.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create a question
 
@@ -27,13 +33,19 @@ Questions are categorized in a single level structure.
 5. Category list
 6. Attachments (images & documents)
 
-![](/images/documentation/questions-admin-question.png)
+{% assign image = "/images/documentation/questions-admin-question.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage categories
 
 Overview of all the categories.
 
-![](/images/documentation/questions-admin-categories.png)
+{% assign image = "/images/documentation/questions-admin-categories.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create a category
 
@@ -41,4 +53,7 @@ Overview of all the categories.
 2. Slug, URL friendly version of the post title - automatically generated
 3. Published state
 
-![](/images/documentation/questions-admin-category.png)
+{% assign image = "/images/documentation/questions-admin-category.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>

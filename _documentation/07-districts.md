@@ -9,7 +9,10 @@ index: 7
 
 Search your district officer based on street and number.
 
-![](/images/documentation/districts-site-search.png)
+{% assign image = "/images/documentation/districts-site-search.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Search result on site
 
@@ -18,7 +21,10 @@ A district is a combination of one or more district officers and a contact (loca
 1. District officer information
 2. Contact information
 
-![](/images/documentation/districts-site-district.png)
+{% assign image = "/images/documentation/districts-site-district.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage districts
 
@@ -26,7 +32,10 @@ A district is a combination of one or more district officers and a contact (loca
 2. Contact for this district
 3. Officer(s) for this district
 
-![](/images/documentation/districts-admin-districts.png)
+{% assign image = "/images/documentation/districts-admin-districts.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create district
 
@@ -35,14 +44,20 @@ A district is a combination of one or more district officers and a contact (loca
 3. Select a contact
 4. Select one or more officers
 
-![](/images/documentation/districts-admin-district.png)
+{% assign image = "/images/documentation/districts-admin-district.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage officers
 
 1. Name of the district officer
 2. District(s) for this officer
 
-![](/images/documentation/districts-admin-officers.png)
+{% assign image = "/images/documentation/districts-admin-officers.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create officer
 
@@ -50,7 +65,10 @@ A district is a combination of one or more district officers and a contact (loca
 2. List of districts
 3. Profile picture
 
-![](/images/documentation/districts-admin-officer.png)
+{% assign image = "/images/documentation/districts-admin-officer.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage districts-streets relations
 
@@ -60,7 +78,10 @@ A district is a combination of one or more district officers and a contact (loca
 4. Unique number from the CRAB database
 5. Unique number from the ISLP database
 
-![](/images/documentation/districts-admin-relations.png)
+{% assign image = "/images/documentation/districts-admin-relations.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create district-street relation
 
@@ -68,7 +89,10 @@ A district is a combination of one or more district officers and a contact (loca
 2. Select a street
 3. Add exceptions
 
-![](/images/documentation/districts-admin-relation.png)
+{% assign image = "/images/documentation/districts-admin-relation.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## ISLP export - select table
 
@@ -78,10 +102,16 @@ Export the following tables from ISLP:
 * Districts
 * Districts - Streets relations
 
-![](/images/documentation/districts-islp-export-tables.jpg)
+{% assign image = "/images/documentation/districts-islp-export-tables.jpg %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## ISLP export - print to Excel
 
 Print each table to Excel and attach to a support ticket.
 
-![](/images/documentation/districts-islp-export-print.jpg)
+{% assign image = "/images/documentation/districts-islp-export-print.jpg %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>

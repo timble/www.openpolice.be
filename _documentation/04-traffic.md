@@ -12,11 +12,17 @@ Traffic events are categorized in a single level structure.
 1. Categories, 4 fixed categories
 2. Traffic events
 
-![](/images/documentation/traffic-site-articles.png)
+{% assign image = "/images/documentation/traffic-site-articles.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage traffic events
 
-![](/images/documentation/traffic-admin-articles.png)
+{% assign image = "/images/documentation/traffic-admin-articles.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create traffic event
 
@@ -29,13 +35,19 @@ Traffic events are categorized in a single level structure.
 7. Category list
 8. Streets list
 
-![](/images/documentation/traffic-admin-article.png)
+{% assign image = "/images/documentation/traffic-admin-article.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Manage categories
 
 Categories are fixed, you can disable the categories you do not need.
 
-![](/images/documentation/traffic-admin-categories.png)
+{% assign image = "/images/documentation/traffic-admin-categories.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Edit categories
 
@@ -45,4 +57,7 @@ You can change:
 2. Publish state
 3. Image
 
-![](/images/documentation/traffic-admin-category.png)
+{% assign image = "/images/documentation/traffic-admin-category.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>

@@ -7,7 +7,10 @@ index: 2
 
 ## Manage news
 
-![](/images/documentation/news-admin-articles.png)
+{% assign image = "/images/documentation/news-admin-articles.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## Create a news article
 
@@ -19,14 +22,20 @@ index: 2
 6. Created on date
 7. Attachments, images (the starred image will be the leading image) & documents
 
-![](/images/documentation/news-admin-article.png)
+{% assign image = "/images/documentation/news-admin-article.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## News articles on site
 
 1. Introtext with 'Read more' link
 2. Starred image
 
-![](/images/documentation/news-site-articles.png)
+{% assign image = "/images/documentation/news-site-articles.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## News article on site
 
@@ -34,10 +43,16 @@ index: 2
 2. Starred image
 3. Attachments
 
-![](/images/documentation/news-site-article.png)
+{% assign image = "/images/documentation/news-site-article.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
 
 ## News articles on homepage
 
 By default the latest article will be featured on the homepage, however, you can override this by setting another article as sticky.
 
-![](/images/documentation/news-site-homepage.png)
+{% assign image = "/images/documentation/news-site-homepage.png" %}
+<a href="{{image}}" data-gallery="enabled">
+![]({{image}})
+</a>
