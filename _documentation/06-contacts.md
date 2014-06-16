@@ -14,6 +14,16 @@ Contacts are categorized in a single level structure.
 
 ![](/images/documentation/contacts-site-contacts.png)
 
+## Contact on site
+
+Exceptions:
+
+1. Appointment only
+2. Multiple office hours
+3. Note
+
+![](/images/documentation/contacts-site-contact.png)
+
 ## Manage contacts
 
 ![](/images/documentation/contacts-admin-contacts.png)
@@ -55,8 +65,10 @@ You can change:
 
 1. Contact
 2. Day of the week
-3. Opening time
-4. Closing time
-5. Published state
+3. Appointment only (optional)
+4. Opening time
+5. Closing time
+6. Note (optional)
+7. Published state
 
 ![](/images/documentation/contacts-admin-hour.png)
