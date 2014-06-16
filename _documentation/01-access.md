@@ -15,7 +15,9 @@ The Belgian Police Internet Platform uses a multi-site setup. All websites use t
 ![]({{image}})
 </a>
 
-## Site
+## Production environment
+
+### Site
 
 Your website is what is seen by a visitor on:
 
@@ -34,14 +36,15 @@ During the development of your new website it is available at:
 ![]({{image}})
 </a>
 
-## Production environment
+### Administrator area
+
 To manage your website, you have to login into the administrator area, using the latest Chrome / Firefox browser, located at:
 
 * http://www.lokalepolitie.be/administrator/zonenumber
 * http://www.policelocale.be/administrator/zonenumber
 * http://www.polizei.be/administrator/zonenumber
 
-During the development of your new website it is available at:
+During the development of your new website the administrator area is available at:
 
 * http://p.pol-nl.be/administrator/zonenumber
 * http://p.pol-fr.be/administrator/zonenumber
@@ -54,7 +57,7 @@ During the development of your new website it is available at:
 
 ## Staging environment
 
-There is also a staging environment available for testing, this site will be replaced with your production website every night.
+There is also a staging environment available for testing, every night the production environment is copied to staging.
 
 Site:
 
@@ -62,7 +65,7 @@ Site:
 * http://s.pol-fr.be/zonenumber
 * http://s.pol-de.be/zonenumber
 
-Administrator:
+Administrator area:
 
 * http://s.pol-nl.be/administrator/zonenumber
 * http://s.pol-fr.be/administrator/zonenumber
@@ -70,7 +73,7 @@ Administrator:
 
 ## Browser authentication
 
-When you use the production (development) or staging URLs (see above steps) you'll have to authenticate using following credentials:
+When you use the production (during development) or staging URLs you'll have to authenticate using following credentials:
 
 * User Name: police
 * Password: police
