@@ -15,6 +15,7 @@
 
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/apollo.min.js"></script>
+  <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/hamburger.js"></script>
 </head>
 <body id="page" class="no-js">
   <script type="text/javascript">function hasClass(e,t){return e.className.match(new RegExp("(\\s|^)"+t+"(\\s|$)"))}var el=document.getElementById("page");var cl="no-js";if(hasClass(el,cl)){var reg=new RegExp("(\\s|^)"+cl+"(\\s|$)");el.className=el.className.replace(reg,"js-enabled")}</script>
@@ -30,40 +31,34 @@
 
   <div id="wrap">
     <div class="container container__header">
-      <div class="organization" itemscope="" itemtype="http://schema.org/Organization">
-          <a itemprop="url" href="http://belgianpolice.github.io">
-              <img class="organization__logo" width="160" itemprop="logo" src="http://belgianpolice.github.com/images/logo.jpg">
-              <div class="organization__name">Belgian Police</div>
-          </a>
-      </div>
-      <div class="navigation">
+      <div class="header">
+        <div class="organization" itemscope="" itemtype="http://schema.org/Organization">
+            <a itemprop="url" href="http://belgianpolice.github.io">
+                <div class="organization__logo organization__logo--en"></div>
+                <div class="organization__name">Belgian Police</div>
+            </a>
+            <button id="hamburger" class="button--hamburger" aria-hidden="true" aria-pressed="false" aria-controls="navigation" onclick="apollo.toggleClass(document.getElementById('navigation'), 'is-shown');apollo.toggleClass(document.getElementById('hamburger'), 'close');hamburger()">MENU <span class="lines"></span></button>
+        </div>
+        <div class="navigation">
           <span class="slogan">
               Open Development, Open Data &amp; Open Government
           </span>
-          <div class="navbar">
-              <div class="navbar__handlebar">
-                  <a class="navbar__logo" href="http://belgianpolice.github.io">
-                      <img class="navbar__avatar" width="37" height="37" alt="Belgian Police logo" src="http://belgianpolice.github.com/images/avatar.png">
-                      Belgian Police
-                  </a>
-                  <a id="button" class="navbar__handle lines-button x" href="#" onclick="Apollo.toggleClass(document.getElementById('navigation'), 'is-shown');Apollo.toggleClass(document.getElementById('button'), 'close')">MENU <span class="lines"></span></a>
-              </div>
-              <div id="navigation">
-                  <nav role="navigation">
-                      <ul class="nav">
-                          <li class="navigation__item" role="menuitem">
-                              <a class="navigation__link " href="http://belgianpolice.github.io/blog">Blog</a>
-                          </li>
-                          <li class="navigation__item" role="menuitem">
-                              <a class="navigation__link " href="http://belgianpolice.github.io/documentation/">Documentation</a>
-                          </li>
-                          <li class="navigation__item active" role="menuitem">
-                              <a class="navigation__link " href="http://belgianpolice.github.io/styleguide">Styleguide</a>
-                          </li>
-                      </ul>
-                  </nav>
-              </div>
+          <div id="navigation" class="navbar">
+            <nav role="navigation">
+                <ul class="nav">
+                    <li role="menuitem">
+                        <a href="http://belgianpolice.github.io/blog">Blog</a>
+                    </li>
+                    <li role="menuitem">
+                        <a href="http://belgianpolice.github.io/documentation/">Documentation</a>
+                    </li>
+                    <li class="active" role="menuitem">
+                        <a href="http://belgianpolice.github.io/styleguide">Styleguide</a>
+                    </li>
+                </ul>
+            </nav>
           </div>
+        </div>
       </div>
     </div>
     <div class="container container__content">
