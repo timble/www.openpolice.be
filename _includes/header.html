@@ -31,6 +31,7 @@
     <link rel="stylesheet" href="{{ site.url }}/css/ie8.css">
     <![endif]-->
     <script src="http://www.lokalepolitie.be/theme/mobile/js/apollo.min.js"></script>
+    <script src="http://www.lokalepolitie.be/theme/mobile/js/hamburger.js"></script>
 
     <!--[if lte IE 8]>
     <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -52,34 +53,28 @@
     <!--[if lte IE 7]><div class="old-ie"><![endif]-->
     <div id="wrap">
         <div class="container container__header">
-            <div class="organization" itemscope="" itemtype="http://schema.org/Organization">
-                <a itemprop="url" href="/">
-                    <img class="organization__logo" width="160" itemprop="logo" src="{{site.url}}/images/logo.jpg">
-                    <div class="organization__name">Belgian Police</div>
-                </a>
-            </div>
+            <div class="header">
+                <div class="organization" itemscope itemtype="http://schema.org/Organization">
+                    <a itemprop="url" href="{{site.url}}">
+                        <div class="organization__logo organization__logo--en"></div>
+                        <div class="organization__name">Belgian Police</div>
+                        <meta itemprop="logo" content="{{site.url}}/images/logo.jpg" />
+                    </a>
+                    <button id="hamburger" class="button--hamburger" aria-hidden="true" aria-pressed="false" aria-controls="navigation" onclick="apollo.toggleClass(document.getElementById('navigation'), 'is-shown');apollo.toggleClass(document.getElementById('hamburger'), 'close');hamburger()">MENU <span class="lines"></span></button>
+                </div>
 
-            <div class="navigation">
-                <span class="slogan">
-                    Open Development, Open Data &amp; Open Government
-                </span>
-                <div class="navbar">
-                    <div class="navbar__handlebar">
-                        <a class="navbar__logo" href="/">
-                            <img class="navbar__avatar" width="37" height="37" alt="Belgian Police logo" src="{{site.url}}/images/avatar.png" />
-                            Belgian Police
-                        </a>
-                        <a id="button" class="navbar__handle lines-button x" href="#" onclick="Apollo.toggleClass(document.getElementById('navigation'), 'is-shown');Apollo.toggleClass(document.getElementById('button'), 'close')">MENU <span class="lines"></span></a>
-
-                    </div>
-                    <div id="navigation">
+                <div class="navigation">
+                    <span class="slogan">
+                        Open Development, Open Data &amp; Open Government
+                    </span>
+                    <div id="navigation" class="navbar">
                         <nav role="navigation">
                             <ul class="nav">
                                 {% for link in site.navigation %}
                                 {% assign current = nil %}
                                 {% if link.url == page.rooturl or link.url == page.category %}{% assign current = 'active' %}{% endif %}
-                                <li class="navigation__item {% if forloop.first %}first{% endif %} {{ current }} {% if forloop.last %}last{% endif %}" role="menuitem">
-                                    <a class="navigation__link {{ current }}" href="/{{ link.url }}/">{{ link.text }}</a>
+                                <li class="{{ current }}" role="menuitem">
+                                    <a class="{{ current }}" href="/{{ link.url }}/">{{ link.text }}</a>
                                 </li>
                                 {% endfor %}
                             </ul>
