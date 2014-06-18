@@ -102,7 +102,7 @@ Export the following tables from ISLP:
 * Districts
 * Districts - Streets relations
 
-{% assign image = "/images/documentation/districts-islp-export-tables.jpg %}
+{% assign image = "/images/documentation/districts-islp-export-tables.jpg" %}
 <a href="{{image}}" data-gallery="enabled">
 ![]({{image}})
 </a>
@@ -111,7 +111,7 @@ Export the following tables from ISLP:
 
 Print each table to Excel and attach to a support ticket.
 
-{% assign image = "/images/documentation/districts-islp-export-print.jpg %}
+{% assign image = "/images/documentation/districts-islp-export-print.jpg" %}
 <a href="{{image}}" data-gallery="enabled">
 ![]({{image}})
 </a>
