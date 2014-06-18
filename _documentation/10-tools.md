@@ -12,8 +12,5 @@ index: 10
 3. Order by modified date
 
 <a href="/images/documentation/streets-admin-streets.png" data-gallery="enabled">
-{% assign image = "/images/documentation/streets-admin-streets.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
-</a>
+![](/images/documentation/streets-admin-streets.png)
 </a>

@@ -7,9 +7,8 @@ index: 9
 
 ## Manage tickets
 
-{% assign image = "/images/documentation/support-admin-tickets.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/support-admin-tickets.png" data-gallery="enabled">
+![](/images/documentation/support-admin-tickets.png)
 </a>
 
 ## Create a new ticket
@@ -18,9 +17,8 @@ index: 9
 2. Description
 3. Attachments (screenshot, ...)
 
-{% assign image = "/images/documentation/support-admin-ticket.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/support-admin-ticket.png" data-gallery="enabled">
+![](/images/documentation/support-admin-ticket.png)
 </a>
 
 ## Add comments
@@ -31,7 +29,6 @@ Once the ticket is created you can communicate with our support agents by adding
 2. Attach files if needed (screenshot, ...)
 3. Submit or Submit as Solved
 
-{% assign image = "/images/documentation/support-admin-ticket-comment.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/support-admin-ticket-comment.png" data-gallery="enabled">
+![](/images/documentation/support-admin-ticket-comment.png)
 </a>

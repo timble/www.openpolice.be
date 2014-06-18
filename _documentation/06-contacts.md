@@ -12,9 +12,8 @@ Contacts are categorized in a single level structure.
 1. Categories, 4 fixed categories
 2. Contacts
 
-{% assign image = "/images/documentation/contacts-site-contacts.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/contacts-site-contacts.png" data-gallery="enabled">
+![](/images/documentation/contacts-site-contacts.png)
 </a>
 
 ## Contact on site
@@ -25,16 +24,14 @@ Exceptions:
 2. Multiple office hours
 3. Note
 
-{% assign image = "/images/documentation/contacts-site-contact.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/contacts-site-contact.png" data-gallery="enabled">
+![](/images/documentation/contacts-site-contact.png)
 </a>
 
 ## Manage contacts
 
-{% assign image = "/images/documentation/contacts-admin-contacts.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/contacts-admin-contacts.png" data-gallery="enabled">
+![](/images/documentation/contacts-admin-contacts.png)
 </a>
 
 ## Create contact
@@ -48,18 +45,16 @@ Exceptions:
 7. Image
 8. Open 24/7
 
-{% assign image = "/images/documentation/contacts-admin-contact.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/contacts-admin-contact.png" data-gallery="enabled">
+![](/images/documentation/contacts-admin-contact.png)
 </a>
 
 ## Manage categories
 
 The categories are fixed, you can disable categories you do not need.
 
-{% assign image = "/images/documentation/contacts-admin-categories.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/contacts-admin-categories.png" data-gallery="enabled">
+![](/images/documentation/contacts-admin-categories.png)
 </a>
 
 ## Create category
@@ -70,16 +65,14 @@ You can change:
 2. Publish state
 3. Image
 
-{% assign image = "/images/documentation/contacts-admin-category.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/contacts-admin-category.png" data-gallery="enabled">
+![](/images/documentation/contacts-admin-category.png)
 </a>
 
 ## Manage office hours
 
-{% assign image = "/images/documentation/contacts-admin-hours.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/contacts-admin-hours.png" data-gallery="enabled">
+![](/images/documentation/contacts-admin-hours.png)
 </a>
 
 ## Create office hour
@@ -92,7 +85,6 @@ You can change:
 6. Note (optional)
 7. Published state
 
-{% assign image = "/images/documentation/contacts-admin-hour.png" %}
-<a href="{{image}}" data-gallery="enabled">
-![]({{image}})
+<a href="/images/documentation/contacts-admin-hour.png" data-gallery="enabled">
+![](/images/documentation/contacts-admin-hour.png)
 </a>
