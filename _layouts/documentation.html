@@ -1,5 +1,19 @@
 {% include header.html %}
 
+<div class="container container__breadcrumb">
+    <ul class="breadcrumb">
+        <li><a href="{{ site.url }}" class="pathway">Home</a></li>
+        <span class="divider">›</span>
+        {% if page.title == 'Introduction' %}
+        <li>Documentation</li>
+        {% else %}
+        <li><a href="{{ site.url }}/documentation" class="pathway">Documentation</a></li>
+        <span class="divider">›</span>
+        <li>{{ page.title }}</li>
+        {% endif %}
+    </ul>
+</div>
+
 <div class="container container__content">
     {% include documentation_aside.html %}
     <div class="component">
