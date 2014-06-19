@@ -32,6 +32,7 @@ GEM
       jekyll (>= 1.0.0, < 3.0.0)
       sass
       sprockets (~> 2.10)
+    jekyll-category-aware-prev-next (0.0.1)
     jekyll-coffeescript (1.0.0)
       coffee-script (~> 2.2)
     jekyll-sass-converter (1.0.0)
@@ -77,6 +78,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   jekyll-assets
+  jekyll-category-aware-prev-next
   jekyll-sass-converter
   jekyll-sitemap
   rake
