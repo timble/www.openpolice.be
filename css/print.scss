@@ -39,3 +39,9 @@ pre, blockquote, ul, p, .documentation_section {
 .container__footer_menu {
   display: none;
 }
+
+.documentation {
+  a:after {
+    content: "" !important;
+  }
+}

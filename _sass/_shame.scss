@@ -2,7 +2,9 @@
 .documentation {
   counter-reset: section;
 
-  p + h2 {
+  p + h2,
+  ul + h2,
+  ol + h2 {
     margin-top: 80px;
   }
 
