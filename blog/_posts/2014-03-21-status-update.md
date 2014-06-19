@@ -3,7 +3,6 @@ layout: post
 title: Status update
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
-category: blog
 image: 2014/medium-screens.jpg
 ---
 

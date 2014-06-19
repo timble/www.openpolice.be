@@ -3,7 +3,6 @@ layout: post
 title: Global Accessibility Awareness Day
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
-category: blog
 image: 2014/accessibility.jpg
 ---
 

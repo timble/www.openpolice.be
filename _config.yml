@@ -1,6 +1,7 @@
 # Pagination
 paginate: 3
 pagination: true
+paginate_path: "blog/page:num"
 
 
 # Site info
@@ -31,6 +32,7 @@ highlighter: pygments
 # Gems
 gems:
   - jekyll-sitemap
+  - jekyll-category-aware-prev-next
 
 
 # SASS compilation
