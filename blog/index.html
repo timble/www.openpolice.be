@@ -34,7 +34,7 @@ excerpt: A product blog about developing and iterating the Belgian Police Intern
                         {% if paginator.previous_page == 1 %}
                         <a href="/{{ page.rooturl }}/">Previous</a>
                         {% else %}
-                        <a href="/{{ paginator.previous_page_path }}">Previous</a>
+                        <a href="{{ paginator.previous_page_path }}">Previous</a>
                         {% endif %}
                     </li>
                     {% else %}
@@ -61,7 +61,7 @@ excerpt: A product blog about developing and iterating the Belgian Police Intern
 
                     {% if paginator.next_page %}
                     <li class="pagination__next">
-                        <a href="/{{ paginator.next_page_path }}">Next</a>
+                        <a href="{{ paginator.next_page_path }}">Next</a>
                     </li>
                     {% else %}
                     <li class="pagination__next disabled">
