@@ -4,6 +4,7 @@ title: Second website released
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 image: 2013/warneton.jpg
+rooturl: blog
 ---
 
 We are happy to inform you that we released the second website on the new platform last week, [Police Comines-Warneton](http://www.lokalepolitie.be/5318).

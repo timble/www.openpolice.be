@@ -4,6 +4,7 @@ title: Belgian Police Internet Platform released
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 image: 2013/release.jpg
+rooturl: blog
 ---
 
 We are very happy to inform you that one year after the demo of the new internet platform the first website, [Politie Leuven](http://www.lokalepolitie.be/5388), has been released a few days ago.

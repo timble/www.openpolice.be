@@ -4,6 +4,7 @@ title: The rise of mobile
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 image: 2014/district-search.jpg
+rooturl: blog
 ---
 
 The objective of the Belgian Police Internet Platform is to provide all new and prospective information in the format that is right for our users, whatever their device. The new platform that is currently in rollout is the beginning of this process as we aim to improve our digital services.

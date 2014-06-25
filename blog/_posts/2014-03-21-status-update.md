@@ -4,6 +4,7 @@ title: Status update
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 image: 2014/medium-screens.jpg
+rooturl: blog
 ---
 
 Since the initial release of [Politie Leuven](http://www.lokalepolitie.be/5388) last September we have closed down 3 releases ([v2.1](https://github.com/belgianpolice/internet-platform/releases/tag/v2.1), [v2.2](https://github.com/belgianpolice/internet-platform/releases/tag/v2.2) & [v2.3](https://github.com/belgianpolice/internet-platform/releases/tag/v2.3)), resulting in more then 100 closed development tickets. These releases include a mix of bug fixes and improvements (look & feel, speed performance, accessibility, ...).

@@ -4,6 +4,7 @@ title: Global Accessibility Awareness Day
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 image: 2014/accessibility.jpg
+rooturl: blog
 ---
 
 Today is the [Global Accessibility Awareness Day](http://globalaccessibilityawarenessday.org/), a community-driven effort whose goal is to dedicate one day to raising the profile of and introducing the topic of digital accessibility and people with different disabilities to the broadest audience possible.
