@@ -42,12 +42,6 @@ To manage your website, you have to login into the administrator area, using the
 * http://www.policelocale.be/administrator/zonenumber
 * http://www.polizei.be/administrator/zonenumber
 
-During the development of your new website the administrator area is available at:
-
-* http://p.pol-nl.be/administrator/zonenumber
-* http://p.pol-fr.be/administrator/zonenumber
-* http://p.pol-de.be/administrator/zonenumber
-
 <a href="/images/documentation/admin-login.png" data-gallery="enabled">
 ![](/images/documentation/admin-login.png)
 </a>
