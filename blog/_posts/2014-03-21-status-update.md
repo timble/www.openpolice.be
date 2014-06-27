@@ -3,7 +3,7 @@ layout: post
 title: Status update
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
-image: 2014/medium-screens.jpg
+image: 2014/2014-03-21/medium-screens.jpg
 rooturl: blog
 ---
 
@@ -13,12 +13,12 @@ Since the initial release of [Politie Leuven](http://www.lokalepolitie.be/5388) 
 
 A few of the most important changes:
 
-* Hamburger icon on small screens is replaced with an (animated) button, <a href="{{site.url}}/images/blog/2014/menu-button.jpg" data-gallery="enabled">see screenshot</a>
-* On medium screens the menu is fully visible, <a href="{{site.url}}/images/blog/2014/medium-screens.jpg" data-gallery="enabled">see screenshot</a>
-* News on the homepage groups 3 articles (one with introtext), <a href="{{site.url}}/images/blog/2014/news.jpg" data-gallery="enabled">see screenshot</a>
-* Office hours are added as structured data instead of plain text, <a href="{{site.url}}/images/blog/2014/office-hours.jpg" data-gallery="enabled">see screenshot</a>
-* News articles support [Twitter Summary Card](https://dev.twitter.com/docs/cards/types/summary-card), <a href="{{site.url}}/images/blog/2014/twitter-card.jpg" data-gallery="enabled">see screenshot</a>
-* District officer search form now includes the house number, <a href="{{site.url}}/images/blog/2014/district-search.jpg" data-gallery="enabled">see screenshot</a>
+* Hamburger icon on small screens is replaced with an (animated) button, <a href="{{site.url}}/images/blog/2014/2014-03-21/menu-button.jpg" data-gallery="enabled">see screenshot</a>
+* On medium screens the menu is fully visible, <a href="{{site.url}}/images/blog/2014/2014-03-21/medium-screens.jpg" data-gallery="enabled">see screenshot</a>
+* News on the homepage groups 3 articles (one with introtext), <a href="{{site.url}}/images/blog/2014/2014-03-21/news.jpg" data-gallery="enabled">see screenshot</a>
+* Office hours are added as structured data instead of plain text, <a href="{{site.url}}/images/blog/2014/2014-03-21/office-hours.jpg" data-gallery="enabled">see screenshot</a>
+* News articles support [Twitter Summary Card](https://dev.twitter.com/docs/cards/types/summary-card), <a href="{{site.url}}/images/blog/2014/2014-03-21/twitter-card.jpg" data-gallery="enabled">see screenshot</a>
+* District officer search form now includes the house number, <a href="{{site.url}}/images/blog/2014/2014-03-21/district-search.jpg" data-gallery="enabled">see screenshot</a>
 
 ## Rollout
 

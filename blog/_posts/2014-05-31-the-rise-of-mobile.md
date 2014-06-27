@@ -3,7 +3,7 @@ layout: post
 title: The rise of mobile
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
-image: 2014/district-search.jpg
+image: 2014/2014-03-21/district-search.jpg
 rooturl: blog
 ---
 
