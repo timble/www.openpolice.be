@@ -45,7 +45,7 @@ This banner is considered a **very good** banner for the following reasons:
 
 **Damme/Knokke-Heist**
 
-<a href="/images/documentation//banner_damme_knokke-heist.jpg" data-gallery="enabled">
+<a href="/images/documentation/banner_damme_knokke-heist.jpg" data-gallery="enabled">
 ![](/images/documentation/banner_damme_knokke-heist.jpg)
 </a>
 
@@ -62,3 +62,38 @@ Negative
 2. There are no citizens on this image.
 
 ## Social media
+
+To make sure your social media channels are as recognizable as possible for your vistors you need good avatars. These avatars are quite often being used in smaller sizes then you upload them. For example on mobile phones.
+
+**Avatars**
+
+We suggest you use the images provided by us here below for the best result. Uploading an avatar with the district name on it is useless since the district name is already displayed next to the avatar or below it. Also those names could get very unrecognizable when displayed smaller. Uploading another logo then the official police logo will confuse visitors and also leave a less professional appearance.
+
+<ul class="gallery" style="margin:0;">
+<li class="gallery__item">
+<a class="thumbnail" href="/images/documentation/police_avatar.jpg">
+<img src="/images/documentation/police_avatar.jpg" />
+</a>
+</li>
+</ul>
+Click the above image to download a big version.
+
+**Headers**
+
+For the social media headers we suggest you use the same image as the one used for the banner on your website. This way if a visitor visits multiple channels during the week (twitter, facebook, website) they see a familiar style.
+
+## The total image
+
+As an example we included some screenshots of how the total online image looks for Leuven.
+
+<a href="/images/documentation/leuven_website.jpg" data-gallery="enabled">
+![](/images/documentation/leuven_website.jpg)
+</a>
+
+<a href="/images/documentation/leuven_facebook.jpg" data-gallery="enabled">
+![](/images/documentation/leuven_facebook.jpg)
+</a>
+
+<a href="/images/documentation/leuven_twitter.jpg" data-gallery="enabled">
+![](/images/documentation/leuven_twitter.jpg)
+</a>
