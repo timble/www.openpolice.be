@@ -17,6 +17,8 @@ navigation:
   url: documentation
 - text: Styleguide
   url: styleguide
+- text: Demo
+  url: demo
 
 
 # Zones in production

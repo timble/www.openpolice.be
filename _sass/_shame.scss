@@ -13,3 +13,8 @@
     content: counter(section, upper-roman) ". "; /* Display the counter */
   }
 }
+
+.mimic_column {
+  display: inline-block;
+  width: 100px;
+}

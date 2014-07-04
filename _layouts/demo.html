@@ -1,0 +1,23 @@
+{% include header.html %}
+
+<div class="container container__breadcrumb">
+    <ul class="breadcrumb">
+        <li><a href="/" class="pathway">Home</a></li>
+        <span class="divider">›</span>
+        <li>Demo</li>
+    </ul>
+</div>
+
+<div class="container container__content demo">
+    <aside class="sidebar">
+        <div class="sidebar__element">
+            <h3>Refreshed every hour</h3>
+            <p>Do not worry about breaking anything! The demo site is specially designed to refresh itself every hour.</p>
+        </div>
+    </aside>
+    <div class="component">
+        {{ content }}
+    </div>
+</div>
+
+{% include footer.html %}
