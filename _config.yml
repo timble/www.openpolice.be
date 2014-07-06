@@ -19,6 +19,8 @@ navigation:
   url: styleguide
 - text: Demo
   url: demo
+- text: About
+  url: about
 
 
 # Zones in production
@@ -47,7 +49,8 @@ zones:
 collections:
   documentation:
     output: true
-
+  about:
+    output: true
 
 # Code highlighting
 highlighter: pygments
