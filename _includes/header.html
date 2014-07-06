@@ -17,7 +17,7 @@
     <link rel="shortcut icon" type="image/ico" href="{{ site.url }}/images/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="{{ site.url }}/images/xtouch-icon.png" />
     <link rel="apple-touch-icon" type="image/png" href="{{ site.url }}/images/xtouch-icon.png"/>
-    <link rel="stylesheet" href="http://www.lokalepolitie.be/theme/mobile/css/default.css">
+    <link rel="stylesheet" href="{{ site.url }}/css/default.css">
     <link rel="stylesheet" href="{{ site.url }}/css/style.css">
     {% if page.extra_css %}<link rel="stylesheet" href="{{ site.url }}/{{ page.extra_css }}">{% endif %}
     {% if page.extra_head_markup %}{{page.extra_head_markup}}{% endif %}
@@ -30,11 +30,11 @@
     <!--[if IE 8]>
     <link rel="stylesheet" href="{{ site.url }}/css/ie8.css">
     <![endif]-->
-    <script src="http://www.lokalepolitie.be/theme/mobile/js/apollo.min.js"></script>
-    <script src="http://www.lokalepolitie.be/theme/mobile/js/hamburger.js"></script>
+    <script src="{{ site.url }}/js/apollo.min.js"></script>
+    <script src="{{ site.url }}/js/hamburger.js"></script>
 
     <!--[if lte IE 8]>
-    <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="//html5shim.googlecode.com/svavba/trunk/html5.js"></script>
     <![endif]-->
 
     <script>
