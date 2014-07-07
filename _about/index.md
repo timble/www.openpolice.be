@@ -15,12 +15,12 @@ We, [Timble](http://www.timble.net), are a team hired by the Belgian Police to b
 
 Creation of a uniform and self manageable internet platform for all Belgian Local Police zones to allow each individual Police zone to manage their own content.
 
-We provides functional and technical analysis, technical and strategic development, research, design, support and training services. A brief overview:
+We provide functional and technical analysis, technical and strategic development, research, design, support and training services. A brief overview:
 
 * **Development** of a multi-site and multi-lingual application to help optimise the extensibility, security and maintenance of the website of a Local Police zone.
 * **Design** of a uniform look and feel using common graphical elements which works on any device (desktop, tablet and phone) using existing accessibility standards.
 * Daily operation of an online private **support** system for 350 content editors to allow them to report problems and communicate with the development team.
-* **Training** of content editors to allow them to manage the content of their website on the platform.
+* **Training** of content editors to allow them to manage the content of their website on the platform, including best practices on how to work with social media channels.
 
 ## Strategy
 
