@@ -35,6 +35,7 @@ GEM
     jekyll-category-aware-prev-next (0.0.1)
     jekyll-coffeescript (1.0.0)
       coffee-script (~> 2.2)
+    jekyll-jsonball (0.0.1)
     jekyll-sass-converter (1.0.0)
       sass (~> 3.2)
     jekyll-sitemap (0.4.1)
@@ -79,6 +80,7 @@ DEPENDENCIES
   jekyll
   jekyll-assets
   jekyll-category-aware-prev-next
+  jekyll-jsonball
   jekyll-sass-converter
   jekyll-sitemap
   rake
