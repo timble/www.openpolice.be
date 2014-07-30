@@ -63,6 +63,7 @@ highlighter: pygments
 gems:
   - jekyll-sitemap
   - jekyll-category-aware-prev-next
+  - jekyll-jsonball
 
 
 # SASS compilation
