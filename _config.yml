@@ -1,0 +1,58 @@
+# Pagination
+paginate: 3
+pagination: true
+paginate_path: "blog/page:num"
+
+
+# Site info
+name: Belgian Police Internet Platform
+# url: http://localhost:4000
+
+
+# Navigation
+navigation:
+- text: Blog
+  url: blog
+- text: Documentation
+  url: documentation
+- text: Styleguide
+  url: styleguide
+- text: Demo
+  url: demo
+- text: About
+  url: about
+  
+
+# Collections
+collections:
+  documentation:
+    output: true
+  about:
+    output: true
+
+# Code highlighting
+highlighter: pygments
+
+
+# Gems
+gems:
+  - jekyll-sitemap
+  - jekyll-category-aware-prev-next
+  - jekyll-jsonball
+
+
+# SASS compilation
+sass:
+    sass_dir: _sass
+    style: :compressed
+
+
+# Blog separator
+# excerpt_separator: <!--more-->
+
+# We don't want to publish some files
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
+
+
+# Static information
+blog_description: A product blog about developing and iterating the Belgian Police Internet Platform. For the people who publish content to their site and anyone else who is interested.

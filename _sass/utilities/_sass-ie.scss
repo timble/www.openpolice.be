@@ -1,0 +1,54 @@
+$fix-mqs: false !default;
+
+@mixin respond-min($width) {
+  @if $fix-mqs {
+    @if $fix-mqs >= $width {
+      @content;
+    }
+  }
+  @else {
+    @media screen and (min-width: $width) {
+      @content;
+    }
+  }
+}
+@mixin respond-max($width) {
+  @if $fix-mqs {
+    @if $fix-mqs <= $width {
+      @content;
+    }
+  }
+  @else {
+    @media screen and (max-width: $width) {
+      @content;
+    }
+  }
+}
+@mixin respond-min-max($minwidth, $maxwidth) {
+  @if $fix-mqs {
+    @if $fix-mqs <= $maxwidth {
+      @content;
+    }
+  }
+  @else {
+    @media screen and (min-width: $minwidth) and (max-width: $maxwidth) {
+      @content;
+    }
+  }
+}
+
+$old-ie: false !default;
+
+@mixin old-ie {
+  @if $old-ie {
+    @content;
+  }
+}
+
+$old-ie7: false !default;
+
+@mixin old-ie7 {
+  @if $old-ie7 {
+    @content;
+  }
+}

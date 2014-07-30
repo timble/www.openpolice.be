@@ -1,0 +1,20 @@
+// Specific styles for the documentation pages
+.documentation {
+  counter-reset: section;
+
+  p + h2,
+  ul + h2,
+  ol + h2 {
+    margin-top: 80px;
+  }
+
+  h2::before {
+    counter-increment: section;      /* Increment the section counter */
+    content: counter(section, upper-roman) ". "; /* Display the counter */
+  }
+}
+
+.mimic_column {
+  display: inline-block;
+  width: 100px;
+}

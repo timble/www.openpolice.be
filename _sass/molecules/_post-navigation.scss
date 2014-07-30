@@ -1,0 +1,22 @@
+.prev_next_post {
+  display: table;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  .prevpost,
+  .nextpost {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%;
+  }
+
+  .prevpost {
+    padding-right: 5px;
+    text-align: left;
+  }
+  .nextpost {
+    padding-left: 5px;
+    text-align: right;
+  }
+}

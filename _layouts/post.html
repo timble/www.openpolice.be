@@ -1,0 +1,73 @@
+{% include header.html %}
+<div class="container container__breadcrumb">
+    <ul class="breadcrumb">
+        <li><a href="/" class="pathway">Home</a></li>
+        <span class="divider">›</span>
+        <li><a href="/blog" class="pathway">Blog</a></li>
+        <span class="divider">›</span>
+        <li class="pathway">{{ page.title }}</li>
+    </ul>
+</div>
+
+<div class="container container__content">
+    {% include sidebar.html %}
+    <div class="component">
+        <article class="article" itemscope="" itemtype="http://schema.org/Article">
+            <header class="article__header">
+                <h1 itemprop="name">{{page.title}}</h1>
+                <time class="text--small" itemprop="datePublished" datetime="{{page.date}}">
+                    {{ page.date | date: "%-d %B %Y" }}
+                </time>
+            </header>
+            {% if page.image %}
+            <a class="article__thumbnail" href="{{site.url}}/images/blog/{{page.image}}" data-gallery="enabled">
+                <img width="400" height="300" itemprop="image" src="{{site.url}}/images/blog/{{page.image}}"{% if page.image %} alt="{{page.imagealt}}"{% endif %}>
+            </a>
+            {% endif %}
+            <div itemprop="articleBody">
+                {{ content }}
+            </div>
+        </article>
+        <hr />
+
+        {% if page.cat_previous.url or page.cat_next.url %}
+        <div class="prev_next_post">
+            <!-- prev and next pages -->
+            {% if page.cat_previous.url %}
+            <div class="prevpost">
+                <h4>Previous post</h4>
+                <div class="media">
+                    {% if page.cat_previous.image %}
+                    <a class="thumbnail media__object" href="{{ page.cat_previous.url }}">
+                        <img width="64" height="48" src="{{site.url}}/images/blog/{{ page.cat_previous.image }}">
+                    </a>
+                    {% endif %}
+                    <div class="media__body">
+                        <a class="media__heading" href="{{ page.cat_previous.url }}">{{ page.cat_previous.title }}</a>
+                        <div class="muted smaller_font">{{ page.cat_previous.date | date: "%-d %B %Y" }}</div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+            {% if page.cat_next.url %}
+            <div class="nextpost">
+                <h4>Next post</h4>
+                <div class="media">
+                    {% if page.cat_next.image %}
+                    <a class="thumbnail media__object media__object--rev" href="{{ page.cat_next.url }}">
+                        <img width="64" height="48" src="{{site.url}}/images/blog/{{ page.cat_next.image }}">
+                    </a>
+                    {% endif %}
+                    <div class="media__body">
+                        <a class="media__heading" href="{{ page.cat_next.url }}">{{ page.cat_next.title }}</a>
+                        <div class="muted smaller_font">{{ page.cat_next.date | date: "%-d %B %Y" }}</div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        {% endif %}
+    </div>
+</div>
+
+{% include footer.html %}

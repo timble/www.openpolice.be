@@ -1,0 +1,13 @@
+---
+layout: none
+---
+
+[
+{% for post in site.categories.blog limit:10 %}
+{
+"title"    : "{{ post.title }}",
+"url"     : "{{ site.url }}{{ post.url }}",
+"date"     : "{{ post.date | date: "%Y-%m-%d" }}"
+} {% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+]
