@@ -21,31 +21,6 @@ navigation:
   url: demo
 - text: About
   url: about
-
-
-# Zones in production
-zones:
-- title: Leuven
-  language: 1
-  number: 5388
-- title: Comines-Warneton
-  language: 2
-  number: 5318
-- title: Damme/Knokke-Heist
-  language: 1
-  number: 5446
-- title: MidLim
-  language: 1
-  number: 5888
-- title: Mouscron
-  language: 2
-  number: 5317
-- title: Demerdal-DSZ
-  language: 1
-  number: 5396
-- title: HAZODI
-  language: 1
-  number: 5370
   
 
 # Collections
