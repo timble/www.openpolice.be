@@ -16,3 +16,11 @@
 @import "molecules/post-navigation";
 
 @import "shame";
+
+.github-widget {
+  margin-bottom: 20px;
+
+  .download {
+    display: none;
+  }
+}
