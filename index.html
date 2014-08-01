@@ -2,8 +2,7 @@
 layout: default
 rooturl: home
 ---
-{% jsonball zones-v2 from file zones-v2.json %}
-{% jsonball zones-v1 from file zones-v1.json %}
+
 
     <div class="clearfix">
         <div class="homepage__sticky">
@@ -16,29 +15,7 @@ rooturl: home
             <p>We strongly believe that an open development model is the only way to foster badly-needed government standards, remove the fear of proprietary lock-in for government agencies, and create a large ecosystem that spans the government as a whole.</p>
             <p>All of our code is freely available under an open source license. Anyone can <strong>run it</strong>, <strong>build on it</strong>, or <strong>submit changes</strong> to it.</p>
 
-            <h2>Internet Platform used by</h2>
-            <p><a href="https://github.com/belgianpolice/internet-platform/releases">Version 2</a> is currently being used by {{ zones-v2.items | size }} Police zones:</p>
-            <ul class="nav nav nav--pills column--double">
-                {% for zone in zones-v2.items %}
-                {% case zone.data.language %}
-                {% when "1" %}
-                {% capture prefix %}Politie{% endcapture %}
-                {% capture domain %}lokalepolitie{% endcapture %}
-                {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
-                {% when "2" %}
-                {% capture prefix %}Police{% endcapture %}
-                {% capture domain %}policelocale{% endcapture %}
-                {% capture title %}{{ zone.data.title_fr }}{% endcapture %}
-                {% when "3" %}
-                {% capture prefix %}Politie{% endcapture %}
-                {% capture domain %}lokalepolitie{% endcapture %}
-                {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
-                {% endcase %}
-
-                <li><a href="http://www.{{ domain }}.be/{{ zone.data.id }}">{{ prefix }} {{ title }}</a></li>
-                {% endfor %}
-            </ul>
-            <p>Another <a href="sites.html">{{ zones-v1.items | size }} Police zones</a> are using version 1.</p>
+            
         </div>
         <div class="homepage__contact">
             <h3>Stay informed</h3>
