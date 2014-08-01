@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Styleguide - Belgian Police Internet Platform</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" type="image/ico" href="http://www.openpolice.be/images/favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="http://www.openpolice.be/images/xtouch-icon.png" />
+  <link rel="apple-touch-icon" type="image/png" href="http://www.openpolice.be/images/xtouch-icon.png"/>
+
+  <link rel="stylesheet" href="http://www.lokalepolitie.be/theme/mobile/css/default.css">
+  <link rel="stylesheet" href="stylesheets/styleguide.css">
+  <link rel="stylesheet" href="stylesheets/blocks.css">
+
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/apollo.min.js"></script>
+  <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/hamburger.js"></script>
+</head>
+<body id="page" class="no-js">
+  <script type="text/javascript">function hasClass(e,t){return e.className.match(new RegExp("(\\s|^)"+t+"(\\s|$)"))}var el=document.getElementById("page");var cl="no-js";if(hasClass(el,cl)){var reg=new RegExp("(\\s|^)"+cl+"(\\s|$)");el.className=el.className.replace(reg,"js-enabled")}</script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20242887-6', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <div id="wrap">
+    <div class="container container__header">
+      <div class="header">
+        <div class="organization" itemscope="" itemtype="http://schema.org/Organization">
+            <a itemprop="url" href="http://belgianpolice.github.io">
+                <div class="organization__logo organization__logo--en"></div>
+                <div class="organization__name">Belgian Police</div>
+            </a>
+            <button id="hamburger" class="button--hamburger" aria-hidden="true" aria-pressed="false" aria-controls="navigation" onclick="apollo.toggleClass(document.getElementById('navigation'), 'is-shown');apollo.toggleClass(document.getElementById('hamburger'), 'close');hamburger()">MENU <span class="lines"></span></button>
+        </div>
+        <div class="navigation">
+          <span class="slogan">
+              Open Development, Open Data &amp; Open Government
+          </span>
+          <div id="navigation" class="navbar">
+            <nav role="navigation">
+                <ul class="nav">
+                    <li role="menuitem">
+                        <a href="http://www.openpolice.be/blog">Blog</a>
+                    </li>
+                    <li role="menuitem">
+                        <a href="http://www.openpolice.be/documentation/">Documentation</a>
+                    </li>
+                    <li class="active" role="menuitem">
+                        <a href="http://www.openpolice.be/styleguide">Styleguide</a>
+                    </li>
+                    <li role="menuitem">
+                        <a href="http://www.openpolice.be/demo">Demo</a>
+                    </li>
+                    <li role="menuitem">
+                        <a href="http://www.openpolice.be/about">About</a>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container container__content">
+      <aside class="sidebar">
+        <ul class="nav nav--list">
+          <li><a href="index.html">0. Overview</a></li>
+          <li><a href="article.html">1. Article</a></li>
+          <li><a href="breadcrumb.html">2. Breadcrumb</a></li>
+          <li><a href="buttons.html">3. Buttons</a></li>
+          <li><a href="forms.html">4. Forms</a></li>
+          <li><a href="gallery.html">5. Gallery</a></li>
+          <li><a href="media.html">6. Media</a></li>
+          <li><a href="navigation.html">7. Navigation</a></li>
+          <li><a href="pagination.html">8. Pagination</a></li>
+          <li><a href="table.html">9. Table</a></li>
+        </ul>
+      </aside>
+
+      <div class="component">
+        <div class="styleguide-example">
+
+  <h3>9.1 <!-- <em>blocks.css</em> --></h3>
+  <div class="styleguide-description">
+    <p>Table</p>
+    
+      <ul class="styleguide-modifier">
+        
+          <li><strong>.table--striped</strong> - Zebra striping the table.</li>
+        
+      </ul>
+    
+  </div>
+  <div class="styleguide-element">
+    <table class="table $modifier_class">
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Datacell 1</td>
+      <td>Datacell 2</td>
+    </tr>
+    <tr>
+      <td>Datacell 1</td>
+      <td>Datacell 2</td>
+    </tr>
+    <tr>
+      <td>Datacell 1</td>
+      <td>Datacell 2</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  
+    <div class="styleguide-element styleguide-modifier">
+      <span class="styleguide-modifier-name">.table--striped</span>
+      <table class="table table--striped">
+  <thead>
+    <tr>
+      <th>Header 1</th>
+      <th>Header 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Datacell 1</td>
+      <td>Datacell 2</td>
+    </tr>
+    <tr>
+      <td>Datacell 1</td>
+      <td>Datacell 2</td>
+    </tr>
+    <tr>
+      <td>Datacell 1</td>
+      <td>Datacell 2</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+  
+  <div class="styleguide-html">
+    <pre class="styleguide-code">&lt;table class=&quot;table $modifier_class&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Header 1&lt;/th&gt;
+      &lt;th&gt;Header 2&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Datacell 1&lt;/td&gt;
+      &lt;td&gt;Datacell 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Datacell 1&lt;/td&gt;
+      &lt;td&gt;Datacell 2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Datacell 1&lt;/td&gt;
+      &lt;td&gt;Datacell 2&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+</pre>
+  </div>
+
+</div>
+
+      </div>
+    </div>
+
+    <div class="container container__footer_menu">
+        <ul class="nav nav--list">
+            <li class="navigation__item first " role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/blog">Blog</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/documentation">Documentation</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/styleguide">Styleguide</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/demo">Demo</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/about">About</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="copyright">
+      <div class="container container__copyright">
+          <div class="copyright--left">
+              <a href="http://www.openpolice.be/blog.xml">RSS</a>
+          </div>
+          <div class="copyright--right">
+              By <a href="http://www.timble.net">Timble</a>
+          </div>
+      </div>
+  </div>
+
+  <script src="javascripts/kss.js"></script>
+  <script src="javascripts/holder.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Styleguide - Belgian Police Internet Platform</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <link rel="shortcut icon" type="image/ico" href="http://www.openpolice.be/images/favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="http://www.openpolice.be/images/xtouch-icon.png" />
+  <link rel="apple-touch-icon" type="image/png" href="http://www.openpolice.be/images/xtouch-icon.png"/>
+
+  <link rel="stylesheet" href="http://www.lokalepolitie.be/theme/mobile/css/default.css">
+  <link rel="stylesheet" href="stylesheets/styleguide.css">
+  <link rel="stylesheet" href="stylesheets/blocks.css">
+
+  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/apollo.min.js"></script>
+  <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/hamburger.js"></script>
+</head>
+<body id="page" class="no-js">
+  <script type="text/javascript">function hasClass(e,t){return e.className.match(new RegExp("(\\s|^)"+t+"(\\s|$)"))}var el=document.getElementById("page");var cl="no-js";if(hasClass(el,cl)){var reg=new RegExp("(\\s|^)"+cl+"(\\s|$)");el.className=el.className.replace(reg,"js-enabled")}</script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-20242887-6', 'auto');
+    ga('send', 'pageview');
+  </script>
+
+  <div id="wrap">
+    <div class="container container__header">
+      <div class="header">
+        <div class="organization" itemscope="" itemtype="http://schema.org/Organization">
+            <a itemprop="url" href="http://belgianpolice.github.io">
+                <div class="organization__logo organization__logo--en"></div>
+                <div class="organization__name">Belgian Police</div>
+            </a>
+            <button id="hamburger" class="button--hamburger" aria-hidden="true" aria-pressed="false" aria-controls="navigation" onclick="apollo.toggleClass(document.getElementById('navigation'), 'is-shown');apollo.toggleClass(document.getElementById('hamburger'), 'close');hamburger()">MENU <span class="lines"></span></button>
+        </div>
+        <div class="navigation">
+          <span class="slogan">
+              Open Development, Open Data &amp; Open Government
+          </span>
+          <div id="navigation" class="navbar">
+            <nav role="navigation">
+                <ul class="nav">
+                    <li role="menuitem">
+                        <a href="http://www.openpolice.be/blog">Blog</a>
+                    </li>
+                    <li role="menuitem">
+                        <a href="http://www.openpolice.be/documentation/">Documentation</a>
+                    </li>
+                    <li class="active" role="menuitem">
+                        <a href="http://www.openpolice.be/styleguide">Styleguide</a>
+                    </li>
+                    <li role="menuitem">
+                        <a href="http://www.openpolice.be/demo">Demo</a>
+                    </li>
+                    <li role="menuitem">
+                        <a href="http://www.openpolice.be/about">About</a>
+                    </li>
+                </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container container__content">
+      <aside class="sidebar">
+        <ul class="nav nav--list">
+          <li><a href="index.html">0. Overview</a></li>
+          <li><a href="article.html">1. Article</a></li>
+          <li><a href="breadcrumb.html">2. Breadcrumb</a></li>
+          <li><a href="buttons.html">3. Buttons</a></li>
+          <li><a href="forms.html">4. Forms</a></li>
+          <li><a href="gallery.html">5. Gallery</a></li>
+          <li><a href="media.html">6. Media</a></li>
+          <li><a href="navigation.html">7. Navigation</a></li>
+          <li><a href="pagination.html">8. Pagination</a></li>
+          <li><a href="table.html">9. Table</a></li>
+        </ul>
+      </aside>
+
+      <div class="component">
+        <h1>CSS Styleguide</h1>
+
+<p>Welcome to the Belgian Police CSS Styleguide. Before reading this, you should have a general understanding for
+specificity, the <a href="http://sass-lang.com/">SCSS</a> syntax, and <a href="https://github.com/kneath/kss">KSS</a>
+documentation.</p>
+
+<p>If you're visiting from the internet, feel free to learn from our style. We encourage you to set up one that works
+for your own team.</p>
+
+<p>Check our <a href="https://github.com/belgianpolice/styleguide">GitHub repository</a> for the entire codebase of this site.</p>
+
+<h2>Sass for CSS development</h2>
+<p><a href="http://sass-lang.com/">Sass</a> provides a plethora of CSS development tools and helpers that not only speed
+up front-end development, but also allow for improved code structure and codebase control within a team.
+It is especially helpful in managing (and reining in) larger codebases via custom variables, mixins, selector patterns,
+as well as a large collection of very useful helpers. Compiled via the Ruby CLI compiler,
+one is also given immediate control over source map debugging.
+</p>
+
+<p>We take full advantage of mod_pagespeed to rewrite CSS in production so there is no need to remove comments or
+minify the output.</p>
+
+<h2>File Organization</h2>
+<p>Based on the <a href="http://bradfrostweb.com/blog/post/atomic-web-design/">Atomic Design Principles</a> but slightly
+modified for our own needs. Also check <a href="http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/">"The Other Interface: Atomic Design With Sass"</a>
+as a good resource.</p>
+
+The CSS file organization should follow something like this:
+<pre>
+<code>
+css
+├── atoms
+│   ├── comments.scss
+│   └── listings.scss
+├── molecules
+│   ├── browser_helpers.scss
+│   ├── responsive_helpers.scss
+│   └── variables.scss
+├── organisms
+│   ├── jquery.fancybox-1.3.4.css
+│   └── reset.scss
+└── utilities
+    ├── issues.scss
+    └── profile.scss
+</code>
+</pre>
+
+<h2>Modular CSS with BEM</h2>
+<p>Our HTML classes follow the <a href="http://bem.info/">BEM methodology</a> as a defined structure.</p>
+
+<h2>Susy for responsive grids</h2>
+<p><a href="http://susy.oddbird.net/">Susy</a> is a glorious tool for responsive grids. It does all the percentage maths
+for you, allowing you to easily define and update your grid layout via efficient breakpoint mixins coupled with some
+really nifty grid helpers.</p>
+
+<h2>Progressive enhancement</h2>
+<p>Designs should be approached with a content-first and mobile-first mindset. Following this, CSS breakpoints should
+always be mobile-first. All JavaScript should be progressively enhanced and should be used at a conscientious minimum
+where possible. Therefore, the concept of progressive enhancement happens from all aspects, from design to development
+and back again.</p>
+      </div>
+    </div>
+
+    <div class="container container__footer_menu">
+        <ul class="nav nav--list">
+            <li class="navigation__item first " role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/blog">Blog</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/documentation">Documentation</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/styleguide">Styleguide</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/demo">Demo</a>
+            </li>
+            <li class="navigation__item  last" role="menuitem">
+                <a class="navigation__link" href="http://www.openpolice.be/about">About</a>
+            </li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="copyright">
+      <div class="container container__copyright">
+          <div class="copyright--left">
+              <a href="http://www.openpolice.be/blog.xml">RSS</a>
+          </div>
+          <div class="copyright--right">
+              By <a href="http://www.timble.net">Timble</a>
+          </div>
+      </div>
+  </div>
+
+  <script src="javascripts/kss.js"></script>
+  <script src="javascripts/holder.js"></script>
+
+</body>
+</html>
