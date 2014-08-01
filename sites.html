@@ -2,58 +2,13 @@
 layout: default
 rooturl: home
 ---
-{% jsonball zones-v1 from file zones-v1.json %}
-{% jsonball zones-v2 from file zones-v2.json %}
+
 
 <div class="clearfix">
     <div class="homepage__sticky">
         <h1>Used by</h1>
         <h2 id="version-1">Version 1</h2>
-        <ul class="nav nav nav--pills column--double">
-            {% for zone in zones-v1.items %}
-            {% case zone.data.language %}
-            {% when "1" %}
-            {% capture prefix %}Politie{% endcapture %}
-            {% capture domain %}lokalepolitie{% endcapture %}
-            {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
-            {% when "2" %}
-            {% capture prefix %}Police{% endcapture %}
-            {% capture domain %}policelocale{% endcapture %}
-            {% capture title %}{{ zone.data.title_fr }}{% endcapture %}
-            {% when "3" %}
-            {% capture prefix %}Politie{% endcapture %}
-            {% capture domain %}lokalepolitie{% endcapture %}
-            {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
-            {% endcase %}
 
-            {% if zone.data.platform == "1" %}
-            <li><a href="http://www.{{ domain }}.be/{{ zone.data.id }}">{{ prefix }} {{ title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
-        <h2 id="version-2">Version 2</h2>
-        <ul class="nav nav nav--pills column--double">
-            {% for zone in zones-v2.items %}
-            {% case zone.data.language %}
-            {% when "1" %}
-            {% capture prefix %}Politie{% endcapture %}
-            {% capture domain %}lokalepolitie{% endcapture %}
-            {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
-            {% when "2" %}
-            {% capture prefix %}Police{% endcapture %}
-            {% capture domain %}policelocale{% endcapture %}
-            {% capture title %}{{ zone.data.title_fr }}{% endcapture %}
-            {% when "3" %}
-            {% capture prefix %}Politie{% endcapture %}
-            {% capture domain %}lokalepolitie{% endcapture %}
-            {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
-            {% endcase %}
-
-            {% if zone.data.platform == "2" %}
-            <li><a href="http://www.{{ domain }}.be/{{ zone.data.id }}">{{ prefix }} {{ title }}</a></li>
-            {% endif %}
-            {% endfor %}
-        </ul>
     </div>
 </div>
 
