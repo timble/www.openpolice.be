@@ -1,0 +1,203 @@
+{
+    "version": "1.0",
+    "href": "http://police.dev/5388.json?limit=999&sort=title-old&platform=2&view=zones&offset=0&direction=asc",
+    "url": {
+        "type": "application/json",
+        "template": "http://police.dev/5388.json?{&limit,offset,sort,direction,search,platform,language}"
+    },
+    "offset": 0,
+    "limit": 999,
+    "total": 7,
+    "items": [
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5318",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5318",
+                "platform": "2",
+                "title-old": "Comines-Warneton",
+                "title_nl": "",
+                "title_fr": "Comines-Warneton",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": "056 55 00 55",
+                "email": "info@polcom.be",
+                "twitter": "policecomines",
+                "facebook": "PoliceCominesWarneton",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5446",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5446",
+                "platform": "2",
+                "title-old": "Damme/Knokke-Heist",
+                "title_nl": "Damme/Knokke-Heist",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "050 61 96 00",
+                "email": "damme.knokke-heist@politie5446.be",
+                "twitter": "LokPol5446",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5396",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5396",
+                "platform": "2",
+                "title-old": "Demerdal-DSZ",
+                "title_nl": "Demerdal-DSZ",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "013 35 05 00",
+                "email": "info@politie-demerdal-dsz.be",
+                "twitter": "pzdemerdal_dsz",
+                "facebook": "PolitieDemerDSZ",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5370",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5370",
+                "platform": "2",
+                "title-old": "HAZODI",
+                "title_nl": "HAZODI",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "011 22 29 82",
+                "email": "politie@hazodi.be",
+                "twitter": "pzhazodi",
+                "facebook": "politieHAZODI",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5388",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5388",
+                "platform": "2",
+                "title-old": "Leuven",
+                "title_nl": "Leuven",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": "016 21 06 10",
+                "phone_information": "016 21 06 11",
+                "email": "info@politieleuven.be",
+                "twitter": "politieleuven",
+                "facebook": "politieleuven",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5888",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5888",
+                "platform": "2",
+                "title-old": "MidLim",
+                "title_nl": "MidLim",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "089 30 30 30 ",
+                "email": "info@midlim.be",
+                "twitter": "politiemidlim",
+                "facebook": "PolitieMidLim",
+                "created_by": "1",
+                "created_on": "2014-02-24 18:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5317",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5317",
+                "platform": "2",
+                "title-old": "Mouscron",
+                "title_nl": "",
+                "title_fr": "Mouscron",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": "056 863 000",
+                "email": "polimo@policemouscron.be",
+                "twitter": null,
+                "facebook": "policelocalemouscron",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        }
+    ],
+    "queries": []
+}

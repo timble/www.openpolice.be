@@ -1,0 +1,2795 @@
+{
+    "version": "1.0",
+    "href": "http://police.dev/5388.json?limit=999&sort=title-old&platform=1&view=zones&offset=0&direction=asc",
+    "url": {
+        "type": "application/json",
+        "template": "http://police.dev/5388.json?{&limit,offset,sort,direction,search,platform,language}"
+    },
+    "offset": 0,
+    "limit": 999,
+    "total": 103,
+    "items": [
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5440",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5440",
+                "platform": "1",
+                "title-old": "AALST",
+                "title_nl": "Aalst",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5394",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5394",
+                "platform": "1",
+                "title-old": "AARSCHOT",
+                "title_nl": "Aarschot",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5408",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5408",
+                "platform": "1",
+                "title-old": "AMOW",
+                "title_nl": "AMOW",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "02 452 50 05",
+                "email": null,
+                "twitter": "pol_amow",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5421",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5421",
+                "platform": "1",
+                "title-old": "Assenede-Evergem",
+                "title_nl": "Assenede-Evergem",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "09 257 00 10",
+                "email": "politie@assenede-evergem.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5368",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5368",
+                "platform": "1",
+                "title-old": "Balen-Dessel-Mol",
+                "title_nl": "Balen-Dessel-Mol",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "014 33 37 00",
+                "email": "info@politiebalendesselmol.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5281",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5281",
+                "platform": "1",
+                "title-old": "BASSE-MEUSE",
+                "title_nl": "",
+                "title_fr": "Basse-Meuse",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5373",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5373",
+                "platform": "1",
+                "title-old": "BERINGEN/HAM /TESSENDERLO",
+                "title_nl": "Beringen-Ham-Tessenderlo",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5361",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5361",
+                "platform": "1",
+                "title-old": "BERLAAR/NIJLEN",
+                "title_nl": "Berlaar-Nijlen",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5436",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5436",
+                "platform": "1",
+                "title-old": "Berlare/Zele",
+                "title_nl": "Berlare/Zele",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "052 45 98 45",
+                "email": "zone.5436.management@police.be",
+                "twitter": "PZ5436",
+                "facebook": "PZBerlareZele",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5430",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5430",
+                "platform": "1",
+                "title-old": "Beveren",
+                "title_nl": "Beveren",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "03 750 14 11",
+                "email": "politie@beveren.be",
+                "twitter": "gemeenteBeveren",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5381",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5381",
+                "platform": "1",
+                "title-old": "BILZEN/ HOESELT/RIEMST",
+                "title_nl": "Bilzen-Hoeselt-Riemst",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5445",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5445",
+                "platform": "1",
+                "title-old": "BLANKENBERGE/ZUIENKERKE",
+                "title_nl": "Blankenberge/Zuienkerke",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5359",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5359",
+                "platform": "1",
+                "title-old": "BODUKAP",
+                "title_nl": "BODUKAP",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5334",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5334",
+                "platform": "1",
+                "title-old": "BOTTE DU HAINAUT",
+                "title_nl": "",
+                "title_fr": "Botte Du Hainuut",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5426",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5426",
+                "platform": "1",
+                "title-old": "BRAKEL",
+                "title_nl": "Brakel",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5352",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5352",
+                "platform": "1",
+                "title-old": "Brasschaat",
+                "title_nl": "Brasschaat",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "03 650 35 00",
+                "email": "info@politiebrasschaat.be",
+                "twitter": null,
+                "facebook": "pz5352",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5399",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5399",
+                "platform": "1",
+                "title-old": "BRT",
+                "title_nl": "BRT",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5444",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5444",
+                "platform": "1",
+                "title-old": "Brugge",
+                "title_nl": "Brugge",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "050 44 88 44",
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5339",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5339",
+                "platform": "1",
+                "title-old": "Brussel HOOFDSTAD Elsene",
+                "title_nl": "Brussel HOOFDSTAD Elsene",
+                "title_fr": "Brussel HOOFDSTAD Elsene",
+                "title_de": "",
+                "language": "3",
+                "phone_emergency": null,
+                "phone_information": "02 279 79 79",
+                "email": "info@polbru.be",
+                "twitter": "zpz_polbru",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5340",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5340",
+                "platform": "1",
+                "title-old": "Brussel-West",
+                "title_nl": "Brussel-West",
+                "title_fr": "Bruxelles-Ouest",
+                "title_de": "",
+                "language": "3",
+                "phone_emergency": null,
+                "phone_information": "02 412 12 12",
+                "email": "info@zpz5340.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5437",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5437",
+                "platform": "1",
+                "title-old": "BUGGENHOUT/LEBBEKE",
+                "title_nl": "Buggenhout-Lebbeke",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5330",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5330",
+                "platform": "1",
+                "title-old": "CHARLEROI",
+                "title_nl": "",
+                "title_fr": "Charleroi",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5323",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5323",
+                "platform": "1",
+                "title-old": "COLLINES",
+                "title_nl": "",
+                "title_fr": "Collines",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5296",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5296",
+                "platform": "1",
+                "title-old": "CONDROZ",
+                "title_nl": "",
+                "title_fr": "du Condroz",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5314",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5314",
+                "platform": "1",
+                "title-old": "CONDROZ-FAMENNE",
+                "title_nl": "",
+                "title_fr": "Condroz-Famenne",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5275",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5275",
+                "platform": "1",
+                "title-old": "D'OTTIGNIES LOUVAIN-LA-NEUVE",
+                "title_nl": "",
+                "title_fr": "Ottignies-Louvain-la-Neuve",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5439",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5439",
+                "platform": "1",
+                "title-old": "DENDERLEEUW/HAALTERT",
+                "title_nl": "Denderleeuw-Haaltert",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5311",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5311",
+                "platform": "1",
+                "title-old": "Des 3 Vallées",
+                "title_nl": "",
+                "title_fr": "Des 3 Vallées",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": "060 31 02 02",
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5406",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5406",
+                "platform": "1",
+                "title-old": "DILBEEK",
+                "title_nl": "Dilbeek",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5402",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5402",
+                "platform": "1",
+                "title-old": "DRUIVENSTREEK",
+                "title_nl": "Druivenstreek",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5417",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5417",
+                "platform": "1",
+                "title-old": "EEKLO/KAPRIJKE/SINT-LAUREINS",
+                "title_nl": "Meetjesland",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5441",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5441",
+                "platform": "1",
+                "title-old": "Erpe-Mere/Lede",
+                "title_nl": "Erpe-Mere/Lede",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "053 60 64 64",
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5282",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5282",
+                "platform": "1",
+                "title-old": "FLEMALLE",
+                "title_nl": "",
+                "title_fr": "Flemalle",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5384",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5384",
+                "platform": "1",
+                "title-old": "GAOZ",
+                "title_nl": "GAOZ",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5458",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5458",
+                "platform": "1",
+                "title-old": "GAVERS",
+                "title_nl": "Gavers",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5415",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5415",
+                "platform": "1",
+                "title-old": "Gent",
+                "title_nl": "Gent",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "09 266 61 11",
+                "email": null,
+                "twitter": "stadgent",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5428",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5428",
+                "platform": "1",
+                "title-old": "Geraardsbergen-Lierde",
+                "title_nl": "Geraardsbergen-Lierde",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "054 430 430",
+                "email": "info@politiegeraardsbergenlierde.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5455",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5455",
+                "platform": "1",
+                "title-old": "GRENSLEIE",
+                "title_nl": "Grensleie",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5410",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5410",
+                "platform": "1",
+                "title-old": "GRIMBERGEN",
+                "title_nl": "Grimbergen",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5395",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5395",
+                "platform": "1",
+                "title-old": "HAACHT",
+                "title_nl": "Haacht",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5389",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5389",
+                "platform": "1",
+                "title-old": "HAGELAND",
+                "title_nl": "Hageland",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5413",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5413",
+                "platform": "1",
+                "title-old": "HALLE",
+                "title_nl": "Halle",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5435",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5435",
+                "platform": "1",
+                "title-old": "HAMME-WAASMUNSTER",
+                "title_nl": "Hamme-Waasmunster",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5372",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5372",
+                "platform": "1",
+                "title-old": "HANO",
+                "title_nl": "HANO",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "011 44 08 20",
+                "email": "politie@hano.be",
+                "twitter": null,
+                "facebook": "politiezone.HANO",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5362",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5362",
+                "platform": "1",
+                "title-old": "HEIST",
+                "title_nl": "Heist",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5393",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5393",
+                "platform": "1",
+                "title-old": "HERKO",
+                "title_nl": "HERKO",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5315",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5315",
+                "platform": "1",
+                "title-old": "HERMETON ET HEURE",
+                "title_nl": "",
+                "title_fr": "Hermeton-et-Heure",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5447",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5447",
+                "platform": "1",
+                "title-old": "Het Houtsche",
+                "title_nl": "Het Houtsche",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "050 82 08 00",
+                "email": "politie@hethoutsche.be",
+                "twitter": "PZHetHoutsche",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5375",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5375",
+                "platform": "1",
+                "title-old": "HEUSDEN-ZOLDER",
+                "title_nl": "Heusden-Zolder",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5378",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5378",
+                "platform": "1",
+                "title-old": "HOUTHALEN- HELCHTEREN",
+                "title_nl": "Houthalen-Helchteren",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5379",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5379",
+                "platform": "1",
+                "title-old": "KANTON BORGLOON",
+                "title_nl": "Kantor Borgloon",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5412",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5412",
+                "platform": "1",
+                "title-old": "KASTZE",
+                "title_nl": "Kastze",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5367",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5367",
+                "platform": "1",
+                "title-old": "KEMPEN N-O",
+                "title_nl": "Kempen Noord-Oost",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5377",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5377",
+                "platform": "1",
+                "title-old": "KEMPENLAND",
+                "title_nl": "Kempenland",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5356",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5356",
+                "platform": "1",
+                "title-old": "KLEIN-BRABANT",
+                "title_nl": "Klein-Brabant",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5409",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5409",
+                "platform": "1",
+                "title-old": "KLM",
+                "title_nl": "KLM",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5452",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5452",
+                "platform": "1",
+                "title-old": "KOUTER",
+                "title_nl": "Kouter",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5433",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5433",
+                "platform": "1",
+                "title-old": "KRUIBEKE/TEMSE",
+                "title_nl": "Kruibeke-Temse",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5325",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5325",
+                "platform": "1",
+                "title-old": "La Louvière",
+                "title_nl": "",
+                "title_fr": "La Louvière",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": "064 27 00 00",
+                "email": "comm.loupol@skynet.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5269",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5269",
+                "platform": "1",
+                "title-old": "LA MAZERINE",
+                "title_nl": "",
+                "title_fr": "La Mazerine",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5853",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5853",
+                "platform": "1",
+                "title-old": "Lanaken-Maasmechelen",
+                "title_nl": "Lanaken-Maasmechelen",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5390",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5390",
+                "platform": "1",
+                "title-old": "LANDEN/LINTER/ZOUTLEEUW",
+                "title_nl": "Landen-Linder-Zoutleeuw",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5333",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5333",
+                "platform": "1",
+                "title-old": "LERMES",
+                "title_nl": "",
+                "title_fr": "Lermes",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5360",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5360",
+                "platform": "1",
+                "title-old": "LIER",
+                "title_nl": "Lier",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5434",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5434",
+                "platform": "1",
+                "title-old": "Lokeren",
+                "title_nl": "Lokeren",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "09 340 94 99",
+                "email": "politie@lokeren.be",
+                "twitter": "politielokeren",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5371",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5371",
+                "platform": "1",
+                "title-old": "LOMMEL",
+                "title_nl": "Lommel",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5422",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5422",
+                "platform": "1",
+                "title-old": "LoWaZoNe",
+                "title_nl": "LoWaZoNe",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "09 244 78 80",
+                "email": null,
+                "twitter": "PZLowazone",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5424",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5424",
+                "platform": "1",
+                "title-old": "MALDEGEM",
+                "title_nl": "Maldegem",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5342",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5342",
+                "platform": "1",
+                "title-old": "MARLOW",
+                "title_nl": "MARLOW",
+                "title_fr": "MARLOW",
+                "title_de": "",
+                "language": "3",
+                "phone_emergency": null,
+                "phone_information": "02 5 639 639",
+                "email": "info@police5342.irisnet.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5358",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5358",
+                "platform": "1",
+                "title-old": "MECHELEN",
+                "title_nl": "Mechelen",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5451",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5451",
+                "platform": "1",
+                "title-old": "MIDDELKERKE",
+                "title_nl": "Middelkerke",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5351",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5351",
+                "platform": "1",
+                "title-old": "MINOS",
+                "title_nl": "MINOS",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5324",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5324",
+                "platform": "1",
+                "title-old": "Mons-Quévy",
+                "title_nl": "",
+                "title_fr": "Mons-Quévy",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": "065 404 300",
+                "email": "info@policemonsquevy.be",
+                "twitter": "PoliceMonsquevy",
+                "facebook": "PoliceMonsQuevy",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5369",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5369",
+                "platform": "1",
+                "title-old": "NETELAND",
+                "title_nl": "Neteland",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5363",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5363",
+                "platform": "1",
+                "title-old": "NOORDERKEMPEN",
+                "title_nl": "Noorderkempen",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5449",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5449",
+                "platform": "1",
+                "title-old": "Oostende",
+                "title_nl": "Oostende",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "059 70 11 11",
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5304",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5304",
+                "platform": "1",
+                "title-old": "ORNEAU-MEHAIGNE",
+                "title_nl": "",
+                "title_fr": "Orneau-Mehaigne",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5405",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5405",
+                "platform": "1",
+                "title-old": "Pajottenland",
+                "title_nl": "Pajottenland",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "054 31 35 41",
+                "email": "info@politiepajottenland.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5288",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5288",
+                "platform": "1",
+                "title-old": "Pays De Herve",
+                "title_nl": "",
+                "title_fr": "Pays De Herve",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": "087 343 511",
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5460",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5460",
+                "platform": "1",
+                "title-old": "POLDER",
+                "title_nl": "Polder",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5416",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5416",
+                "platform": "1",
+                "title-old": "REGIO PUYENBROECK",
+                "title_nl": "Regio Puyenbroeck",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5448",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5448",
+                "platform": "1",
+                "title-old": "REGIO TIELT",
+                "title_nl": "Regio Tielt",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5418",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5418",
+                "platform": "1",
+                "title-old": "RHODE EN SCHELDE",
+                "title_nl": "Rhode en Schelde",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5419",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5419",
+                "platform": "1",
+                "title-old": "SCHELDE - LEIE",
+                "title_nl": "Schelde-Leie",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5353",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5353",
+                "platform": "1",
+                "title-old": "SCHOTEN",
+                "title_nl": "Schoten",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5432",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5432",
+                "platform": "1",
+                "title-old": "SINT-NIKLAAS",
+                "title_nl": "Sint-Niklaas",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5414",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5414",
+                "platform": "1",
+                "title-old": "Sint-Pieters-Leeuw",
+                "title_nl": "Sint-Pieters-Leeuw",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "02 371 22 28",
+                "email": null,
+                "twitter": "Politieleeuw",
+                "facebook": "politiezonesintpietersleeuw",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5459",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5459",
+                "platform": "1",
+                "title-old": "Spoorkin",
+                "title_nl": "Spoorkin",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "058 33 22 11",
+                "email": "secretariaat@pzspoorkin.be",
+                "twitter": "PZSpoorkin",
+                "facebook": "Spoorkin",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5431",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5431",
+                "platform": "1",
+                "title-old": "STEKENE/SINT-GILLIS-WAAS",
+                "title_nl": "Stekene/Sint-Gillis-Waas",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5298",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5298",
+                "platform": "1",
+                "title-old": "SUD-LUXEMBOURG",
+                "title_nl": "",
+                "title_fr": "Sud-Luxembourg",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5398",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5398",
+                "platform": "1",
+                "title-old": "Tervuren",
+                "title_nl": "Tervuren",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "02 767 30 00",
+                "email": "politie@tervuren.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5392",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5392",
+                "platform": "1",
+                "title-old": "TIENEN/HOEGAARDEN",
+                "title_nl": "Tienen-Hoegaarden",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5380",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5380",
+                "platform": "1",
+                "title-old": "TONGEREN/ HERSTAPPE",
+                "title_nl": "Tongeren-Herstappe",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5336",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5336",
+                "platform": "1",
+                "title-old": "TRIEUX",
+                "title_nl": "",
+                "title_fr": "Trieux",
+                "title_de": "",
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5355",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5355",
+                "platform": "1",
+                "title-old": "Voorkempen",
+                "title_nl": "Voorkempen",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "03 385 16 16",
+                "email": "info@politie-voorkempen.be",
+                "twitter": "PZVoorkempen",
+                "facebook": "lokalepolitievoorkempen",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5374",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5374",
+                "platform": "1",
+                "title-old": "WEST-LIMBURG",
+                "title_nl": "West-Limburg",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5461",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5461",
+                "platform": "1",
+                "title-old": "Westkust",
+                "title_nl": "Westkust",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "058 533 000",
+                "email": "info@politiewestkust.be",
+                "twitter": "pzwestkust",
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5438",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5438",
+                "platform": "1",
+                "title-old": "WETTEREN/LAARNE/WICHELEN",
+                "title_nl": "Wetteren-Laarne-Wichelen",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5401",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5401",
+                "platform": "1",
+                "title-old": "WOKRA",
+                "title_nl": "WOKRA",
+                "title_fr": "WOKRA",
+                "title_de": "",
+                "language": "3",
+                "phone_emergency": null,
+                "phone_information": "02 766 18 18",
+                "email": "politie@wokra.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5400",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5400",
+                "platform": "1",
+                "title-old": "ZAVENTEM",
+                "title_nl": "Zaventem",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5429",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5429",
+                "platform": "1",
+                "title-old": "ZOTTEGEM/HERZELE/ST L HOUTEM",
+                "title_nl": "Zottegem/Herzele/Sint-Lievens-Houtem",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5341",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5341",
+                "platform": "1",
+                "title-old": "ZUID / MIDI",
+                "title_nl": "Zuid",
+                "title_fr": "Midi",
+                "title_de": "",
+                "language": "3",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://police.dev/5388.json?view=zone&id=5365",
+            "url": {
+                "type": "application/json",
+                "template": "http://police.dev/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5365",
+                "platform": "1",
+                "title-old": "ZUIDERKEMPEN",
+                "title_nl": "Zuiderkempen",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": null,
+                "email": null,
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        }
+    ],
+    "queries": []
+}
