@@ -1,19 +1,19 @@
 {
     "version": "1.0",
-    "href": "http://police.dev/5388.json?limit=999&sort=title-old&platform=1&view=zones&offset=0&direction=asc",
+    "href": "http://www.lokalepolitie.be/5388.json?limit=999&sort=title-old&platform=1&view=zones&offset=0&direction=asc",
     "url": {
         "type": "application/json",
-        "template": "http://police.dev/5388.json?{&limit,offset,sort,direction,search,platform,language}"
+        "template": "http://www.lokalepolitie.be/5388.json?{&limit,offset,sort,direction,search,platform,language}"
     },
     "offset": 0,
     "limit": 999,
-    "total": 103,
+    "total": 102,
     "items": [
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5440",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5440",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5440",
@@ -37,10 +37,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5394",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5394",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5394",
@@ -64,10 +64,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5408",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5408",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5408",
@@ -91,10 +91,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5421",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5421",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5421",
@@ -118,10 +118,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5368",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5368",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5368",
@@ -145,10 +145,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5281",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5281",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5281",
@@ -172,10 +172,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5373",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5373",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5373",
@@ -199,10 +199,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5361",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5361",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5361",
@@ -226,10 +226,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5436",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5436",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5436",
@@ -253,37 +253,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5430",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5381",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5430",
-                "platform": "1",
-                "title-old": "Beveren",
-                "title_nl": "Beveren",
-                "title_fr": "",
-                "title_de": "",
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": "03 750 14 11",
-                "email": "politie@beveren.be",
-                "twitter": "gemeenteBeveren",
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
-            "href": "http://police.dev/5388.json?view=zone&id=5381",
-            "url": {
-                "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5381",
@@ -307,10 +280,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5445",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5445",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5445",
@@ -334,10 +307,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5359",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5359",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5359",
@@ -361,10 +334,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5334",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5334",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5334",
@@ -388,10 +361,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5426",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5426",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5426",
@@ -415,10 +388,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5352",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5352",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5352",
@@ -442,10 +415,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5399",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5399",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5399",
@@ -469,10 +442,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5444",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5444",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5444",
@@ -496,10 +469,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5339",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5339",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5339",
@@ -523,10 +496,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5340",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5340",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5340",
@@ -550,10 +523,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5437",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5437",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5437",
@@ -577,10 +550,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5330",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5330",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5330",
@@ -604,10 +577,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5323",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5323",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5323",
@@ -631,10 +604,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5296",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5296",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5296",
@@ -658,10 +631,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5314",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5314",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5314",
@@ -685,10 +658,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5275",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5275",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5275",
@@ -712,10 +685,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5439",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5439",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5439",
@@ -739,10 +712,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5311",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5311",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5311",
@@ -766,10 +739,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5406",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5406",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5406",
@@ -793,10 +766,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5402",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5402",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5402",
@@ -820,10 +793,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5417",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5417",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5417",
@@ -847,10 +820,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5441",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5441",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5441",
@@ -874,10 +847,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5282",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5282",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5282",
@@ -901,10 +874,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5384",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5384",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5384",
@@ -928,10 +901,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5458",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5458",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5458",
@@ -955,10 +928,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5415",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5415",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5415",
@@ -982,10 +955,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5428",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5428",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5428",
@@ -1009,10 +982,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5455",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5455",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5455",
@@ -1036,10 +1009,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5410",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5410",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5410",
@@ -1063,10 +1036,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5395",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5395",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5395",
@@ -1090,10 +1063,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5389",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5389",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5389",
@@ -1117,10 +1090,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5413",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5413",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5413",
@@ -1144,10 +1117,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5435",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5435",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5435",
@@ -1171,10 +1144,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5372",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5372",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5372",
@@ -1198,10 +1171,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5362",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5362",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5362",
@@ -1225,10 +1198,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5393",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5393",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5393",
@@ -1252,10 +1225,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5315",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5315",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5315",
@@ -1279,10 +1252,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5447",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5447",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5447",
@@ -1306,10 +1279,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5375",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5375",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5375",
@@ -1333,10 +1306,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5378",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5378",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5378",
@@ -1360,10 +1333,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5379",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5379",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5379",
@@ -1387,10 +1360,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5412",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5412",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5412",
@@ -1414,10 +1387,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5367",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5367",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5367",
@@ -1441,10 +1414,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5377",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5377",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5377",
@@ -1468,10 +1441,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5356",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5356",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5356",
@@ -1495,10 +1468,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5409",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5409",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5409",
@@ -1522,10 +1495,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5452",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5452",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5452",
@@ -1549,10 +1522,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5433",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5433",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5433",
@@ -1576,10 +1549,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5325",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5325",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5325",
@@ -1603,10 +1576,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5269",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5269",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5269",
@@ -1630,10 +1603,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5853",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5853",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5853",
@@ -1657,10 +1630,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5390",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5390",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5390",
@@ -1684,10 +1657,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5333",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5333",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5333",
@@ -1711,10 +1684,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5360",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5360",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5360",
@@ -1738,10 +1711,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5434",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5434",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5434",
@@ -1765,10 +1738,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5371",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5371",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5371",
@@ -1792,10 +1765,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5422",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5422",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5422",
@@ -1819,10 +1792,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5424",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5424",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5424",
@@ -1846,10 +1819,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5342",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5342",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5342",
@@ -1873,10 +1846,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5358",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5358",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5358",
@@ -1900,10 +1873,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5451",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5451",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5451",
@@ -1927,10 +1900,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5351",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5351",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5351",
@@ -1954,10 +1927,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5324",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5324",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5324",
@@ -1981,10 +1954,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5369",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5369",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5369",
@@ -2008,10 +1981,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5363",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5363",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5363",
@@ -2035,10 +2008,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5449",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5449",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5449",
@@ -2062,10 +2035,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5304",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5304",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5304",
@@ -2089,10 +2062,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5405",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5405",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5405",
@@ -2116,10 +2089,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5288",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5288",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5288",
@@ -2143,10 +2116,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5460",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5460",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5460",
@@ -2170,10 +2143,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5416",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5416",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5416",
@@ -2197,10 +2170,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5448",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5448",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5448",
@@ -2224,10 +2197,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5418",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5418",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5418",
@@ -2251,10 +2224,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5419",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5419",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5419",
@@ -2278,10 +2251,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5353",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5353",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5353",
@@ -2305,10 +2278,37 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5432",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5431",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5431",
+                "platform": "1",
+                "title-old": "Sint-Gillis-Waas/Stekene",
+                "title_nl": "Sint-Gillis-Waas/Stekene",
+                "title_fr": "",
+                "title_de": "",
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "03 470 27 30",
+                "email": "politie@sint-gillis-waas-stekene.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5432",
+            "url": {
+                "type": "application/json",
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5432",
@@ -2332,10 +2332,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5414",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5414",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5414",
@@ -2359,10 +2359,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5459",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5459",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5459",
@@ -2386,37 +2386,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5431",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5298",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5431",
-                "platform": "1",
-                "title-old": "STEKENE/SINT-GILLIS-WAAS",
-                "title_nl": "Stekene/Sint-Gillis-Waas",
-                "title_fr": "",
-                "title_de": "",
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": null,
-                "email": null,
-                "twitter": null,
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
-            "href": "http://police.dev/5388.json?view=zone&id=5298",
-            "url": {
-                "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5298",
@@ -2440,10 +2413,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5398",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5398",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5398",
@@ -2467,10 +2440,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5392",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5392",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5392",
@@ -2494,10 +2467,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5380",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5380",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5380",
@@ -2521,10 +2494,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5336",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5336",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5336",
@@ -2548,10 +2521,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5355",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5355",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5355",
@@ -2575,10 +2548,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5374",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5374",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5374",
@@ -2602,10 +2575,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5461",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5461",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5461",
@@ -2629,10 +2602,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5438",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5438",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5438",
@@ -2656,10 +2629,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5401",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5401",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5401",
@@ -2683,10 +2656,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5400",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5400",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5400",
@@ -2710,10 +2683,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5429",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5429",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5429",
@@ -2737,10 +2710,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5341",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5341",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5341",
@@ -2764,10 +2737,10 @@
             }
         },
         {
-            "href": "http://police.dev/5388.json?view=zone&id=5365",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5365",
             "url": {
                 "type": "application/json",
-                "template": "http://police.dev/5388.json?view=zone?{&id}"
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
                 "id": "5365",
