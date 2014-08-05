@@ -20,7 +20,8 @@ index: 8
 1. Add files
 2. Start upload
 
-Choose a proper filename before uploading. Avoid spaces in filenames, dashes (-) and underscores (_) will be replaced by a space in the site (see next step).
+Choose a proper filename before uploading. **Avoid spaces** in filenames, instead use dashes (-) or underscores (_) they
+ will be replaced by a space in the site (see following two screenshots).
 
 <a href="/images/documentation/files-admin-files-upload.png" data-gallery="enabled">
 ![](/images/documentation/files-admin-files-upload.png)
