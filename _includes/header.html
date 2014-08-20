@@ -8,6 +8,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name=”mobile-web-app-capable” content=”yes” />
     <title>{{ page.title }}{% if page.title != .blank %} - {% endif %}{{ site.name }}</title>
+    {% if page.excerpt %}<meta property="description" content="{{page.excerpt | strip_html | strip_newlines }}"/>{% endif %}
     <meta property="og:url" content="{{site.url}}/{{page.url}}"/>
     <meta property="og:title" content="{{ page.title }}{% if page.title != .blank %} - {% endif %}{{ site.name }}"/>
     {% if page.excerpt %}<meta property="og:description" content="{{page.excerpt | strip_html | strip_newlines }}"/>{% endif %}

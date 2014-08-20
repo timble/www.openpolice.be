@@ -7,9 +7,10 @@ contents:
     - Strategy
     - Methodology
     - Community
+    - Contact
 ---
 
-We, [Timble](http://www.timble.net), are a team hired by the Belgian Police to built an Open Government Platform for the internet websites of the [Belgian Local Police](http://en.wikipedia.org/wiki/Law_enforcement_in_Belgium#Local_Police).
+We, [Timble](http://www.timble.net), are a team hired by the Belgian Police to built an **open government platform** for the internet websites of the [Belgian Local Police](http://en.wikipedia.org/wiki/Law_enforcement_in_Belgium#Local_Police).
 
 ## Task
 
@@ -43,3 +44,7 @@ Alongside the actual development of the project, we also actively work to encour
 One of the ways this is done is by building and maintaining an active and open community of developers. Anyone should be able to contribute to the architecture, both inside and outside of the Police boundaries.
 
 All the source code for the project is hosted on a [public GitHub repository](https://github.com/belgianpolice) which allows other developers to learn from, re-use and contribute to the development of the platform.
+
+## Contact
+
+Wanna get in touch? Drop us an [email](mailto:belgianpolice@gmail.com).
