@@ -1,8 +1,7 @@
 ---
-layout: documentation
-title: 12. Branding
-rooturl: documentation
-index: 12
+layout: guides
+title: Digital identity
+rooturl: guides
 ---
 
 These guidelines provide you with the design specification to customize the [banner](#website-banner) on your website and guidance to improve your digital identity across [social media](#social-media) channels.

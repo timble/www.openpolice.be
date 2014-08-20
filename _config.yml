@@ -13,10 +13,10 @@ name: Belgian Police Internet Platform
 navigation:
 - text: Blog
   url: blog
-- text: Documentation
+- text: Docs
   url: documentation
-- text: Styleguide
-  url: styleguide
+- text: Guides
+  url: guides
 - text: Demo
   url: demo
 - text: About
@@ -28,6 +28,8 @@ collections:
   documentation:
     output: true
   about:
+    output: true
+  guides:
     output: true
 
 # Code highlighting

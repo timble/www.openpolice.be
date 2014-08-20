@@ -1,0 +1,39 @@
+{% include header.html %}
+
+<div class="container container__breadcrumb">
+    <ul class="breadcrumb">
+        <li><a href="/" class="pathway">Home</a></li>
+        <span class="divider">›</span>
+        {% if page.title == 'Guides' %}
+        <li>Guides</li>
+        {% else %}
+        <li><a href="/guides" class="pathway">Guides</a></li>
+        <span class="divider">›</span>
+        <li>{{ page.title }}</li>
+        {% endif %}
+    </ul>
+</div>
+
+<div class="container container__content">
+    <aside class="sidebar">
+        <div class="sidebar__element">
+            <ul class="nav nav--list">
+                {% for post in site.guides | sort: 'index' %}
+                {% assign current = nil %}
+                {% if post.url == page.url %}
+                {% assign current = ' class="active"' %}
+                {% endif %}
+                {% if post.url != '/guides/index.html' %}
+                <li{{current}}><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+        </div>
+    </aside>
+    <div class="component">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </div>
+</div>
+
+{% include footer.html %}
