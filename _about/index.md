@@ -10,7 +10,7 @@ contents:
     - Contact
 ---
 
-We, [Timble](http://www.timble.net), are a team hired by the Belgian Police to built an **open government platform** for the internet websites of the [Belgian Local Police](http://en.wikipedia.org/wiki/Law_enforcement_in_Belgium#Local_Police).
+We, [Timble](http://www.timble.net), are a team hired by the Belgian Police to build an **open government platform** for the internet websites of the [Belgian Local Police](http://en.wikipedia.org/wiki/Law_enforcement_in_Belgium#Local_Police).
 
 ## Task
 
