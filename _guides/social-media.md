@@ -75,4 +75,4 @@ When communicating with people on Twitter it’s important that they can trust t
 
 Make sure your profiles are all filled out and kept updated.
 
-Make sure your image pics and backgrounds are consistent. Check our [Digital Identiy](/guides/digital-identity.html) guide on this matter.
+Make sure your image pics and backgrounds are consistent. Check our [Digital Identiy](/guides/digital-identity) guide on this matter.
