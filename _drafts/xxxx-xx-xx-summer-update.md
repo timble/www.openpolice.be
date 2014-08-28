@@ -23,7 +23,7 @@ Our newly added [guides](http://www.openpolice.be/guides/) are a valuable resour
 We specifically wanna thank the [Government Digital Service team](https://gds.blog.gov.uk/) of GOV.UK for providing an awesome public [style guide](https://www.gov.uk/design-principles/style-guide) and [social media playbook](https://gdssocialmedia.blog.gov.uk/playbook/#the-case-for-social-media).
 
 ## Streets
-We now update the streets in your website weekly using the [CRAB database](https://www.agiv.be/producten/crab) provided by the [AGIV](https://www.agiv.be/).
+We now update the streets in your website weekly, on wednesday evening, using the [CRAB database](https://www.agiv.be/producten/crab) provided by the [AGIV](https://www.agiv.be/).
 
 Whenever a city adds or changes a street to the AGIV database these changes will be available in your site within a week.
 
