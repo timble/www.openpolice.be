@@ -15,15 +15,15 @@ rooturl: home
             {% when "1" %}
             {% capture prefix %}Politie{% endcapture %}
             {% capture domain %}lokalepolitie{% endcapture %}
-            {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
+            {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
             {% when "2" %}
             {% capture prefix %}Police{% endcapture %}
             {% capture domain %}policelocale{% endcapture %}
-            {% capture title %}{{ zone.data.title_fr }}{% endcapture %}
+            {% capture title %}{{ zone.data.titles.fr }}{% endcapture %}
             {% when "3" %}
             {% capture prefix %}Politie{% endcapture %}
             {% capture domain %}lokalepolitie{% endcapture %}
-            {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
+            {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
             {% endcase %}
 
             {% if zone.data.platform == "1" %}
@@ -38,15 +38,15 @@ rooturl: home
             {% when "1" %}
             {% capture prefix %}Politie{% endcapture %}
             {% capture domain %}lokalepolitie{% endcapture %}
-            {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
+            {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
             {% when "2" %}
             {% capture prefix %}Police{% endcapture %}
             {% capture domain %}policelocale{% endcapture %}
-            {% capture title %}{{ zone.data.title_fr }}{% endcapture %}
+            {% capture title %}{{ zone.data.titles.fr }}{% endcapture %}
             {% when "3" %}
             {% capture prefix %}Politie{% endcapture %}
             {% capture domain %}lokalepolitie{% endcapture %}
-            {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
+            {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
             {% endcase %}
 
             {% if zone.data.platform == "2" %}

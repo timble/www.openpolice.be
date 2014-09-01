@@ -26,15 +26,15 @@ excerpt: An open government platform for the Belgian Local Police.
                 {% when "1" %}
                 {% capture prefix %}Politie{% endcapture %}
                 {% capture domain %}lokalepolitie{% endcapture %}
-                {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
+                {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
                 {% when "2" %}
                 {% capture prefix %}Police{% endcapture %}
                 {% capture domain %}policelocale{% endcapture %}
-                {% capture title %}{{ zone.data.title_fr }}{% endcapture %}
+                {% capture title %}{{ zone.data.titles.fr }}{% endcapture %}
                 {% when "3" %}
                 {% capture prefix %}Politie{% endcapture %}
                 {% capture domain %}lokalepolitie{% endcapture %}
-                {% capture title %}{{ zone.data.title_nl }}{% endcapture %}
+                {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
                 {% endcase %}
 
                 <li><a href="http://www.{{ domain }}.be/{{ zone.data.id }}">{{ prefix }} {{ title }}</a></li>
