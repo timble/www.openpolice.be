@@ -7,7 +7,7 @@ image: 2014/2014-03-21/menu-button.jpg
 rooturl: blog
 ---
 
-Even during the summer we keep the pace high. Another [release](https://github.com/belgianpolice/internet-platform/releases/tag/v2.6) with a mix of bug fixes and new features has just been closed. We have also added [guides](/guides/) to help you write good content for the web.
+Even during the summer we keep the pace high. Another [release](https://github.com/belgianpolice/internet-platform/releases/tag/v2.6) with a mix of bug fixes and new features has just been closed. We have also added [guides](http://www.openpolice.be/guides/) to help you write good content for the web.
 
 A few of the most important changes:
 
