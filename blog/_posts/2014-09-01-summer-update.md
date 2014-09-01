@@ -19,12 +19,12 @@ A few of the most important changes:
 A complete changelog can be found on [GitHub](https://github.com/belgianpolice/internet-platform/releases/tag/v2.6).
 
 ## Guides
-Our newly added [guides](/guides/) are a valuable resource for anyone involved in creating content for the web. They will help you make all content accessible, readable and understandable:
+Our newly added [guides](http://www.openpolice.be/guides/) are a valuable resource for anyone involved in creating content for the web. They will help you make all content accessible, readable and understandable:
 
-* [Content styles](/guides/content-styles.html)
-* [Digital identity](/guides/digital-identity.html)
-* [Social media](/guides/social-media.html)
-* [Writing for the web](/guides/writing-for-the-web.html)
+* [Content styles](http://www.openpolice.be/guides/content-styles.html)
+* [Digital identity](http://www.openpolice.be/guides/digital-identity.html)
+* [Social media](http://www.openpolice.be/guides/social-media.html)
+* [Writing for the web](http://www.openpolice.be/guides/writing-for-the-web.html)
 
 We specifically wanna thank the [Government Digital Service team](https://gds.blog.gov.uk/) of GOV.UK for providing an awesome public [style guide](https://www.gov.uk/design-principles/style-guide) and [social media playbook](https://gdssocialmedia.blog.gov.uk/playbook/#the-case-for-social-media).
 
