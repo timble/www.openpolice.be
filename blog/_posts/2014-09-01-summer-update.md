@@ -40,4 +40,4 @@ We are not the only ones who have been busy during the summer. Seven zones have 
 * [Police SECOVA](http://www.policelocale.be/5283)
 
 ## Moved to openpolice.be
-We have moved our website to a new location: [www.openpolice.be](http://www.openpolice.be). If you are subscribed to our RSS feed make sure to update the [RSS link](/blog.xml).
+We have moved our website to a new location: [www.openpolice.be](http://www.openpolice.be). If you are subscribed to our RSS feed make sure to update the [RSS link](http://www.openpolice.be/blog.xml).
