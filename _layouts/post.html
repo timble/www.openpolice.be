@@ -20,8 +20,8 @@
                 </time>
             </header>
             {% if page.image %}
-            <a class="article__thumbnail" href="{{site.url}}/images/blog/{{page.image}}" data-gallery="enabled">
-                <img width="400" height="300" itemprop="image" src="{{site.url}}/images/blog/{{page.image}}"{% if page.image %} alt="{{page.imagealt}}"{% endif %}>
+            <a class="article__thumbnail" href="/images/blog/{{page.image}}" data-gallery="enabled">
+                <img width="400" height="300" itemprop="image" src="/images/blog/{{page.image}}"{% if page.image %} alt="{{page.imagealt}}"{% endif %}>
             </a>
             {% endif %}
             <div itemprop="articleBody">
@@ -39,7 +39,7 @@
                 <div class="media">
                     {% if page.cat_previous.image %}
                     <a class="thumbnail media__object" href="{{ page.cat_previous.url }}">
-                        <img width="64" height="48" src="{{site.url}}/images/blog/{{ page.cat_previous.image }}">
+                        <img width="64" height="48" src="/images/blog/{{ page.cat_previous.image }}">
                     </a>
                     {% endif %}
                     <div class="media__body">
@@ -55,7 +55,7 @@
                 <div class="media">
                     {% if page.cat_next.image %}
                     <a class="thumbnail media__object media__object--rev" href="{{ page.cat_next.url }}">
-                        <img width="64" height="48" src="{{site.url}}/images/blog/{{ page.cat_next.image }}">
+                        <img width="64" height="48" src="/images/blog/{{ page.cat_next.image }}">
                     </a>
                     {% endif %}
                     <div class="media__body">
