@@ -1,0 +1,16 @@
+{
+  "name": "openpolice",
+  "version": "0.0.1",
+  "description": "An open government platform for the Belgian Local Police.",
+  "author": "Timble",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-concurrent": "^1.0.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-shell": "^1.1.1",
+    "load-grunt-tasks": "^0.6.0",
+    "time-grunt": "^1.0.0"
+  }
+}
