@@ -14,11 +14,11 @@ index: 2
 ## Create a news article
 
 1. Title
-2. Slug, URL friendly version of the post title - automatically generated
+2. Slug, URL friendly version of the title - automatically generated
 3. Text editor, notice the read more button to separate intro and full text
 4. Published state
 5. Sticky state, feature this article on the homepage (latest article by default)
-6. Created on date
+6. Publish on, publish on a specific date
 7. Attachments, images (the starred image will be the leading image) & documents
 
 <a href="/images/documentation/news-admin-article.png" data-gallery="enabled">
