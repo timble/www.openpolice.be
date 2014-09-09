@@ -69,11 +69,11 @@
                     <div id="navigation" class="navbar">
                         <nav role="navigation">
                             <ul class="nav">
-                                {% for link in site.navigation %}
+                                {% for item in site.data.pages.header %}
                                 {% assign current = nil %}
-                                {% if link.url == page.rooturl or link.url == page.category %}{% assign current = 'active' %}{% endif %}
+                                {% if page.url contains item.url %}{% assign current = ' active' %}{% endif %}
                                 <li class="{{ current }}" role="menuitem">
-                                    <a class="{{ current }}" href="/{{ link.url }}/">{{ link.text }}</a>
+                                    <a class="{{ current }}" href="{{ item.url }}">{{ item.text }}</a>
                                 </li>
                                 {% endfor %}
                             </ul>

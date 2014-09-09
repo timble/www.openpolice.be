@@ -1,0 +1,38 @@
+{
+    "header": [
+        {
+            "text": "Blog",
+            "url": "/blog"
+        },
+        {
+            "text": "Features",
+            "url": "/features"
+        },
+        {
+            "text": "Docs",
+            "url": "/documentation"
+        },
+        {
+            "text": "Guides",
+            "url": "/guides"
+        },
+        {
+            "text": "Demo",
+            "url": "/demo"
+        },
+        {
+            "text": "About",
+            "url": "about"
+        }
+    ],
+    "footer": [
+        {
+            "text": "RSS",
+            "url": "/blog.xml"
+        },
+        {
+            "text": "Styleguide",
+            "url": "/styleguide"
+        }
+    ]
+}

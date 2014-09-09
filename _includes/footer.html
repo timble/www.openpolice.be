@@ -15,7 +15,11 @@
 <div id="copyright">
     <div class="container container__copyright">
         <div class="copyright--left">
-            <a href="/blog.xml">RSS</a> | <a href="/styleguide">Styleguide</a>
+            {% for item in site.data.pages.footer %}
+            {% assign current = nil %}
+            {% if page.url contains item.url %}{% assign current = ' active' %}{% endif %}
+            <a class="{{ current }}" href="{{ item.url }}">{{ item.text }}</a>{% if forloop.last %}{% else %} | {% endif %}
+            {% endfor %}
         </div>
         <div class="copyright--right">
             By <a href="http://www.timble.net">Timble</a>

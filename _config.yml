@@ -7,20 +7,6 @@ paginate_path: "blog/page:num"
 # Site info
 name: Belgian Police Internet Platform
 url: http://www.openpolice.be
-
-
-# Navigation
-navigation:
-- text: Blog
-  url: blog
-- text: Docs
-  url: documentation
-- text: Guides
-  url: guides
-- text: Demo
-  url: demo
-- text: About
-  url: about
   
 
 # Collections
