@@ -1,6 +1,6 @@
 ---
 title: Localization
-image: images/features/temp.jpg
+image: images/features/localization.jpg
 ---
 
 Support for multiple languages.
