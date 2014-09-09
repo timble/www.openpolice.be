@@ -27,16 +27,16 @@ module.exports = function(grunt) {
 
 
         // Uglify
-//        uglify: {
-//            options: {
-//                soureMap: true
-//            },
-//            build: {
-//                files: {
-//                    'js/scripts.js': ['_scripts/apollo.js', '_scripts/*.js']
-//                }
-//            }
-//        },
+        uglify: {
+            options: {
+                soureMap: true
+            },
+            build: {
+                files: {
+                    'js/scripts.js': ['_scripts/libraries/jquery-1.10.2.min.js', '_scripts/libraries/jquery.magnific-popup.min.js', '_scripts/libraries/jquery.githubRepoWidget.min.js', '_scripts/apollo.min.js', '_scripts/*.js']
+                }
+            }
+        },
 
 
         // Shell commands
@@ -63,17 +63,17 @@ module.exports = function(grunt) {
                     atBegin: true
                 }
             },
-//            uglify: {
-//                files: [
-//                    // Including
-//                    '_scripts/*.js'
-//                ],
-//                tasks: ['uglify'], // Compile
-//                options: {
-//                    interrupt: false,
-//                    atBegin: true
-//                }
-//            },
+            uglify: {
+                files: [
+                    // Including
+                    '_scripts/*.js'
+                ],
+                tasks: ['uglify'], // Compile
+                options: {
+                    interrupt: false,
+                    atBegin: true
+                }
+            },
             jekyll: {
                 files: [
                     // Including
