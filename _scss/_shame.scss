@@ -18,3 +18,36 @@
   display: inline-block;
   width: 100px;
 }
+
+.grid_container {
+  @include cf;
+}
+
+.grid__item {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  @media screen and (min-width: 600px) {
+    float: left;
+    width: 33.3333333333333%;
+    padding: 0 15px;
+
+    &:nth-child(3n) {
+      padding-right: 0;
+    }
+
+    &:nth-child(3n+1) {
+      padding-left: 0;
+      clear: left;
+    }
+  }
+}
+
+.grid__item__image {
+  display: block;
+  border: 1px solid #ccc;
+  padding: 1px;
+  background: #fff;
+  margin-bottom: 1em;
+}

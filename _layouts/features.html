@@ -19,20 +19,8 @@ layout: compress
 </div>
 
 <div class="container container__content">
-    <aside class="sidebar">
-        <div class="sidebar__element">
-            <h3 style="margin-left: 10px">Contents</h3>
-            <ul class="nav nav--list">
-                {% for content in page.contents %}
-                <li><a href="#{{ content | downcase }}">{{ content }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-    </aside>
-    <div class="component">
-        <h1>{{ page.title }}</h1>
-        {{ content }}
-    </div>
+    <h1>{{ page.title }}</h1>
+    {{ content }}
 </div>
 
 {% include footer.html %}

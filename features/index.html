@@ -2,9 +2,19 @@
 layout: features
 rooturl: features
 excerpt: Features for the open government platform for the Belgian Local Police.
+title: Features
 ---
 
+<div class="grid_container">
 {% for feature in site.features %}
-<h1 role="heading">{{ feature.title }}</h1>
-{{ feature.output }}
+    <div class="grid__item">
+        <div class="grid__item__image">
+            <img src="/{{ feature.image }}" />
+        </div>
+        <div class="grid__item__content">
+            <h1 class="grid__item__title" role="heading">{{ feature.title }}</h1>
+            {{ feature.output }}
+        </div>
+    </div>
 {% endfor %}
+</div>
