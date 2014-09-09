@@ -17,6 +17,8 @@ collections:
     output: true
   guides:
     output: true
+  features:
+    output: false
 
 # Code highlighting
 highlighter: pygments

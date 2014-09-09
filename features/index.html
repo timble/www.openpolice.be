@@ -4,4 +4,7 @@ rooturl: features
 excerpt: Features for the open government platform for the Belgian Local Police.
 ---
 
-Test
+{% for feature in site.features %}
+<h1 role="heading">{{ feature.title }}</h1>
+{{ feature.output }}
+{% endfor %}
