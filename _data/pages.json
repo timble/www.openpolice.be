@@ -22,7 +22,7 @@
         },
         {
             "text": "About",
-            "url": "about"
+            "url": "/about"
         }
     ],
     "footer": [
