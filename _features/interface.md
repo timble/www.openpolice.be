@@ -1,5 +1,5 @@
 ---
-title: Simple user interface
+title: Interface
 image: images/features/interface.jpg
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Editor
+title: Content editor
 image: images/features/editor.jpg
 ---
 
