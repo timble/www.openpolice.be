@@ -21,4 +21,4 @@ Now select the future date and time when you want the article to publish itself.
 
 If you’ve scheduled an article to be published in the future, but changed your mind and want to publish it immediately, head back to the article editor.
 
-In the Publish module, remove the 'Publish on' date and set mark the article as 'Published'.
+In the Publish module, remove the 'Publish on' date and mark the article as 'Published'.
