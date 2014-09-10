@@ -28,29 +28,6 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   margin-bottom: 40px;
-
-  @media screen and (min-width: 386px) and (max-width: 599px) {
-    float: left;
-    width: 47%;
-    margin-left: 6%;
-
-    &:nth-child(2n+1) {
-      margin-left: 0;
-      clear: left;
-    }
-  }
-
-  @media screen and (min-width: 600px) {
-    float: left;
-    width: 30%;
-    margin-left: 5%;
-    clear: none;
-
-    &:nth-child(3n+1) {
-      margin-left: 0;
-      clear: left;
-    }
-  }
 }
 
 .grid__item__image {

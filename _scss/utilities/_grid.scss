@@ -1,0 +1,20 @@
+$gutter-width: 3em;
+$grid-padding: 25px;
+
+// Susy grid
+$susy: (
+  gutters: $gutter-width/4em,
+  gutter-position: before
+);
+
+@media screen and (min-width: 600px) {
+  .grid__item {
+    @include gallery(6 of 12);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid__item {
+    @include gallery(4 of 12);
+  }
+}

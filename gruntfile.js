@@ -14,6 +14,7 @@ module.exports = function(grunt) {
         sass: {
             dest: {
                 options: {
+                    require: ['susy'],
                     sourcemap: true,
                     style: 'compressed'
                 },
