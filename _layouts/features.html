@@ -8,13 +8,7 @@ layout: compress
     <ul class="breadcrumb">
         <li><a href="/" class="pathway">Home</a></li>
         <span class="divider">›</span>
-        {% if page.title == 'About' %}
-        <li>About</li>
-        {% else %}
-        <li><a href="/about" class="pathway">About</a></li>
-        <span class="divider">›</span>
         <li>{{ page.title }}</li>
-        {% endif %}
     </ul>
 </div>
 
