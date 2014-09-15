@@ -2146,30 +2146,6 @@
             }
         },
         {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5449",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5449",
-                "platform": "1",
-                "titles": {"nl": "Oostende"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": "059 70 11 11",
-                "email": "info@politie-oostende.be",
-                "twitter": null,
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5451",
             "url": {
                 "type": "application/json",
