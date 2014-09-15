@@ -6,11 +6,13 @@ image: 2014/agiv-logo.jpg
 rooturl: blog
 ---
 
-As you probably already know, we are a huge fan of [Open Data](https://okfn.org/opendata/). Therefor we now update the streets in your site weekly, on wednesday evening, using the [CRAB database](https://www.agiv.be/producten/crab) provided by the [AGIV](https://www.agiv.be/).
+The Police Platform makes heavy use of street based location information, local police officers, news, traffic infomation etc are all tagged with streetnames. Since a few weeks our street database is synced automatically, every wednesday evening, using the [CRAB database](https://www.agiv.be/producten/crab) of the Flemish Governement.
 
-Whenever a street is added or changed in the CRAB database (by the city) these changes will be available in your site within a week. More information about the CRAB validation process by the cities in Flanders can be found on [www.agiv.be](https://www.agiv.be/news/2014/juni/crab-validatie-op-kruissnelheid).
+CRAB is an [Open Data](https://okfn.org/opendata/) service provided by [AGIV](https://www.agiv.be/), a Flemish governement agency responsible for all governement digital GIS services.
 
-Next step is to get in touch with [Géoportail de la Wallonie](http://geoportail.wallonie.be/) & [CIBG Brussels](http://www.cibg.irisnet.be/) if they can help us to further optimise our streets database using Open Data.
+We use the database in read-only mode, meaning that we only update the streets when they are changed. Streets can be added or changed in CRAB by city administrators. More information about the CRAB validation process by the cities in Flanders can be found on [www.agiv.be](https://www.agiv.be/news/2014/juni/crab-validatie-op-kruissnelheid).
+
+At the moment the streets are only updates for the Flemish part of Belgium using Agiv. We are also working with [Géoportail de la Wallonie](http://geoportail.wallonie.be/) & [CIBG Brussels](http://www.cibg.irisnet.be/) to see if they can help us to further optimise our streets database using Open Data and provide support for the whole of Belgium.
 
 ## Streets in your site
 
