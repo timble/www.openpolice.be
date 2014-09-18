@@ -1426,30 +1426,6 @@
             }
         },
         {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5408",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5408",
-                "platform": "1",
-                "titles": {"nl": "AMOW"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": "02 452 50 05",
-                "email": null,
-                "twitter": "pol_amow",
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5409",
             "url": {
                 "type": "application/json",
