@@ -322,21 +322,45 @@
             }
         },
         {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5446",
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5441",
             "url": {
                 "type": "application/json",
                 "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
             },
             "data": {
-                "id": "5446",
+                "id": "5441",
                 "platform": "2",
-                "titles": {"nl": "Damme/Knokke-Heist"},
+                "titles": {"nl": "Erpe-Mere/Lede"},
                 "language": "1",
                 "phone_emergency": null,
-                "phone_information": "050 61 96 00",
-                "email": "damme.knokke-heist@politie5446.be",
-                "twitter": "LokPol5446",
-                "facebook": null,
+                "phone_information": "053 60 64 64",
+                "email": "info@erpemerelede.be",
+                "twitter": "pz5441",
+                "facebook": "PolitiezoneErpeMereLede",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5443",
+            "url": {
+                "type": "application/json",
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5443",
+                "platform": "2",
+                "titles": {"nl": "Dendermonde"},
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "052 25 12 00",
+                "email": "politie@dendermonde.be",
+                "twitter": "PZDendermonde",
+                "facebook": "LokalePolitieDendermonde",
                 "created_by": "0",
                 "created_on": "0000-00-00 00:00:00",
                 "modified_by": "0",
