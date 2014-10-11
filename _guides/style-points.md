@@ -16,6 +16,22 @@ The first time you use an abbreviation or acronym, explain it in full on each pa
 
 Don’t use full stops in abbreviations – BBC, not B.B.C.
 
+## Bullet points and steps
+
+You can use bullet points to make text easier to read. Make sure that:
+
+- you always use a lead-in line
+- the bullets make sense running on from the lead-in line
+- you use lower case at the start of the bullet
+- you don’t use full stops within bullet points – where possible start another bullet point or use commas, dashes or semicolons to expand on an item
+- you don’t put ‘or’, ‘and’ after the bullets
+- if you add links they appear within the text and not as the whole bullet
+- there is no full stop after the last bullet point
+
+### Steps
+
+Use numbered steps instead of bullet points to guide a user through a process. You don't need a lead-in line and you can use links and downloads (with appropriate markdown) in steps. Each step ends in a full stop because each step should be a complete sentence.
+
 ## Capitalisation
 
 DON’T USE BLOCK CAPITALS FOR LARGE AMOUNTS OF TEXT AS IT’S QUITE HARD TO READ.
