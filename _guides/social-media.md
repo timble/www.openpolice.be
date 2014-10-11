@@ -46,7 +46,7 @@ For example, when dealing with detractors on we suggest to try to help on the fi
 
 If things do begin to get out of hand – an up to date escalation document is a really helpful tool to manage the “crisis”. Social bakers have just [blogged about theirs](http://www.socialbakers.com/blog/2100-5-things-you-must-have-in-your-social-media-crisis-plan).
 
-## What are our key performance indicators (KPIs)?
+## What are our key performance indicators?
 
 - user growth
 - engagement
