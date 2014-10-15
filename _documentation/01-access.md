@@ -35,7 +35,7 @@ During the development of your new website it is available at:
 
 ### Administrator area
 
-To manage your website, you have to login into the administrator area, using the latest Chrome / Firefox browser, located at:
+To manage your website, you have to login into the administrator area, using the **latest Chrome or Firefox** browser, located at:
 
 * http://www.lokalepolitie.be/administrator/zonenumber
 * http://www.policelocale.be/administrator/zonenumber
