@@ -5,15 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="shortcut icon" type="image/ico" href="http://www.openpolice.be/images/favicon.ico" />
-  <link rel="shortcut icon" type="image/png" href="http://www.openpolice.be/images/xtouch-icon.png" />
-  <link rel="apple-touch-icon" type="image/png" href="http://www.openpolice.be/images/xtouch-icon.png"/>
+  <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
+  <link rel="shortcut icon" type="image/png" href="/images/xtouch-icon.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/images/xtouch-icon.png"/>
 
   <link rel="stylesheet" href="http://www.lokalepolitie.be/theme/mobile/css/default.css">
-  <link rel="stylesheet" href="stylesheets/styleguide.css">
-  <link rel="stylesheet" href="stylesheets/blocks.css">
+  <link rel="stylesheet" href="public/kss.css" />
 
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/apollo.min.js"></script>
   <script type="text/javascript" src="http://www.lokalepolitie.be/theme/mobile/js/hamburger.js"></script>
 </head>
@@ -47,19 +46,19 @@
             <nav role="navigation">
                 <ul class="nav">
                     <li role="menuitem">
-                        <a href="http://www.openpolice.be/blog">Blog</a>
+                        <a href="/blog">Blog</a>
                     </li>
                     <li role="menuitem">
-                        <a href="http://www.openpolice.be/documentation/">Docs</a>
+                        <a href="/documentation/">Docs</a>
                     </li>
                     <li class="active" role="menuitem">
-                        <a href="http://www.openpolice.be/guides">Guides</a>
+                        <a href="/guides">Guides</a>
                     </li>
                     <li role="menuitem">
-                        <a href="http://www.openpolice.be/demo">Demo</a>
+                        <a href="/demo">Demo</a>
                     </li>
                     <li role="menuitem">
-                        <a href="http://www.openpolice.be/about">About</a>
+                        <a href="/about">About</a>
                     </li>
                 </ul>
             </nav>
@@ -70,130 +69,159 @@
     <div class="container container__content">
       <aside class="sidebar">
         <ul class="nav nav--list">
-          <li><a href="index.html">0. Overview</a></li>
-          <li><a href="article.html">1. Article</a></li>
-          <li><a href="breadcrumb.html">2. Breadcrumb</a></li>
-          <li><a href="buttons.html">3. Buttons</a></li>
-          <li><a href="forms.html">4. Forms</a></li>
-          <li><a href="gallery.html">5. Gallery</a></li>
-          <li><a href="media.html">6. Media</a></li>
-          <li><a href="navigation.html">7. Navigation</a></li>
-          <li><a href="pagination.html">8. Pagination</a></li>
-          <li><a href="table.html">9. Table</a></li>
+          <li><a href="./">0. Overview</a></li>
+          
+          <li><a href="section-1.html">1. Article</a></li>
+          
+          <li><a href="section-2.html">2. Breadcrumb</a></li>
+          
+          <li><a href="section-3.html">3. Buttons</a></li>
+          
+          <li><a href="section-4.html">4. Forms</a></li>
+          
+          <li><a href="section-5.html">5. Gallery</a></li>
+          
+          <li><a href="section-6.html">6. Media</a></li>
+          
+          <li><a href="section-7.html">7. Navigation</a></li>
+          
+          <li><a href="section-8.html">8. Pagination</a></li>
+          
+          <li><a href="section-9.html">9. Table</a></li>
+          
         </ul>
       </aside>
 
       <div class="component">
+        <article id="kss-content">
+
+          
+
+            
+            
+        
+          
+        
         <div class="styleguide-example">
 
-  <h3>7.1 <!-- <em>blocks.css</em> --></h3>
-  <div class="styleguide-description">
-    <p>Navigation bar</p>
-    
-  </div>
-  <div class="styleguide-element">
-    <div class="navbar">
+              <h3>7.1 - Navigation bar</h3>
+
+
+                
+
+                <div class="styleguide-element">
+                  <div class="navbar">
   <ul class="nav">
-    <li><a href="navigation.html#">Item 1</a></li>
-    <li><a href="navigation.html#">Item 2</a></li>
-    <li><a href="navigation.html#">Item 3</a></li>
-    <li><a href="navigation.html#">Item 4</a></li>
+    <li><a href="#">Item 1</a></li>
+    <li><a href="#">Item 2</a></li>
+    <li><a href="#">Item 3</a></li>
+    <li><a href="#">Item 4</a></li>
   </ul>
 </div>
+                </div>
 
-  </div>
-  
-  <div class="styleguide-html">
-    <pre class="styleguide-code">&lt;div class=&quot;navbar&quot;&gt;
+                
+              
+              
+
+                <div class="styleguide-html">
+                  <pre class="styleguide-code">&lt;div class=&quot;navbar&quot;&gt;
   &lt;ul class=&quot;nav&quot;&gt;
     &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 3&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-&lt;/div&gt;
-</pre>
-  </div>
+&lt;/div&gt;</pre>
+              </div>
+          </div>
+          
+          
+        
+        <div class="styleguide-example">
 
-</div>
+              <h3>7.2 - List</h3>
 
-<div class="styleguide-example">
 
-  <h3>7.2 <!-- <em>blocks.css</em> --></h3>
-  <div class="styleguide-description">
-    <p>List</p>
-    
-  </div>
-  <div class="styleguide-element">
-    <ul class="nav nav--list">
-  <li><a href="navigation.html#">Item 1</a></li>
-  <li><a href="navigation.html#">Item 2</a></li>
-  <li><a href="navigation.html#">Item 3</a></li>
-  <li><a href="navigation.html#">Item 4</a></li>
+                
+
+                <div class="styleguide-element">
+                  <ul class="nav nav--list">
+  <li><a href="#">Item 1</a></li>
+  <li><a href="#">Item 2</a></li>
+  <li><a href="#">Item 3</a></li>
+  <li><a href="#">Item 4</a></li>
 </ul>
+                </div>
 
-  </div>
-  
-  <div class="styleguide-html">
-    <pre class="styleguide-code">&lt;ul class=&quot;nav nav--list&quot;&gt;
+                
+              
+              
+
+                <div class="styleguide-html">
+                  <pre class="styleguide-code">&lt;ul class=&quot;nav nav--list&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 3&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</pre>
-  </div>
+&lt;/ul&gt;</pre>
+              </div>
+          </div>
+          
+          
+        
+        <div class="styleguide-example">
 
-</div>
+              <h3>7.3 - Pills</h3>
 
-<div class="styleguide-example">
 
-  <h3>7.3 <!-- <em>blocks.css</em> --></h3>
-  <div class="styleguide-description">
-    <p>Pills</p>
-    
-  </div>
-  <div class="styleguide-element">
-    <ul class="nav nav--pills">
-  <li><a href="navigation.html#">Item 1</a></li>
-  <li><a href="navigation.html#">Item 2</a></li>
-  <li><a href="navigation.html#">Item 3</a></li>
-  <li><a href="navigation.html#">Item 4</a></li>
+                
+
+                <div class="styleguide-element">
+                  <ul class="nav nav--pills">
+  <li><a href="#">Item 1</a></li>
+  <li><a href="#">Item 2</a></li>
+  <li><a href="#">Item 3</a></li>
+  <li><a href="#">Item 4</a></li>
 </ul>
+                </div>
 
-  </div>
-  
-  <div class="styleguide-html">
-    <pre class="styleguide-code">&lt;ul class=&quot;nav nav--pills&quot;&gt;
+                
+              
+              
+
+                <div class="styleguide-html">
+                  <pre class="styleguide-code">&lt;ul class=&quot;nav nav--pills&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 1&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 2&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 3&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#&quot;&gt;Item 4&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</pre>
-  </div>
-
-</div>
-
+&lt;/ul&gt;</pre>
+              </div>
+          </div>
+          
+          
+          
+          </article>
       </div>
     </div>
 
     <div class="container container__footer_menu">
         <ul class="nav nav--list">
             <li class="navigation__item first " role="menuitem">
-                <a class="navigation__link" href="http://www.openpolice.be/blog">Blog</a>
+                <a class="navigation__link" href="/blog">Blog</a>
             </li>
             <li class="navigation__item  last" role="menuitem">
-                <a class="navigation__link" href="http://www.openpolice.be/documentation">Documentation</a>
+                <a class="navigation__link" href="/documentation">Documentation</a>
             </li>
             <li class="navigation__item  last" role="menuitem">
-                <a class="navigation__link" href="http://www.openpolice.be/styleguide">Styleguide</a>
+                <a class="navigation__link" href="/styleguide">Styleguide</a>
             </li>
             <li class="navigation__item  last" role="menuitem">
-                <a class="navigation__link" href="http://www.openpolice.be/demo">Demo</a>
+                <a class="navigation__link" href="/demo">Demo</a>
             </li>
             <li class="navigation__item  last" role="menuitem">
-                <a class="navigation__link" href="http://www.openpolice.be/about">About</a>
+                <a class="navigation__link" href="/about">About</a>
             </li>
         </ul>
     </div>
@@ -202,7 +230,7 @@
   <div id="copyright">
       <div class="container container__copyright">
           <div class="copyright--left">
-              <a href="http://www.openpolice.be/blog.xml">RSS</a> | <a href="http://www.openpolice.be/styleguide">Styleguide</a>
+              <a href="/blog.xml">RSS</a> | <a href="/styleguide">Styleguide</a>
           </div>
           <div class="copyright--right">
               By <a href="http://www.timble.net">Timble</a>
@@ -210,8 +238,8 @@
       </div>
   </div>
 
-  <script src="javascripts/kss.js"></script>
-  <script src="javascripts/holder.js"></script>
+  <script src="public/kss.js"></script>
+  <script src="public/holder.js"></script>
 
 </body>
 </html>

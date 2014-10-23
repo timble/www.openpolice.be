@@ -109,6 +109,20 @@ module.exports = function(grunt) {
             }
         },
 
+        // KSS stylesheet
+        kss: {
+            options: {
+              includeType: 'less',
+              includePath: '_styleguide/stylesheets/default.less',
+              template: '_styleguide/template'
+            },
+            dist: {
+                files: {
+                  'styleguide': ['_styleguide']
+                }
+            }
+        },
+
 
         // Concurrently tasking
         concurrent: {
@@ -124,5 +138,6 @@ module.exports = function(grunt) {
 
     // The dev task will be used during development
     grunt.registerTask('default', ['concurrent:dev']);
+    grunt.registerTask('styleguide', ['kss']);
 
 };

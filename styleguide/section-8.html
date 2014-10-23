@@ -96,72 +96,49 @@
         <article id="kss-content">
 
           
-            <h1>CSS Styleguide</h1>
 
-<p>Welcome to the Belgian Police CSS Styleguide. Before reading this, you should have a general understanding for
-specificity, the <a href="http://sass-lang.com/">SCSS</a> syntax, and <a href="https://github.com/kneath/kss">KSS</a>
-documentation.</p>
+            
+            
+        
+        <div class="styleguide-example">
 
-<p>If you&apos;re visiting from the internet, feel free to learn from our style. We encourage you to set up one that works
-for your own team.</p>
+              <h3>8 - Pagination</h3>
 
-<p>Check our <a href="https://github.com/belgianpolice/www.openpolice.be/tree/gh-pages/styleguide">GitHub repository</a> for the entire codebase of this site.</p>
 
-<p><h2>Sass for CSS development</h2>
-</p>
-<p><a href="http://sass-lang.com/">Sass</a> provides a plethora of CSS development tools and helpers that not only speed
-up front-end development, but also allow for improved code structure and codebase control within a team.
-It is especially helpful in managing (and reining in) larger codebases via custom variables, mixins, selector patterns,
-as well as a large collection of very useful helpers. Compiled via the Ruby CLI compiler,
-one is also given immediate control over source map debugging.
-</p>
+                
 
-<p>We take full advantage of mod_pagespeed to rewrite CSS in production so there is no need to remove comments or
-minify the output.</p>
+                <div class="styleguide-element">
+                  <div class="pagination">
+  <ul>
+    <li class="pagination__previous"><a href="#" rel="prev">Vorige</a></li>
+    <li class="pagination__offset"><a href="#">1</a></li>
+    <li class="pagination__offset active"><a href="#">2</a></li>
+    <li class="pagination__offset"><a href="#">3</a></li>
+    <li class="pagination__offset"><a href="#">4</a></li>
+    <li class="pagination__next"><a href="#" rel="next">Volgende</a></li>
+  </ul>
+</div>
+                </div>
 
-<p><h2>File Organization</h2>
-</p>
-<p>Based on the <a href="http://bradfrostweb.com/blog/post/atomic-web-design/">Atomic Design Principles</a> but slightly
-modified for our own needs. Also check <a href="http://coding.smashingmagazine.com/2013/08/02/other-interface-atomic-design-sass/">&quot;The Other Interface: Atomic Design With Sass&quot;</a>
-as a good resource.</p>
+                
+              
+              
 
-<p>The CSS file organization should follow something like this:
-</p>
-<pre>
-<code>
-css
-├── atoms
-│   ├── comments.scss
-│   └── listings.scss
-├── molecules
-│   ├── browser_helpers.scss
-│   ├── responsive_helpers.scss
-│   └── variables.scss
-├── organisms
-│   ├── jquery.fancybox-1.3.4.css
-│   └── reset.scss
-└── utilities
-    ├── issues.scss
-    └── profile.scss
-</code>
-</pre>
-
-<p><h2>Modular CSS with BEM</h2>
-</p>
-<p>Our HTML classes follow the <a href="http://bem.info/">BEM methodology</a> as a defined structure.</p>
-
-<p><h2>Susy for responsive grids</h2>
-</p>
-<p><a href="http://susy.oddbird.net/">Susy</a> is a glorious tool for responsive grids. It does all the percentage maths
-for you, allowing you to easily define and update your grid layout via efficient breakpoint mixins coupled with some
-really nifty grid helpers.</p>
-
-<p><h2>Progressive enhancement</h2>
-</p>
-<p>Designs should be approached with a content-first and mobile-first mindset. Following this, CSS breakpoints should
-always be mobile-first. All JavaScript should be progressively enhanced and should be used at a conscientious minimum
-where possible. Therefore, the concept of progressive enhancement happens from all aspects, from design to development
-and back again.</p>
+                <div class="styleguide-html">
+                  <pre class="styleguide-code">&lt;div class=&quot;pagination&quot;&gt;
+  &lt;ul&gt;
+    &lt;li class=&quot;pagination__previous&quot;&gt;&lt;a href=&quot;#&quot; rel=&quot;prev&quot;&gt;Vorige&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__offset&quot;&gt;&lt;a href=&quot;#&quot;&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__offset active&quot;&gt;&lt;a href=&quot;#&quot;&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__offset&quot;&gt;&lt;a href=&quot;#&quot;&gt;3&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__offset&quot;&gt;&lt;a href=&quot;#&quot;&gt;4&lt;/a&gt;&lt;/li&gt;
+    &lt;li class=&quot;pagination__next&quot;&gt;&lt;a href=&quot;#&quot; rel=&quot;next&quot;&gt;Volgende&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;</pre>
+              </div>
+          </div>
+          
+          
           
           </article>
       </div>
