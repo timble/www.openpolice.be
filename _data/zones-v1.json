@@ -274,30 +274,6 @@
             }
         },
         {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5324",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5324",
-                "platform": "1",
-                "titles": {"fr": "Mons-Quévy"},
-                "language": "2",
-                "phone_emergency": null,
-                "phone_information": "065 404 300",
-                "email": "info@policemonsquevy.be",
-                "twitter": "PoliceMonsquevy",
-                "facebook": "PoliceMonsQuevy",
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5325",
             "url": {
                 "type": "application/json",
