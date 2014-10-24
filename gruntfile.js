@@ -50,6 +50,20 @@ module.exports = function(grunt) {
             }
         },
 
+        // KSS styleguide
+        kss: {
+            options: {
+              includeType: 'less',
+              includePath: '_styleguide/stylesheets/default.less',
+              template: '_styleguide/template'
+            },
+            dist: {
+                files: {
+                  'styleguide': ['_styleguide']
+                }
+            }
+        },
+
 
         // Watch files
         watch: {
@@ -70,6 +84,18 @@ module.exports = function(grunt) {
                     '_scripts/*.js'
                 ],
                 tasks: ['uglify'], // Compile
+                options: {
+                    interrupt: false,
+                    atBegin: true
+                }
+            },
+            kss: {
+                files: [
+                    // Including
+                    '_styleguide/*.*',
+                    '_styleguide/**/*.*'
+                ],
+                tasks: ['kss'], // Compile
                 options: {
                     interrupt: false,
                     atBegin: true
@@ -96,6 +122,7 @@ module.exports = function(grunt) {
                     'img/*.*',
                     'js/*.*',
                     'styleguide/*.*',
+                    'styleguide/**/*.*',
                     '404.html',
                     'sites.html',
                     'index.html'
@@ -108,21 +135,6 @@ module.exports = function(grunt) {
                 }
             }
         },
-
-        // KSS stylesheet
-        kss: {
-            options: {
-              includeType: 'less',
-              includePath: '_styleguide/stylesheets/default.less',
-              template: '_styleguide/template'
-            },
-            dist: {
-                files: {
-                  'styleguide': ['_styleguide']
-                }
-            }
-        },
-
 
         // Concurrently tasking
         concurrent: {
@@ -138,6 +150,4 @@ module.exports = function(grunt) {
 
     // The dev task will be used during development
     grunt.registerTask('default', ['concurrent:dev']);
-    grunt.registerTask('styleguide', ['kss']);
-
 };
