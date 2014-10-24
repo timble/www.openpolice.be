@@ -8,6 +8,6 @@ Assuming you already have [Bundler](http://bundler.io/), [node.js](http://nodejs
     $ npm install
     $ grunt
 
-The site is now available at ```[http://localhost:4000](http://localhost:4000)```.
+The site is now available at [http://localhost:4000](http://localhost:4000).
 
 For more information read about [using Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages).
