@@ -4,10 +4,10 @@ Our open police website is a product blog about developing and iterating the Bel
 ## Installation & Usage
 Assuming you already have [Bundler](http://bundler.io/), [node.js](http://nodejs.org/) and [Grunt](http://gruntjs.com/) installed:
 
-    bundle install // Install RubyGem dependencies
-    npm install // Install project dependencies
-    grunt
+    $ bundle install
+    $ npm install
+    $ grunt
 
-The site is now available at ```http://localhost:4000```.
+The site is now available at ```[http://localhost:4000](http://localhost:4000)```.
 
 For more information read about [using Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages).
