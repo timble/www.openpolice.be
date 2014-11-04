@@ -48,8 +48,10 @@ People often use different words than the website uses. They type in ‘robbery�
 
 You wouldn’t believe the amount of ‘sandels’ and ‘sandles’ being offered on eBay when actually what these people are trying to sell are ‘sandals’.
 
-## Future
+## Future, better websites
 
-Improving your website through fact based research is our primary focus. A global search feature is on our list but it is only a small piece of the puzzle. Make sure to check our [guides](/guides/), they will help you create accessible, readable and understandable information.
+Improving your website through fact based research is our primary focus. A global search feature is on our list but will not be implemented in 2015 since it is only a small piece of the puzzle.
+
+Make sure to check our [guides](/guides/), they will help you create accessible, readable and understandable information.
 
 *This blog post is based on ["Navigation versus search"](http://webusability-blog.com/navigation-versus-search/).*
