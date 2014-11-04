@@ -37,9 +37,10 @@ A district is a combination of one or more district officers and a contact (loca
 ## Create district
 
 1. Title
-2. ID (same as ISLP after import)
-3. Select a contact
-4. Select one or more officers
+2. Select a police station (see Contacts)
+3. Select one or more officers
+4. ISLP identifier (used during import)
+5. E-mail addresssm
 
 <a href="/images/documentation/districts-admin-district.png" data-gallery="enabled">
 ![](/images/documentation/districts-admin-district.png)
