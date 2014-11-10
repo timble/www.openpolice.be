@@ -17,7 +17,7 @@ excerpt: A product blog about developing and iterating the Belgian Police Web Pl
                 </header>
                 {% if post.image %}
                 <a class="article__thumbnail" tabindex="-1" href="{{ post.url }}">
-                    <img src="/images/blog/{{post.image}}"{% if post.image %} alt="{{post.imagealt}}"{% endif %}>
+                    <im width="400" height="300" src="/images/blog/{{post.image}}"{% if post.image %} alt="{{post.imagealt}}"{% endif %}>
                 </a>
                 {% endif %}
                 {{ post.excerpt }}
