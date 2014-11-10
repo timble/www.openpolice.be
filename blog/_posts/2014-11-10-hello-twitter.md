@@ -8,7 +8,7 @@ rooturl: blog
 
 You can now follow us on [Twitter (@openpoliceBE)](https://www.twitter.com/openpoliceBE) if you want to stay up to date about the development and iterations of the Belgian Police Web Platform.
 
-Our [Twitter account](https://www.twitter.com/openpoliceBE) is a next step in making the Belgian Police Web Platform more open.
+Our [Twitter account](https://www.twitter.com/openpoliceBE) is a next step in making the Belgian Police Web Platform even more open.
 
 ## Why open matters
 
