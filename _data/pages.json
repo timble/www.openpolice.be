@@ -37,6 +37,10 @@
         {
             "text": "GitHub",
             "url": "http://www.github.com/belgianpolice"
+        },
+        {
+            "text": "Twitter",
+            "url": "https://www.twitter.com/openpoliceBE"
         }
     ]
 }
