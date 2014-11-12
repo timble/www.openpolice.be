@@ -23,7 +23,7 @@ layout: none
                 {% if post.image %}
                     <img width="800" src="{{ site.url }}/images/blog/{{ post.image }}" alt="{{ page.imagealt }}" />
                 {% endif %}
-                {{ post.content }}
+                {{ post.excerpt }}
                 ]]>
             </description>
         </item>

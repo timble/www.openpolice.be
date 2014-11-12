@@ -125,7 +125,9 @@ module.exports = function(grunt) {
                     'styleguide/**/*.*',
                     '404.html',
                     'sites.html',
-                    'index.html'
+                    'index.html',
+                    'blog.xml',
+                    'blog.json'
                 ],
                 tasks: ['shell:jekyllBuild'],
                 options: {
