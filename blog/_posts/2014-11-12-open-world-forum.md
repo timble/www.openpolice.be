@@ -14,9 +14,9 @@ The Open World Forum is the first European summit to gather political representa
 
 ## Look inside
 
-In the talk [Johan Janssens](https://twitter.com/johanjanssens), project lead, gave a look inside the platform and the latest and greatest open source tools, libraries and technologies that are being used, like Flexbox, Pagespeed, Git, Vagrant, Capistrano, PHP, Elasticsearch, ... .
+In his talk [Johan Janssens](https://twitter.com/johanjanssens), project lead, gave a look inside the platform and the latest and greatest open source tools, libraries and technologies we are using, like Flexbox, Pagespeed, Git, Vagrant, Capistrano, PHP, Elasticsearch, ... .
 
-He explained the complete design pipeline from an initial feature idea, through the local development, online testing and finally deployment into production. And showed that the platform is being developed [openly on GitHub](https://github.com/belgianpolice).
+Johan showed how the platform is being developed [openly on GitHub](https://github.com/belgianpolice) and explained the complete design pipeline from initial feature idea, through local development, to online testing and finally deployment into production.
 
 ## Presentation slides
 
