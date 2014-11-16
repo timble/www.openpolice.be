@@ -1,0 +1,31 @@
+---
+layout: features
+title: Stack
+rooturl: stack
+---
+
+<h2>Built on Open Source software</h2>
+
+<p>The Police Internet Platform is built on open source software and wouldn't be as productive without these projects around.</p>
+
+<p>We simply just want to say thank you to the following projects for helping us out.</p>
+
+{% for group in site.data.stack.internet-platform %}
+<div class="stack-group">
+    <h2 class="stack-group__header">{{ group.title }}</h2>
+    <div class="stack-group__container">
+        {% for item in group.data %}
+        <div class="stack-item stack-item--{{ group.type }}">
+            {% if group.type != "simple" %}
+            <div class="stack-item__logo">
+                <img src="/images/stack/{{ item.title | replace: ' ', '-' | downcase }}.png" />
+            </div>
+            {% endif %}
+            <h3 class="stack-item__title">{{ item.title }}</h3>
+            <p class="stack-item__description">{{ item.description }}</p>
+            <a class="stack-item__button" href="{{ item.url }}">Visit {{ item.title }}</a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}

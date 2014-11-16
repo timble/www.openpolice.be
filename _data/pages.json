@@ -2,27 +2,27 @@
     "header": [
         {
             "text": "Blog",
-            "url": "/blog"
+            "url": "/blog/"
         },
         {
             "text": "Features",
-            "url": "/features"
+            "url": "/features/"
         },
         {
             "text": "Docs",
-            "url": "/documentation"
+            "url": "/documentation/"
         },
         {
             "text": "Guides",
-            "url": "/guides"
+            "url": "/guides/"
         },
         {
             "text": "Demo",
-            "url": "/demo"
+            "url": "/demo/"
         },
         {
             "text": "About",
-            "url": "/about"
+            "url": "/about/"
         }
     ],
     "footer": [
@@ -32,7 +32,11 @@
         },
         {
             "text": "Styleguide",
-            "url": "/styleguide"
+            "url": "/styleguide/"
+        },
+        {
+            "text": "Stack",
+            "url": "/stack/"
         },
         {
             "text": "GitHub",

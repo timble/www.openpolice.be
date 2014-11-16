@@ -11,10 +11,18 @@ $susy: (
   .grid__item {
     @include gallery(6 of 12);
   }
+
+  .stack-item {
+    @include gallery(6 of 12);
+  }
 }
 
 @media screen and (min-width: 768px) {
   .grid__item {
+    @include gallery(4 of 12);
+  }
+
+  .stack-item {
     @include gallery(4 of 12);
   }
 }

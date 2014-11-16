@@ -1,0 +1,159 @@
+{
+    "internet-platform": [
+        {
+            "title": "Application & Data",
+            "type": "card",
+            "data": [
+                {
+                    "title": "Elasticsearch",
+                    "description": "Powerful search and analytics engine that makes data easy to explore.",
+                    "url": "http://www.elasticsearch.org/"
+                },
+                {
+                    "title": "Joomla",
+                    "description": "Content management system",
+                    "url": "http://www.joomla.org/"
+                },
+                {
+                    "title": "jQuery",
+                    "description": "The Write Less, Do More, JavaScript Library.",
+                    "url": "http://www.jquery.com/"
+                },
+                {
+                    "title": "Sass",
+                    "description": "Syntactically Awesome Style Sheets",
+                    "url": "http://sass-lang.com/"
+                },
+                {
+                    "title": "Susy",
+                    "description": "Your Markup, Your Design, Your Opinions. Our Math.",
+                    "url": "http://susy.oddbird.net/"
+                },
+                {
+                    "title": "MySQL",
+                    "description": "The world's most popular open source database.",
+                    "url": "http://www.mysql.com/"
+                },
+                {
+                    "title": "nginx",
+                    "description": "A high performance web server powering busiest sites on the Internet.",
+                    "url": "http://nginx.org/"
+                },
+                {
+                    "title": "Nooku",
+                    "description": "A solid, modern framework and lean architecture for building web applications.",
+                    "url": "http://www.nooku.org/"
+                },
+                {
+                    "title": "PHP",
+                    "description": "General-purpose scripting language, especially suited to web development.",
+                    "url": "http://php.net/"
+                }
+            ]
+        },
+        {
+            "title": "Dev Ops",
+            "type": "card",
+            "data": [
+
+                {
+                    "title": "Bower",
+                    "description": "A package manager for the web.",
+                    "url": "http://bower.io/"
+                },
+                {
+                    "title": "Capistrano",
+                    "description": "A remote server automation and deployment tool written in Ruby.",
+                    "url": "http://capistranorb.com/"
+                },
+                {
+                    "title": "Composer",
+                    "description": "Dependency Manager for PHP.",
+                    "url": "https://getcomposer.org/"
+                },
+                {
+                    "title": "Git",
+                    "description": "Distributed version control system.",
+                    "url": "http://git-scm.com/"
+                },
+                {
+                    "title": "Grunt",
+                    "description": "The JavaScript Task Runner",
+                    "url": "http://gruntjs.com/"
+                },
+                {
+                    "title": "PageSpeed",
+                    "description": "Analyze and optimize your website to implement the web performance best practices.",
+                    "url": "https://developers.google.com/speed/pagespeed/"
+                },
+                {
+                    "title": "Vagrant",
+                    "description": "A tool for building and distributing development environments",
+                    "url": "https://www.vagrantup.com/"
+                },
+                {
+                    "title": "VirtualBox",
+                    "description": "Run nearly any operating system on a single machine simultaneously.",
+                    "url": "https://www.virtualbox.org/"
+                }
+            ]
+        },
+        {
+            "title": "Other",
+            "type": "simple",
+            "data": [
+
+                {
+                    "title": "Apollo",
+                    "description": "Standalone cross-browser DOM class manipulation module.",
+                    "url": "https://github.com/toddmotto/apollo"
+                },
+                {
+                    "title": "datetimepicker",
+                    "description": "jQuery Plugin Date and Time Picker.",
+                    "url": "https://github.com/xdan/datetimepicker"
+                },
+                {
+                    "title": "html5shiv",
+                    "description": "Enable HTML5 sectioning elements in legacy Internet Explorer.",
+                    "url": "https://github.com/aFarkas/html5shiv"
+                },
+                {
+                    "title": "Imagine",
+                    "description": "PHP 5.3 Object Oriented image manipulation library.",
+                    "url": "https://github.com/avalanche123/Imagine"
+                },
+                {
+                    "title": "Magnific-Popup",
+                    "description": "Light and responsive lightbox script with focus on performance.",
+                    "url": "https://github.com/dimsemenov/Magnific-Popup"
+                },
+                {
+                    "title": "Mailcatcher",
+                    "description": "Catches mail and serves it through a dream.",
+                    "url": "https://github.com/sj26/mailcatcher"
+                },
+                {
+                    "title": "PHP-JWT",
+                    "description": "PEAR package for JWT.",
+                    "url": "https://github.com/firebase/php-jwt"
+                },
+                {
+                    "title": "Phpmig",
+                    "description": "Simple database migrations system for PHP.",
+                    "url": "https://github.com/davedevelopment/phpmig"
+                },
+                {
+                    "title": "Placeholders.js",
+                    "description": "A JavaScript polyfill for the HTML5 placeholder attribute.",
+                    "url": "https://github.com/jamesallardice/Placeholders.js/"
+                },
+                {
+                    "title": "Select2",
+                    "description": "jQuery based replacement for select boxes.",
+                    "url": "http://ivaynberg.github.io/select2/"
+                }
+            ]
+        }
+    ]
+}
