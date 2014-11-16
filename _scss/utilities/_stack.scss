@@ -73,6 +73,10 @@ $stack-size-logo: 5.625em !default;
         background-color: lighten($stack-color, 12%);
         color: white;
     }
+
+    &:focus {
+        color: white;
+    }
 }
 
 @media screen and (min-width: 600px) {
