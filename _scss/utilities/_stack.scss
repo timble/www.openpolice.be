@@ -5,22 +5,32 @@ $stack-size-logo: 5.625em !default;
     @include cf;
 }
 
+.stack-group {
+    margin-bottom: $stack-size-logo / 2;
+
+    &:last-child {
+        margin-bottom: $stack-size-logo / 4;
+    }
+}
+
 .stack-group__header {
     display: block;
-    padding: 1.25em 0 $stack-size-logo / 2 0;
+    padding: 1.25em 0 0 0;
     margin: 0;
     text-align: center;
+}
+.stack-item__container {
+    padding-top: $stack-size-logo;
+}
+
+.stack-item__container--simple {
+    padding-top: $stack-size-logo / 2;
 }
 
 .stack-item {
     border-radius: 0.3125em;
     border: 1px solid #DCDCDC;
-    margin-bottom: $stack-size-logo;
     text-align: center;
-}
-
-.stack-item--simple {
-    margin-bottom: 1.25em;
 }
 
 .stack-item__logo {

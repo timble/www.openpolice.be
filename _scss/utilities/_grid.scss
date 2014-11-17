@@ -12,7 +12,7 @@ $susy: (
     @include gallery(6 of 12);
   }
 
-  .stack-item {
+  .stack-item__container {
     @include gallery(6 of 12);
   }
 }
@@ -22,7 +22,7 @@ $susy: (
     @include gallery(4 of 12);
   }
 
-  .stack-item {
+  .stack-item__container {
     @include gallery(4 of 12);
   }
 }
