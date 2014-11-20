@@ -21,13 +21,13 @@ Your website is what is seen by a visitor on:
 
 * http://www.lokalepolitie.be/zonenumber
 * http://www.policelocale.be/zonenumber
-* http://www.polizei.be/zonenumber
+* http://www.lokalepolizei.be/zonenumber
 
 During the development of your new website it is available at:
 
 * http://new.lokalepolitie.be/zonenumber
-* http://new.lokalepolitie.be/zonenumber
-* http://new.lokalepolitie.be/zonenumber
+* http://new.policelocale.be/zonenumber
+* http://new.lokalepolizei.be/zonenumber
 
 <a href="/images/documentation/site-homepage.png" data-gallery="enabled">
 ![](/images/documentation/site-homepage.png)
@@ -59,7 +59,7 @@ Administrator area:
 
 * http://staging.lokalepolitie.be/administrator/zonenumber
 * http://staging.policelocale.be/administrator/zonenumber
-* http://staging.polizei.be/administrator/zonenumber
+* http://staging.lokalepolizei.be/administrator/zonenumber
 
 ## Browser authentication
 
