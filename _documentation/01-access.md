@@ -25,9 +25,9 @@ Your website is what is seen by a visitor on:
 
 During the development of your new website it is available at:
 
-* http://p.pol-nl.be/zonenumber
-* http://p.pol-fr.be/zonenumber
-* http://p.pol-de.be/zonenumber
+* http://new.lokalepolitie.be/zonenumber
+* http://new.lokalepolitie.be/zonenumber
+* http://new.lokalepolitie.be/zonenumber
 
 <a href="/images/documentation/site-homepage.png" data-gallery="enabled">
 ![](/images/documentation/site-homepage.png)
@@ -51,15 +51,15 @@ There is also a staging environment available **for testing**, every night the p
 
 Site:
 
-* http://s.pol-nl.be/zonenumber
-* http://s.pol-fr.be/zonenumber
-* http://s.pol-de.be/zonenumber
+* http://staging.lokalepolitie.be/zonenumber
+* http://staging.policelocale.be/zonenumber
+* http://staging.polizei.be/zonenumber
 
 Administrator area:
 
-* http://s.pol-nl.be/administrator/zonenumber
-* http://s.pol-fr.be/administrator/zonenumber
-* http://s.pol-de.be/administrator/zonenumber
+* http://staging.lokalepolitie.be/administrator/zonenumber
+* http://staging.policelocale.be/administrator/zonenumber
+* http://staging.polizei.be/administrator/zonenumber
 
 ## Browser authentication
 
