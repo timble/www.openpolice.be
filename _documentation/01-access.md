@@ -47,7 +47,7 @@ To manage your website, you have to login into the administrator area, using the
 
 ## Staging environment
 
-There is also a staging environment available **for testing**, every night the production environment is copied to staging.
+There is also a staging environment available, **for testing only**! Every night the production environment is copied to staging.
 
 Site:
 
