@@ -45,7 +45,7 @@ To manage your website, you have to login into the administrator area, using the
 ![](/images/documentation/admin-login.png)
 </a>
 
-## Staging environment (for testing only)
+## Staging environment
 
 There is also a staging environment available **for testing**, every night the production environment is copied to staging.
 
