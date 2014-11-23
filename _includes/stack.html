@@ -1,0 +1,46 @@
+{% for group in site.data.stack %}
+<div class="stack-group">
+    <h2 class="stack-group__header">{{ group.title }}</h2>
+    <div class="stack-group__container">
+        {% for item in group.data %}
+            {% assign item_title = item.title | replace: ' ', '-' | downcase %}
+            {% assign button_class = 'stack-item__button' %}
+            {% if include.class %}
+                {% assign button_class = include.class %}
+            {% endif %}
+            {% if item.description and item.url %}
+                <div class="stack-item__container stack-item__container--{{ group.type }}" id="{{ item_title }}">
+                    <div class="stack-item">
+                        {% if group.type != "simple" %}
+                        <div class="stack-item__logo">
+                            <img src="/images/stack/{{ item_title }}.png" />
+                        </div>
+                        {% endif %}
+                        <h3 class="stack-item__title">{{ item.title }}</h3>
+                        <p class="stack-item__description">{{ item.description }}</p>
+                        <a class="{{ button_class }}" href="{{ item.url }}">Visit {{ item.title }}</a>
+                    </div>
+                </div>
+            {% else %}
+                {% for tool in site.data.vendor.stack %}
+                    {% assign tool_title =  tool.title | replace: ' ', '-' | downcase %}
+                    {% if tool_title == item_title %}
+                        <div class="stack-item__container stack-item__container--{{ group.type }}" id="{{ tool_title }}">
+                            <div class="stack-item">
+                                {% if group.type != "simple" %}
+                                <div class="stack-item__logo">
+                                    <img src="/images/stack/vendor/{{ tool_title }}.png" />
+                                </div>
+                                {% endif %}
+                                <h3 class="stack-item__title">{{ tool.title }}</h3>
+                                <p class="stack-item__description">{{ tool.description }}</p>
+                                <a class="{{ button_class }}" href="{{ tool.url }}">Visit {{ tool.title }}</a>
+                            </div>
+                        </div>
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}

@@ -8,25 +8,4 @@ rooturl: stack
 
 <p>We simply just want to say thank you to the following projects for helping us out.</p>
 
-{% for group in site.data.stack.internet-platform %}
-<div class="stack-group">
-    <h2 class="stack-group__header">{{ group.title }}</h2>
-    <div class="stack-group__container">
-        {% for item in group.data %}
-        {% assign item_title = item.title | replace: ' ', '-' | downcase %}
-        <div class="stack-item__container stack-item__container--{{ group.type }}" id="{{ item_title }}">
-            <div class="stack-item">
-                {% if group.type != "simple" %}
-                <div class="stack-item__logo">
-                    <img src="/images/stack/{{ item_title }}.png" />
-                </div>
-                {% endif %}
-                <h3 class="stack-item__title">{{ item.title }}</h3>
-                <p class="stack-item__description">{{ item.description }}</p>
-                <a class="stack-item__button" href="{{ item.url }}">Visit {{ item.title }}</a>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
-</div>
-{% endfor %}
+{% include stack.html %}

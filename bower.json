@@ -1,0 +1,12 @@
+{
+    "name": "www.openpolice.be",
+    "description": "",
+    "homepage": "",
+    "keywords": [
+    ],
+    "author": "",
+    "private": true,
+    "dependencies": {
+        "stack": "timble/stack"
+    }
+}

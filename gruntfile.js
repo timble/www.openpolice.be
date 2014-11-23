@@ -9,6 +9,37 @@ module.exports = function(grunt) {
     // grunt config
     grunt.initConfig({
 
+        // Copy bower files
+        copy: {
+            main: {
+                files: [
+                    {
+                        expand: true,
+                        src: ['bower_components/stack/logos/*.*'],
+                        dest: 'images/stack/vendor',
+                        flatten: true
+                    },
+                    {
+                        expand: true,
+                        src: ['bower_components/stack/scss/*.*'],
+                        dest: '_scss/_utilities',
+                        flatten: true
+                    },
+                    {
+                        expand: true,
+                        src: ['bower_components/stack/template/*.*'],
+                        dest: '_includes',
+                        flatten: true
+                    },
+                    {
+                        expand: true,
+                        src: ['bower_components/stack/json/*.*'],
+                        dest: '_data/vendor',
+                        flatten: true
+                    }
+                ]
+            }
+        },
 
         // Compile sass files
         sass: {
@@ -152,5 +183,5 @@ module.exports = function(grunt) {
 
 
     // The dev task will be used during development
-    grunt.registerTask('default', ['concurrent:dev']);
+    grunt.registerTask('default', ['copy', 'concurrent:dev']);
 };
