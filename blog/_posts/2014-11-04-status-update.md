@@ -45,4 +45,4 @@ Since our [previous update](http://www.openpolice.be/blog/2014/09/01/summer-upda
 
 This brings the total to 19 zones using the new platform in production and another 50 zones who are currently working on the migration.
 
-Planning for the next training on Thursday 5 December in Diest has already started. Create a support ticket or [drop us an email](belgianpolice@gmail.com) if you want to join the upcoming training session.
+Planning for the next training on Thursday 5 December in Diest has already started. Create a support ticket or [drop us an email](mailto:belgianpolice@gmail.com) if you want to join.
