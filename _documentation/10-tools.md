@@ -14,3 +14,16 @@ index: 10
 <a href="/images/documentation/streets-admin-streets.png" data-gallery="enabled">
 ![](/images/documentation/streets-admin-streets.png)
 </a>
+
+## Analytics
+
+Valuable insights into your website's visitors of the past 30 days.
+
+1. Sessions per day
+2. Top 10 pages
+3. Top 10 landing pages
+4. Top 10 referrers
+
+<a href="/images/documentation/tools-analytics.png" data-gallery="enabled">
+![](/images/documentation/tools-analytics.png)
+</a>
