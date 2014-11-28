@@ -394,6 +394,30 @@
             }
         },
         {
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5442",
+            "url": {
+                "type": "application/json",
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5442",
+                "platform": "2",
+                "titles": {"nl": "Ninove"},
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "054 31 32 32",
+                "email": "politie@ninove.be",
+                "twitter": "pz5441",
+                "facebook": "PolitiezoneErpeMereLede",
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5443",
             "url": {
                 "type": "application/json",
