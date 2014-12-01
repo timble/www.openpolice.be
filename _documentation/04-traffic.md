@@ -33,8 +33,26 @@ Traffic events are categorized in a single level structure.
 7. Category list
 8. Streets list
 
+Note: The 'Roadside safety check' category has two extra input fields ('controlled' & 'in violation').
+
 <a href="/images/documentation/traffic-admin-article.png" data-gallery="enabled">
 ![](/images/documentation/traffic-admin-article.png)
+</a>
+
+## Add results
+
+The 'Roadside safety check' category has two extra input fields ('controlled' & 'in violation').
+
+<a href="/images/documentation/traffic-admin-article-results.png" data-gallery="enabled">
+![](/images/documentation/traffic-admin-article-results.png)
+</a>
+
+## Results on site
+
+When results are added they become visible on the website.
+
+<a href="/images/documentation/traffic-site-article-results.png" data-gallery="enabled">
+![](/images/documentation/traffic-site-article-results.png)
 </a>
 
 ## Manage categories
