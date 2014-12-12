@@ -418,6 +418,30 @@
             }
         },
         {
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5427",
+            "url": {
+                "type": "application/json",
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5427",
+                "platform": "2",
+                "titles": {"nl": "Ronse"},
+                "language": "1",
+                "phone_emergency": null,
+                "phone_information": "055 33 70 33",
+                "email": "info@pzronse.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5430",
             "url": {
                 "type": "application/json",
