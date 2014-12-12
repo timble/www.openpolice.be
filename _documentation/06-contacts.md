@@ -75,16 +75,28 @@ You can change:
 ![](/images/documentation/contacts-admin-hours.png)
 </a>
 
-## Create office hour
+## Create office hours
 
-1. Contact
-2. Day of the week
-3. Appointment only (optional)
-4. Opening time
-5. Closing time
-6. Note (optional)
-7. Published state
+1. **Frequency**: [weekly](#weekly) or [one-off](#one-off)
+2. **Day**: weekly or a specific day depending on the **frequency** setting
+3. **Contact**: police station or service
+4. **Closed**
+5. **Appointment only**
+6. **Opening time**
+7. **Closing time**
+8. **Additional note**
+9. **Published state**
+
+### Weekly
 
 <a href="/images/documentation/contacts-admin-hour.png" data-gallery="enabled">
 ![](/images/documentation/contacts-admin-hour.png)
+</a>
+
+### One-off
+
+Select 'One-off' if you want to add special office hours for a specific day, like during the holiday season.
+
+<a href="/images/documentation/contacts-admin-hour-one-off.png" data-gallery="enabled">
+![](/images/documentation/contacts-admin-hour-one-off.png)
 </a>
