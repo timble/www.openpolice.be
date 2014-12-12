@@ -74,10 +74,10 @@ module.exports = function(grunt) {
         // Shell commands
         shell: {
             jekyllBuild: {
-                command: 'bundle exec jekyll build'
+                command: 'bundle exec jekyll build --config _config.yml,_config.local.yml'
             },
             jekyllServe: {
-                command: 'bundle exec jekyll serve'
+                command: 'bundle exec jekyll serve --config _config.yml,_config.local.yml'
             }
         },
 
