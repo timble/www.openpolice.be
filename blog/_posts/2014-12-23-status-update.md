@@ -7,7 +7,7 @@ rooturl: blog
 ---
 
 We have just closed down a new release ([v2.8](https://github.com/belgianpolice/internet-platform/releases/tag/v2.8)).
-Resulting in more then 40 closed development tickets since our [previous release]({{site.url}}/blog/2014/11/04/status-update.html) less then 2 months ago. The release include a mix of bug fixes and enhancements.
+Resulting in more than 40 closed development tickets since our [previous release]({{site.url}}/blog/2014/11/04/status-update.html) less than 2 months ago. The release includes a mix of bug fixes and enhancements.
 
 ## Major Enhancements
 
