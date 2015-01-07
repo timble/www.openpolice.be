@@ -3,11 +3,9 @@ paginate: 3
 pagination: true
 paginate_path: "blog/page:num"
 
-
 # Site info
 name: Belgian Police Internet Platform
 url: http://www.openpolice.be
-  
 
 # Collections
 collections:
@@ -23,25 +21,22 @@ collections:
 # Code highlighting
 highlighter: pygments
 
-
 # Gems
 gems:
   - jekyll-sitemap
   - jekyll-category-aware-prev-next
-
 
 # SASS compilation
 sass:
     sass_dir: _sass
     style: :compressed
 
-
-# Blog separator
-# excerpt_separator: <!--more-->
-
 # We don't want to publish some files
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md']
 
-
 # Static information
 blog_description: A product blog about developing and iterating the Belgian Police Web Platform. For the people who publish content to their site and anyone else who is interested.
+
+# Compress HTML - https://github.com/penibelst/jekyll-compress-html
+compress_html:
+  comments: ["<!-- ", " -->"]
