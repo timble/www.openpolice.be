@@ -4,7 +4,7 @@ pagination: true
 paginate_path: "blog/page:num"
 
 # Site info
-name: Belgian Police Internet Platform
+name: Open Police
 url: http://www.openpolice.be
 
 # Collections
