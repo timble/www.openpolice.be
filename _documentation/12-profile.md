@@ -1,8 +1,8 @@
 ---
 layout: documentation
-title: 11. Profile
+title: 12. Profile
 rooturl: documentation
-index: 11
+index: 12
 ---
 
 ## Manage your profile

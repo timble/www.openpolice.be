@@ -1,8 +1,8 @@
 ---
 layout: documentation
-title: 6. Contacts
+title: 7. Contacts
 rooturl: documentation
-index: 6
+index: 7
 ---
 
 ## Contacts on site

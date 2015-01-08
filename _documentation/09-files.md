@@ -1,8 +1,8 @@
 ---
 layout: documentation
-title: 8. Files
+title: 9. Files
 rooturl: documentation
-index: 8
+index: 9
 ---
 
 ## Manage files

@@ -1,8 +1,8 @@
 ---
 layout: documentation
-title: 9. Support
+title: 10. Support
 rooturl: documentation
-index: 9
+index: 10
 ---
 
 ## Manage tickets
