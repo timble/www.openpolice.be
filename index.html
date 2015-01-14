@@ -21,7 +21,7 @@ excerpt: An open government platform for the Belgian Local Police.
             <p style="margin-top: 1em;">Find this presentation on <a href="https://speakerdeck.com/timble/belgian-police-web-platform">Speakerdeck.com</a> or <a href="http://www.slideshare.net/timble/open-world-forum-2014">Slideshare.com</a>.</p>
 
             <h2>Used by {{ total-v1 | plus:total-v2 }} police zones</h2>
-            <p><a href="https://github.com/belgianpolice/internet-platform/releases">Version 2</a> is currently being used by {{ site.data.zones-v2.items | size }} Police zones:</p>
+            <p><a href="{{site.url}}/blog/2013/09/15/belgian-police-internet-platform-released.html">Version 2</a> is currently being used by {{ site.data.zones-v2.items | size }} Police zones:</p>
             <ul class="nav nav nav--pills column--double">
                 {% for zone in site.data.zones-v2.items %}
                 {% case zone.data.language %}
