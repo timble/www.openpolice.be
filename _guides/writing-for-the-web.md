@@ -20,7 +20,7 @@ Users don't usually read text unless they want information. When you write for t
 
 ## How users read
 
-Knowing how users read means you'll write in a way they can understand easily and quickly.
+Knowing [how users read]({{site.url}}/guides/how-users-read.html) means you'll write in a way they can understand easily and quickly.
 
 By the time the average child is 9 years old, they can skip up to 30% of words on a page and still accurately predict the text. That's not just reading online. If there's enough context, the mind fills in the gaps. You don't need to read every word to understand what is written.
 

@@ -18,4 +18,4 @@ Our guides are a valuable resource for anyone involved in creating content for t
     {% endfor %}
 </ul>
 
-We specifically wanna thank the [Government Digital Service team](https://gds.blog.gov.uk/) of GOV.UK for providing an awesome public [style guide](https://www.gov.uk/design-principles/style-guide) and [social media playbook](https://gdssocialmedia.blog.gov.uk/playbook/#the-case-for-social-media).
+We specifically wanna thank the [Government Digital Service team](https://gds.blog.gov.uk/) of [GOV.UK](http://www.gov.uk) for providing an awesome public [service manual](https://www.gov.uk/service-manual), [style guide](https://www.gov.uk/design-principles/style-guide) and [social media playbook](https://gdssocialmedia.blog.gov.uk/playbook/#the-case-for-social-media).
