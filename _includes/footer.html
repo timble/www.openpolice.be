@@ -1,3 +1,35 @@
+{% assign total-v1 = site.data.zones-v1.items | size %}
+{% assign total-v2 = site.data.zones-v2.items | size %}
+
+<div class="container container__footer">
+    <div class="row">
+        <div class="footer__news">
+            <h3>Latest from the blog</h3>
+            {% for post in site.posts limit: 2 %}
+            <div class="media">
+                <a tabindex="-1" class="thumbnail media__object" href="{{ post.url }}">
+                    <img width="64" height="48" src="/images/blog/{{post.image}}"{% if post.image %} alt="{{post.imagealt}}"{% endif %}>
+                </a>
+                <div class="media__body">
+                    <a class="media__heading" href="{{ post.url }}">{{ post.title }}</a>
+                    <div class="text--small">
+                        {{ post.date | date: "%-d %B %Y" }}
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        <div class="footer__districts">
+            <h2>Used by {{ total-v1 | plus:total-v2 }} police zones</h2>
+            <p>
+                {{ site.data.zones-v2.items | size }} Police zones have already migrated to the new <a href="{{site.url}}/blog/2013/09/15/belgian-police-internet-platform-released.html">platform</a>.
+                Another {{ site.data.zones-v1.items | size }} Police zones are still using the old platform.
+            </p>
+            <p>Check the complete list of <a href="sites.html">{{ total-v1 | plus:total-v2 }} Police zones</a>.</p>
+        </div>
+    </div>
+</div>
+
 <div class="container container__footer_menu">
     <ul class="nav nav--list">
         {% for link in site.navigation %}

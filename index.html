@@ -3,10 +3,6 @@ layout: default
 rooturl: home
 excerpt: An open government platform for the Belgian Local Police.
 ---
-{% assign total-v1 = site.data.zones-v1.items | size %}
-{% assign total-v2 = site.data.zones-v2.items | size %}
-
-
     <div class="clearfix">
         <div class="homepage__sticky">
             <h1>Police Web Platform</h1>
@@ -19,30 +15,6 @@ excerpt: An open government platform for the Belgian Local Police.
             <h2>Platform at a glance</h2>
             <script async class="speakerdeck-embed" data-id="4a919470ee5c0131f5bc2ac9976b5d88" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
             <p style="margin-top: 1em;">Find this presentation on <a href="https://speakerdeck.com/timble/belgian-police-web-platform">Speakerdeck.com</a> or <a href="http://www.slideshare.net/timble/open-world-forum-2014">Slideshare.com</a>.</p>
-
-            <h2>Used by {{ total-v1 | plus:total-v2 }} police zones</h2>
-            <p><a href="{{site.url}}/blog/2013/09/15/belgian-police-internet-platform-released.html">Version 2</a> is currently being used by {{ site.data.zones-v2.items | size }} Police zones:</p>
-            <ul class="nav nav nav--pills column--double">
-                {% for zone in site.data.zones-v2.items %}
-                {% case zone.data.language %}
-                {% when "1" %}
-                {% capture prefix %}Politie{% endcapture %}
-                {% capture domain %}lokalepolitie{% endcapture %}
-                {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
-                {% when "2" %}
-                {% capture prefix %}Police{% endcapture %}
-                {% capture domain %}policelocale{% endcapture %}
-                {% capture title %}{{ zone.data.titles.fr }}{% endcapture %}
-                {% when "3" %}
-                {% capture prefix %}Politie{% endcapture %}
-                {% capture domain %}lokalepolitie{% endcapture %}
-                {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
-                {% endcase %}
-
-                <li><a href="http://www.{{ domain }}.be/{{ zone.data.id }}">{{ prefix }} {{ title }}</a></li>
-                {% endfor %}
-            </ul>
-            <p>Another <a href="sites.html">{{ site.data.zones-v1.items | size }} Police zones</a> are using version 1.</p>
         </div>
         <div class="homepage__contact">
             <h3>Stay informed</h3>
