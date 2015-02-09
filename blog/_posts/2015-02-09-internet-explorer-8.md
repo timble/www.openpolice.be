@@ -25,7 +25,7 @@ This reduces the development and testing time of new features, so we can increas
 ## Nobody is left behind
 
 However, unlike [other government websites](http://www.vlaamseinfolijn.be/nieuws/vlaanderenbe-stopt-met-ondersteuning-ie8), we leave nobody behind!
-We believe information needs to be accessible, whatever device users are using. Even if those 3% visitors are still using an operating system (Windows XP) that is no longer receiving [security updates](http://www.microsoft.com/en-us/windows/enterprise/end-of-support.aspx). 
+We believe information needs to be accessible, whatever device users are using. Even if those 2,5% visitors are still using an operating system (Windows XP) that is no longer receiving [security updates](http://www.microsoft.com/en-us/windows/enterprise/end-of-support.aspx). 
 
 By using a [progressive enhancement](http://en.wikipedia.org/wiki/Progressive_enhancement) strategy we can add the latest and greatest browser features and still support older browsers, like Internet Explorer 8 and lower.
 
