@@ -29,4 +29,4 @@ We believe information needs to be accessible, whatever device users are using. 
 
 By using a [progressive enhancement](http://en.wikipedia.org/wiki/Progressive_enhancement) strategy we can add the latest and greatest browser features and still support older browsers, like Internet Explorer 8 and lower.
 
-Users don’t care about how your site looks, as long as the site works so they can get stuff done.
+Users don’t care about how your site looks, as long as the site works so they can get the information they are looking for.
