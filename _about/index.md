@@ -47,4 +47,8 @@ All the source code for the project is hosted on a [public GitHub repository](ht
 
 ## Contact
 
-Wanna get in touch? Drop us an [email](mailto:support@openpolice.be).
+Marc Alen
+Commissioner of police
+National coach telematics, Standing Commission Local Police
+
+Wanna get in touch? Drop us an [email](mailto:marc.alen@police.belgium.eu).
