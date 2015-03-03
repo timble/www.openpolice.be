@@ -52,4 +52,4 @@ Commissioner of police<br>
 National coach telematics, <br>
 Standing Commission Local Police
 
-Wanna get in touch? Drop us an [email](mailto:marc.alen@police.belgium.eu).
+Wanna get in touch? Drop me an [email](mailto:marc.alen@police.belgium.eu).
