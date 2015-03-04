@@ -1,5 +1,5 @@
 /css/.sass-cache/
 /css/*.css.map
 _site/
-/bower_components
+/vendor
 node_modules

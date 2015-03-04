@@ -1,4 +1,4 @@
-@import "susy";
+@import "../vendor/susy/sass/susy";
 
 // Setup
 @import "misc/mixins";
@@ -21,11 +21,3 @@
 @import "molecules/post-navigation";
 
 @import "shame";
-
-.github-widget {
-  margin-bottom: 20px;
-
-  .download {
-    display: none;
-  }
-}

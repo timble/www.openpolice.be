@@ -15,25 +15,25 @@ module.exports = function(grunt) {
                 files: [
                     {
                         expand: true,
-                        src: ['bower_components/stack/logos/*.*'],
+                        src: ['vendor/stack/logos/*.*'],
                         dest: 'images/stack/vendor',
                         flatten: true
                     },
                     {
                         expand: true,
-                        src: ['bower_components/stack/scss/*.*'],
+                        src: ['vendor/stack/scss/*.*'],
                         dest: '_scss/_utilities',
                         flatten: true
                     },
                     {
                         expand: true,
-                        src: ['bower_components/stack/template/*.*'],
+                        src: ['vendor/stack/template/*.*'],
                         dest: '_includes',
                         flatten: true
                     },
                     {
                         expand: true,
-                        src: ['bower_components/stack/json/*.*'],
+                        src: ['vendor/stack/json/*.*'],
                         dest: '_data/vendor',
                         flatten: true
                     }
@@ -45,7 +45,6 @@ module.exports = function(grunt) {
         sass: {
             dest: {
                 options: {
-                    require: ['susy'],
                     sourcemap: true,
                     style: 'compressed'
                 },
@@ -65,7 +64,7 @@ module.exports = function(grunt) {
             },
             build: {
                 files: {
-                    'js/scripts.js': ['_scripts/libraries/jquery-1.10.2.min.js', '_scripts/libraries/jquery.magnific-popup.min.js', '_scripts/libraries/jquery.githubRepoWidget.min.js', '_scripts/apollo.min.js', '_scripts/*.js']
+                    'js/scripts.js': ['vendor/jquery/dist/jquery.min.js', 'vendor/magnific-popup/dist/jquery.magnific-popup.min.js', 'vendor/apollo/dist/apollo.min.js', '_scripts/*.js']
                 }
             }
         },
