@@ -106,6 +106,30 @@
             }
         },
         {
+            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5293",
+            "url": {
+                "type": "application/json",
+                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
+            },
+            "data": {
+                "id": "5293",
+                "platform": "2",
+                "titles": {"fr": "Police Hesbaye-Ouest"},
+                "language": "2",
+                "phone_emergency": null,
+                "phone_information": "019 65 95 00",
+                "email": "s.b.west@skynet.be",
+                "twitter": null,
+                "facebook": null,
+                "created_by": "0",
+                "created_on": "0000-00-00 00:00:00",
+                "modified_by": "0",
+                "modified_on": "0000-00-00 00:00:00",
+                "locked_by": "0",
+                "locked_on": "0000-00-00 00:00:00"
+            }
+        },
+        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5314",
             "url": {
                 "type": "application/json",
