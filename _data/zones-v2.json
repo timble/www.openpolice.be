@@ -305,7 +305,7 @@
             },
             "data": {
                 "id": "5342",
-                "platform": "1",
+                "platform": "2",
                 "titles": {"nl": "Ukkel/W-B/Oudergem", "fr": "Uccle/W-B/Auderghem"},
                 "language": "3",
                 "phone_emergency": null,
@@ -329,7 +329,7 @@
             },
             "data": {
                 "id": "5369",
-                "platform": "1",
+                "platform": "2",
                 "titles": {"nl": "Neteland"},
                 "language": "1",
                 "phone_emergency": null,
@@ -545,7 +545,7 @@
             },
             "data": {
                 "id": "5417",
-                "platform": "1",
+                "platform": "2",
                 "titles": {"nl": "Meetjesland"},
                 "language": "1",
                 "phone_emergency": null,
@@ -641,7 +641,7 @@
             },
             "data": {
                 "id": "5435",
-                "platform": "1",
+                "platform": "2",
                 "titles": {"nl": "Hamme-Waasmunster"},
                 "language": "1",
                 "phone_emergency": null,
@@ -737,7 +737,7 @@
             },
             "data": {
                 "id": "5445",
-                "platform": "1",
+                "platform": "2",
                 "titles": {"nl": "Blankenberge/Zuienkerke"},
                 "language": "1",
                 "phone_emergency": null,
