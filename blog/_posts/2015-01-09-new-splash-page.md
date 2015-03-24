@@ -6,11 +6,11 @@ image: 2015/splash-page/splash-page.jpg
 rooturl: blog
 ---
 
-We are happy to invite you to test the [new splash](http://www.lokalepolitie.be/intro) page that significantly improves the findability of your police zone's website.
+We are happy to invite you to test the [new splash](http://www.lokalepolitie.be/zones) page that significantly improves the findability of your police zone's website.
 
 Currently, users who land on [www.lokalepolitie.be](http://www.lokalepolitie.be/) or [www.policelocale.be](http://www.policelocale.be/) have a hard time finding the website of their Local Police zone.
 
-The new splash page is available at [www.lokalepolitie.be/intro](http://www.lokalepolitie.be/intro) or [www.policelocale.be/intro](http://www.policelocale.be/intro) and allows you to search for a city, municipality or postal code, similar to the design pattern of a search engine.
+The new splash page is available at [www.lokalepolitie.be/zones](http://www.lokalepolitie.be/zones) or [www.policelocale.be/zones](http://www.policelocale.be/zones) and allows you to search for a city, municipality or postal code, similar to the design pattern of a search engine.
 
 If a search query has multiple results a list is shown, otherwise we automatically redirect to the correct zone's website.
 
