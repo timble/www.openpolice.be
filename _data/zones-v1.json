@@ -754,30 +754,6 @@
             }
         },
         {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5368",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5368",
-                "platform": "1",
-                "titles": {"nl": "Balen-Dessel-Mol"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": "014 33 37 00",
-                "email": "info@politiebalendesselmol.be",
-                "twitter": null,
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5371",
             "url": {
                 "type": "application/json",
