@@ -26,6 +26,12 @@ rooturl: home
             {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
             {% endcase %}
 
+            {% if zone.data.id == "fed" %}
+            {% capture prefix %}{% endcapture %}
+            {% capture domain %}police{% endcapture %}
+            {% capture title %}{{ zone.data.titles.nl }}{% endcapture %}
+            {% endif %}
+
             {% if zone.data.platform == "2" %}
             <li><a href="http://www.{{ domain }}.be/{{ zone.data.id }}">{{ prefix }} {{ title }}</a></li>
             {% endif %}
