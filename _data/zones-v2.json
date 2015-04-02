@@ -944,6 +944,30 @@
                 "locked_by": "0",
                 "locked_on": "0000-00-00 00:00:00"
             }
+        },
+        {
+          "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=fed",
+          "url": {
+            "type": "application/json",
+            "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
+          },
+          "data": {
+            "id": "fed",
+            "platform": "2",
+            "titles": {"nl": "Federal Police"},
+            "language": "3",
+            "phone_emergency": null,
+            "phone_information": "",
+            "email": "",
+            "twitter": "",
+            "facebook": null,
+            "created_by": "0",
+            "created_on": "0000-00-00 00:00:00",
+            "modified_by": "0",
+            "modified_on": "0000-00-00 00:00:00",
+            "locked_by": "0",
+            "locked_on": "0000-00-00 00:00:00"
+          }
         }
     ],
     "queries": []
