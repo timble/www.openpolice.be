@@ -2,7 +2,7 @@
 layout: post
 title: New Federal Police website goes live
 author: Tom Janssens
-image: 2015/federal-police/integrated-police-homepage.jpg
+image: 2015/federal-police/federal-police-homepage.jpg
 rooturl: blog
 ---
 
