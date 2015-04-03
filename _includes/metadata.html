@@ -1,0 +1,34 @@
+<link rel="alternate" type="application/rss+xml" href="{{ site.url }}/blog.xml" title="RSS 2.0" />
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name=”mobile-web-app-capable” content=”yes” />
+<meta name="apple-mobile-web-app-status-bar-style" content="#e2e2e2">
+<meta name="apple-mobile-web-app-title" content="Open Police">
+
+{% if page.description %}
+<meta name="description" content="{{ page.description | truncate: 160 }}" />
+<meta name="twitter:description" content="{{ page.description | truncate: 160 }}" />
+{% elsif page.excerpt %}
+<meta name="description" content="{{ page.excerpt | strip_html | truncate: 160 }}" />
+<meta name="twitter:description" content="{{ page.excerpt | strip_html | truncate: 160 }}" />
+{% else %}
+<meta name="description" content="{{ site.description | truncate: 160 }}" />
+<meta name="twitter:description" content="{{ site.description | truncate: 160 }}" />
+{% endif %}
+
+<meta property="og:title" content="{% if page.title %}{{page.title}}{% else %}{{site.main_title}}{% endif %}" />
+<meta name="twitter:site" content="@OpenPoliceBE">
+<meta name="twitter:card" content="summary_large_image">
+{% if page.date %}
+<meta property="og:type" content="article" />
+{% else %}
+<meta property="og:type" content="website" />
+{% endif %}
+<meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+<meta property="og:locale" content="en_GB" />
+<meta property="og:site_name" content="Open Police" />
+<meta property="og:image" content="{{ site.url }}{{ page.image }}" />
