@@ -18,7 +18,7 @@ The most notable addition is a specific component to publish missing and wanted 
 
 The Belgian Police is structured on two levels: the Federal Police and the Local Police. The Local Police is divided into 192 Police zones.
 
-The new [portal of the integrated police](http://www.politie.be) makes it easier for users to find the information they are looking for. The new portal provides easy access, among others, to:
+The new [portal of the integrated police](http://www.politie.be/intro) makes it easier for users to find the information they are looking for. The new portal provides easy access, among others, to:
 
 - the websites of the 192 Local Police zones
 - the website of the Federal Police
@@ -49,6 +49,6 @@ The new [portal of the integrated police](http://www.politie.be) makes it easier
 
 ## Every day, we work to improve
 
-The release of the new [Federal Police website](http://www.politie.be/fed/nl) and [portal of the integrated police](http://www.politie.be) is just another step in our continual work to better serve the needs of our users.
+The release of the new [Federal Police website](http://www.politie.be/fed/nl) and [portal of the integrated police](http://www.politie.be/intro) is just another step in our continual work to better serve the needs of our users.
 
 Our best feature is nothing we’ve built so far. It's our never ending commitment to continuous improvement.
