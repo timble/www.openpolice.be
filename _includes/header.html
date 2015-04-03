@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
+    <title>{{ page.title }}{% if page.title != .blank %} - {% endif %}{{ site.name }}</title>
 
     {% include metadata.html %}
 
