@@ -20,12 +20,11 @@
             {% endfor %}
         </div>
         <div class="footer__districts">
-            <h2>Used by {{ total-v1 | plus:total-v2 }} police zones</h2>
+            <h2>Used by {{ total-v1 | plus:total-v2 }} police websites</h2>
             <p>
-                {{ site.data.zones-v2.items | size }} Police zones have already migrated to the new <a href="{{site.url}}/blog/2013/09/15/belgian-police-internet-platform-released.html">platform</a>.
-                Another {{ site.data.zones-v1.items | size }} Police zones are still using the old platform.
+                {{ site.data.zones-v2.items | size | minus:1 }} Local Police zones and the Federal Police have already migrated to the <a href="{{site.url}}/blog/2013/09/15/belgian-police-internet-platform-released.html">latest version</a>.
             </p>
-            <p>Check the complete list of <a href="{{site.url}}/sites.html">{{ total-v1 | plus:total-v2 }} Police zones</a>.</p>
+            <p>Check the complete list of <a href="{{site.url}}/sites.html">{{ total-v1 | plus:total-v2 }} police zones</a>.</p>
         </div>
     </div>
 </div>
