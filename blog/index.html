@@ -27,48 +27,7 @@ excerpt: A product blog about developing and iterating the Belgian Police Web Pl
             </article>
             {% endfor %}
 
-            <div class="pagination">
-                <ul>
-                    {% if paginator.previous_page %}
-                    <li class="pagination__previous">
-                        {% if paginator.previous_page == 1 %}
-                        <a href="/{{ page.rooturl }}/">Previous</a>
-                        {% else %}
-                        <a href="{{ paginator.previous_page_path }}">Previous</a>
-                        {% endif %}
-                    </li>
-                    {% else %}
-                    <li class="pagination__previous disabled">
-                        <a>Previous</a>
-                    </li>
-                    {% endif %}
+            {% include vendor/pagination.html %}
 
-                    {% if paginator.page == 1 %}
-                    <li class="pagination__offset disabled">
-                        <a>1</a>
-                    </li>
-                    {% else %}
-                    <li class="pagination__offset">
-                        <a href="/{{ page.rooturl }}/">1</a>
-                    </li>
-                    {% endif %}
-
-                    {% for count in (2..paginator.total_pages) %}
-                    <li class="pagination__offset {% if count == paginator.page %}disabled{% endif %}">
-                        <a href="/{{ page.rooturl }}/page{{ count }}">{{ count }}</a>
-                    </li>
-                    {% endfor %}
-
-                    {% if paginator.next_page %}
-                    <li class="pagination__next">
-                        <a href="{{ paginator.next_page_path }}">Next</a>
-                    </li>
-                    {% else %}
-                    <li class="pagination__next disabled">
-                        <a>Next</a>
-                    </li>
-                    {% endif %}
-                </ul>
-            </div>
         </div>
     </div>

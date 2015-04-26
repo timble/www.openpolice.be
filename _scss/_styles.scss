@@ -11,13 +11,13 @@
 @import "utilities/shame";
 @import "utilities/grid";
 @import "utilities/stack";
+@import "../vendor/jekyll-pagination/scss/jekyll-pagination";
 
 // Molecules
 @import "molecules/code-highlight";
 @import "molecules/cta_area";
 @import "molecules/fontsize";
 @import "molecules/media-object";
-@import "molecules/pagination";
 @import "molecules/post-navigation";
 
 @import "shame";

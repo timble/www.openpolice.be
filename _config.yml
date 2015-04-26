@@ -2,6 +2,7 @@
 paginate: 3
 pagination: true
 paginate_path: "blog/page:num"
+paginate_limit: 7
 
 # Site info
 name: Open Police
