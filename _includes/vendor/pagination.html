@@ -29,7 +29,7 @@
         {% if count == dots_prev  %}
             {% assign indicator_first = ' pages-indicator--active' %}
         {% endif %}
-        {% if count == dots_next and paginator.page <= max_next %}
+        {% if count == dots_next and paginator.page < max_next %}
             {% assign indicator_last = ' pages-indicator--active' %}
         {% endif %}
         {% if forloop.first %}

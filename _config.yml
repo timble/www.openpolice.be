@@ -1,7 +1,7 @@
 # Pagination
 paginate: 3
 paginate_path: "blog/page:num"
-paginate_limit: 7
+paginate_limit: 5
 
 # Site info
 name: Open Police
