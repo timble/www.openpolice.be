@@ -9,11 +9,11 @@
                 {% assign button_class = include.class %}
             {% endif %}
             {% if item.description and item.url %}
-                <div class="stack-item__container stack-item__container--{{ group.type }}" id="{{ item_title }}">
-                    <div class="stack-item">
-                        {% if group.type != "simple" %}
+                <div class="stack-item__container stack-item__container" id="{{ item_title }}">
+                    <div class="stack-item{% if tool.logo == 'none' %} stack-item--basic{% endif %}">
+                        {% if tool.logo != "none" %}
                         <div class="stack-item__logo">
-                            <img src="/images/stack/{{ item_title }}.png" />
+                            <img src="/images/stack/{{ item_title }}.png" alt="Logo {{ item.title }}">
                         </div>
                         {% endif %}
                         <h3 class="stack-item__title">{{ item.title }}</h3>
@@ -25,11 +25,11 @@
                 {% for tool in site.data.vendor.stack %}
                     {% assign tool_title =  tool.title | replace: ' ', '-' | downcase %}
                     {% if tool_title == item_title %}
-                        <div class="stack-item__container stack-item__container--{{ group.type }}" id="{{ tool_title }}">
-                            <div class="stack-item">
-                                {% if group.type != "simple" %}
+                        <div class="stack-item__container stack-item__container" id="{{ tool_title }}">
+                            <div class="stack-item{% if tool.logo == 'none' %} stack-item--basic{% endif %}">
+                                {% if tool.logo != "none" %}
                                 <div class="stack-item__logo">
-                                    <img src="/images/stack/vendor/{{ tool_title }}.png" />
+                                    <img src="/images/stack/vendor/{{ tool_title }}.png" alt="Logo {{ item.title }}">
                                 </div>
                                 {% endif %}
                                 <h3 class="stack-item__title">{{ tool.title }}</h3>

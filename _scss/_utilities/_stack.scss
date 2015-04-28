@@ -34,10 +34,6 @@ $stack-size--logo: 5.625em !default;
   padding-top: $stack-size--logo;
 }
 
-.stack-item__container--simple {
-  padding-top: $stack-size--logo / 2;
-}
-
 .stack-item {
   border-radius: 0.3125em;
   border: 1px solid #DCDCDC;
@@ -51,13 +47,13 @@ $stack-size--logo: 5.625em !default;
   background-color: white;
   border-radius: 50%;
   border: 1px solid #DCDCDC;
-  margin: (-$stack-size--logo / 2) auto 0 auto;
+  margin: (-$stack-size--logo / 1.5) auto 0 auto;
   text-align: center;
 
   /* The ghost, nudged to maintain perfect centering */
   /* Credits: http://css-tricks.com/centering-in-the-unknown */
   &:before {
-    content: '';
+    content: ' ';
     display: inline-block;
     height: 100%;
     vertical-align: middle;
@@ -105,5 +101,9 @@ $stack-size--logo: 5.625em !default;
 @media screen and (min-width: 600px) {
   .stack-item__description {
     min-height: 70px;
+  }
+
+  .stack-item--basic .stack-item__description {
+    min-height: 100px;
   }
 }
