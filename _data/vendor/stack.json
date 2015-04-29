@@ -2,12 +2,18 @@
     {
         "title": "Apollo",
         "description": "Standalone cross-browser DOM class manipulation module.",
-        "url": "https://github.com/toddmotto/apollo"
+        "url": "https://github.com/toddmotto/apollo",
+        "logo": "none"
     },
     {
         "title": "AGIV",
         "description": "Flemish Geographical Information Agency.",
         "url": "https://www.agiv.be"
+    },
+    {
+        "title": "Bourbon",
+        "description": "A simple and lightweight mixin library for Sass.",
+        "url": "http://bourbon.io/"
     },
     {
         "title": "Bower",
@@ -20,14 +26,25 @@
         "url": "http://capistranorb.com/"
     },
     {
+        "title": "CKEditor",
+        "description": "The best web text editor for everyone.",
+        "url": "http://ckeditor.com/"
+    },
+    {
         "title": "Composer",
         "description": "Dependency Manager for PHP.",
         "url": "https://getcomposer.org/"
     },
     {
+        "title": "Dropbox zxcvbn",
+        "description": "ZXCVBN named after a crappy password, is a password strength estimation library.",
+        "url": "https://github.com/dropbox/zxcvbn"
+    },
+    {
         "title": "datetimepicker",
         "description": "jQuery Plugin Date and Time Picker.",
-        "url": "https://github.com/xdan/datetimepicker"
+        "url": "https://github.com/xdan/datetimepicker",
+        "logo": "none"
     },
     {
         "title": "Elasticsearch",
@@ -52,7 +69,8 @@
     {
         "title": "html5shiv",
         "description": "Enable HTML5 sectioning elements in legacy Internet Explorer.",
-        "url": "https://github.com/aFarkas/html5shiv"
+        "url": "https://github.com/aFarkas/html5shiv",
+        "logo": "none"
     },
     {
         "title": "Imagine",
@@ -60,14 +78,14 @@
         "url": "https://github.com/avalanche123/Imagine"
     },
     {
-        "title": "Joomla",
-        "description": "Content management system.",
-        "url": "http://www.joomla.org/"
-    },
-    {
         "title": "Jekyll",
         "description": "Transform your plain text into static websites and blogs.",
         "url": "http://jekyllrb.com/"
+    },
+    {
+        "title": "Joomla",
+        "description": "Content management system.",
+        "url": "http://www.joomla.org/"
     },
     {
         "title": "jQuery",
@@ -77,7 +95,8 @@
     {
         "title": "Magnific-Popup",
         "description": "Light and responsive lightbox script with focus on performance.",
-        "url": "https://github.com/dimsemenov/Magnific-Popup"
+        "url": "https://github.com/dimsemenov/Magnific-Popup",
+        "logo": "none"
     },
     {
         "title": "Mailcatcher",
@@ -85,9 +104,19 @@
         "url": "https://github.com/sj26/mailcatcher"
     },
     {
+        "title": "MariaDB",
+        "description": "An enhanced, drop-in replacement for MySQL.",
+        "url": "https://mariadb.org/"
+    },
+    {
         "title": "MySQL",
         "description": "The world's most popular open source database.",
         "url": "http://www.mysql.com/"
+    },
+    {
+        "title": "Neat",
+        "description": "A lightweight semantic grid framework for Sass and Bourbon.",
+        "url": "http://neat.bourbon.io/"
     },
     {
         "title": "nginx",
@@ -110,19 +139,33 @@
         "url": "http://php.net/"
     },
     {
+        "title": "Plupload",
+        "description": "At its core Plupload is visually flat and you can customize it however you like.",
+        "url": "http://www.plupload.com/"
+    },
+    {
         "title": "PHP-JWT",
         "description": "PEAR package for JWT.",
-        "url": "https://github.com/firebase/php-jwt"
+        "url": "https://github.com/firebase/php-jwt",
+        "logo": "none"
     },
     {
         "title": "Phpmig",
         "description": "Simple database migrations system for PHP.",
-        "url": "https://github.com/davedevelopment/phpmig"
+        "url": "https://github.com/davedevelopment/phpmig",
+        "logo": "none"
     },
     {
         "title": "Placeholders.js",
         "description": "A JavaScript polyfill for the HTML5 placeholder attribute.",
-        "url": "https://github.com/jamesallardice/Placeholders.js/"
+        "url": "https://github.com/jamesallardice/Placeholders.js/",
+        "logo": "none"
+    },
+    {
+        "title": "Prettify",
+        "description": "Allows syntax highlighting of source code snippets in an html page.",
+        "url": "https://code.google.com/p/google-code-prettify/",
+        "logo": "none"
     },
     {
         "title": "Sass",
@@ -132,7 +175,8 @@
     {
         "title": "Select2",
         "description": "jQuery based replacement for select boxes.",
-        "url": "http://ivaynberg.github.io/select2/"
+        "url": "http://ivaynberg.github.io/select2/",
+        "logo": "none"
     },
     {
         "title": "Susy",
@@ -140,13 +184,39 @@
         "url": "http://susy.oddbird.net/"
     },
     {
+        "title": "Swift Mailer",
+        "description": "Swift Mailer integrates into any web app written in PHP 5",
+        "url": "http://swiftmailer.org/"
+    },
+    {
         "title": "Vagrant",
         "description": "A tool for building and distributing development environments.",
         "url": "https://www.vagrantup.com/"
     },
     {
+        "title": "Varnish Cache",
+        "description": "Varnish makes websites fly!",
+        "url": "https://www.varnish-cache.org/"
+    },
+    {
         "title": "VirtualBox",
         "description": "Run nearly any operating system on a single machine simultaneously.",
         "url": "https://www.virtualbox.org/"
+    },
+    {
+        "title": "Webgrind",
+        "description": "Webgrind is a Xdebug profiling web frontend in PHP5.",
+        "url": "https://github.com/jokkedk/webgrind",
+        "logo": "none"
+    },
+    {
+        "title": "Xdebug",
+        "description": "A powerful debugger for PHP.",
+        "url": "http://xdebug.org/"
+    },
+    {
+        "title": "YAML",
+        "description": "YAML is a human friendly data serialization standard for all programming languages.",
+        "url": "https://github.com/symfony/yaml"
     }
 ]
