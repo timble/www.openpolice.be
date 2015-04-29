@@ -49,11 +49,11 @@ module.exports = function(grunt) {
 
         // Compile sass files
         sass: {
-            dest: {
-                options: {
-                    sourcemap: true,
-                    style: 'compressed'
-                },
+            options: {
+                outputStyle: 'compressed',
+                sourceMap: true
+            },
+            main: {
                 files: [{
                     'css/style.css': '_scss/style.scss',
                     'css/ie8.css': '_scss/ie8.scss',
@@ -76,15 +76,33 @@ module.exports = function(grunt) {
         },
 
 
+        // Browser Sync
+        browserSync: {
+            dev: {
+                bsFiles: {
+                    src : ["_site/*.*"]
+                },
+                options: {
+                    port: 6776, // OPPO (OP)en(PO)lice on phone keypad
+                    open: true, // Opens site in your default browser, no need to remember the port
+                    notify: false,
+                    watchTask: true,
+                    injectChanges: false,
+                    server: {
+                        baseDir: '_site'
+                    }
+                }
+            }
+        },
+
+
         // Shell commands
         shell: {
             jekyllBuild: {
                 command: 'bundle exec jekyll build --config _config.yml,_config.local.yml'
-            },
-            jekyllServe: {
-                command: 'bundle exec jekyll serve --config _config.yml,_config.local.yml'
             }
         },
+
 
         // KSS styleguide
         kss: {
@@ -173,20 +191,10 @@ module.exports = function(grunt) {
                     livereload: true
                 }
             }
-        },
-
-        // Concurrently tasking
-        concurrent: {
-            options: {
-                logConcurrentOutput: true
-            },
-            dev: {
-                tasks: ["shell:jekyllServe", "watch"]
-            }
         }
     });
 
 
     // The dev task will be used during development
-    grunt.registerTask('default', ['copy', 'concurrent:dev']);
+    grunt.registerTask('default', ['copy', 'browserSync', 'watch']);
 };

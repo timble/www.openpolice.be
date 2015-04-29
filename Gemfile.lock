@@ -110,8 +110,6 @@ GEM
     redcarpet (3.1.2)
     safe_yaml (1.0.4)
     sass (3.4.13)
-    susy (2.2.2)
-      sass (>= 3.3.0, < 3.5)
     terminal-table (1.4.5)
     thread_safe (0.3.5)
     timers (4.0.1)
@@ -128,4 +126,3 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-category-aware-prev-next
-  susy
