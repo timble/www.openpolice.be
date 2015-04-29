@@ -6,11 +6,11 @@
   "author": "",
   "private": true,
   "dependencies": {
-    "apollo": "toddmotto/apollo#1.7.*",
-    "stack": "timble/stack",
-    "magnific-popup": "dimsemenov/Magnific-Popup#0.9.*",
-    "susy": "ericam/susy#2.2.*",
-    "jekyll-pagination": "https://github.com/timble/jekyll-pagination.git"
+    "apollo": "toddmotto/apollo#1.7.0",
+    "stack": "timble/stack#1.0.0",
+    "magnific-popup": "dimsemenov/Magnific-Popup#1.0.0",
+    "susy": "ericam/susy#2.2.3",
+    "jekyll-pagination": "timble/jekyll-pagination#1.0.1"
   },
   "devDependencies": {}
 }

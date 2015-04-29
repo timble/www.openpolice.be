@@ -6,7 +6,6 @@ Assuming you already have [Bundler](http://bundler.io/), [Bower](http://bower.io
 
     $ bundle install
     $ npm install
-    $ bower install
     $ grunt
 
 The site is now available at [http://localhost:4000](http://localhost:4000) and [http://localhost:6776](http://localhost:6776) (autorefresh).
