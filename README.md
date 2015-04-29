@@ -9,6 +9,6 @@ Assuming you already have [Bundler](http://bundler.io/), [Bower](http://bower.io
     $ bower install
     $ grunt
 
-The site is now available at [http://localhost:4000](http://localhost:4000).
+The site is now available at [http://localhost:4000](http://localhost:4000) and [http://localhost:6776](http://localhost:6776) (autorefresh).
 
 For more information read about [using Jekyll with GitHub Pages](https://help.github.com/articles/using-jekyll-with-pages).
