@@ -102,7 +102,7 @@ module.exports = function(grunt) {
                 command: 'bundle exec jekyll build --config _config.yml,_config.local.yml'
             },
             bower: {
-                command: 'bower install && bower update'
+                command: 'bower update && bower install' // Run update before install to avoid version collisions
             }
         },
 
