@@ -28,13 +28,19 @@ module.exports = function(grunt) {
                     {
                         expand: true,
                         src: ['vendor/stack/template/*.*'],
-                        dest: '_includes',
+                        dest: '_includes/vendor',
                         flatten: true
                     },
                     {
                         expand: true,
                         src: ['vendor/stack/json/*.*'],
                         dest: '_data/vendor',
+                        flatten: true
+                    },
+                    {
+                        expand: true,
+                        src: ['vendor/jekyll-pagination/template/pagination.html'],
+                        dest: '_includes/vendor',
                         flatten: true
                     }
                 ]
