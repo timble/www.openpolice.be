@@ -778,30 +778,6 @@
             }
         },
         {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5378",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5378",
-                "platform": "1",
-                "titles": {"nl": "Houthalen-Helchteren"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": null,
-                "email": null,
-                "twitter": null,
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5379",
             "url": {
                 "type": "application/json",
@@ -859,30 +835,6 @@
                 "id": "5381",
                 "platform": "1",
                 "titles": {"nl": "Bilzen-Hoeselt-Riemst"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": null,
-                "email": null,
-                "twitter": null,
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5384",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5384",
-                "platform": "1",
-                "titles": {"nl": "GAOZ"},
                 "language": "1",
                 "phone_emergency": null,
                 "phone_information": null,
@@ -1511,30 +1463,6 @@
                 "phone_emergency": null,
                 "phone_information": null,
                 "email": null,
-                "twitter": null,
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5431",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5431",
-                "platform": "1",
-                "titles": {"nl": "Sint-Gillis-Waas/Stekene"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": "03 470 27 30",
-                "email": "politie@sint-gillis-waas-stekene.be",
                 "twitter": null,
                 "facebook": null,
                 "created_by": "0",
