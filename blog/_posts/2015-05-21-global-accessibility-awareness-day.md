@@ -46,3 +46,11 @@ An important part of creating an accessible website is writing accessible conten
 According to World Health Organization, there are [285 million people worldwide](http://www.sitepoint.com/how-many-users-need-accessible-websites/) who, due to some disability cannot read all content on a website. 39 million of those people are blind and cannot access any of the content via sight.
 
 If you don’t care about accessibility you end up missing out on a lot of people. As a government all information needs to be accessible, to everybody.
+
+## Resources
+
+If you’re interested in learning more about accessibility, it’s worth checking out some of these great resources on accessibility:
+
+* [Web Content Accessibility Guidelines](http://www.w3.org/WAI/intro/wcag.php) lays out a stable, reference technical standard on accessibility compliance.
+* [Accessible Rich Internet Applications Suite](http://www.w3.org/WAI/intro/aria) defines how to make web content and applications more accessible.
+* [A Web for Everyone](https://rosenfeldmedia.com/books/a-web-for-everyone/) is an excellent book on the topic of accessibility that’s worth purchasing.
