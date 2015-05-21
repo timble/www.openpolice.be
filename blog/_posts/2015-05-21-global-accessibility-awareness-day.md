@@ -49,7 +49,7 @@ If you don’t care about accessibility you end up missing out on a lot of peopl
 
 ## Resources
 
-If you’re interested in learning more about accessibility, it’s worth checking out some of these great resources on accessibility:
+If you’re interested in learning more about accessibility, it’s worth checking out some of these great resources:
 
 * [Web Content Accessibility Guidelines](http://www.w3.org/WAI/intro/wcag.php) lays out a stable, reference technical standard on accessibility compliance.
 * [Accessible Rich Internet Applications Suite](http://www.w3.org/WAI/intro/aria) defines how to make web content and applications more accessible.
