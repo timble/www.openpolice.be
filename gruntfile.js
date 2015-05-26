@@ -198,5 +198,5 @@ module.exports = function(grunt) {
 
 
     // The dev task will be used during development
-    grunt.registerTask('default', ['shell:bower', 'copy', 'browserSync', 'watch']);
+    grunt.registerTask('default', ['copy', 'browserSync', 'watch']);
 };
