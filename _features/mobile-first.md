@@ -1,5 +1,5 @@
 ---
-title: Mobile-First
+title: Mobile-First design
 image: images/features/adaptive_design.jpg
 ---
 
