@@ -706,6 +706,30 @@
             }
         },
         {
+          "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5405",
+          "url": {
+            "type": "application/json",
+            "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
+          },
+          "data": {
+            "id": "5405",
+            "platform": "1",
+            "titles": {"nl": "Pajottenland"},
+            "language": "1",
+            "phone_emergency": null,
+            "phone_information": "054 31 35 41",
+            "email": "info@politiepajottenland.be",
+            "twitter": null,
+            "facebook": null,
+            "created_by": "0",
+            "created_on": "0000-00-00 00:00:00",
+            "modified_by": "0",
+            "modified_on": "0000-00-00 00:00:00",
+            "locked_by": "0",
+            "locked_on": "0000-00-00 00:00:00"
+          }
+        },
+        {
           "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5407",
           "url": {
             "type": "application/json",
