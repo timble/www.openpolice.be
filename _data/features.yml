@@ -1,5 +1,20 @@
-design:
-  excerpt:
+- title: Frontend
+  features:
+    - title: Open Data
+      description: All data can be made available using open standards.
+    - title: Open Graph
+      description: The [Open Graph](http://ogp.me/) protocol is used to integrate any web page into the social graph.
+    - title: Performance
+      description: Fully optimised for performance, loads on average in 0.7 seconds.
+    - title: Accessibility
+      description: Conforms to [WCAG 2.0](http://www.w3.org/TR/WCAG20/) level AAA. Leverages [WAI-ARIA](http://www.w3.org/TR/wai-aria/) & [HTML5](http://www.w3.org/TR/html5/) to further enhance accessibility
+    - title: Linked Data
+      description: Leverages [Microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)) & [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) so data can be interlinked and becomes more useful through semantic queries.
+    - title: Mobile-First responsive design
+      description: Addressing the constraints of mobile, then progressively enhances the experience to take advantage of available screen space.
+    - title: Progressive enhancement
+      description: Leveraging web technologies in a [layered fashion](https://en.wikipedia.org/wiki/Progressive_enhancement) to allow everyone to access the content.
+- title: Backend
   features:
     - title: Analytics
       description: The administrator area has an integrated Analytics dashboard.
@@ -13,37 +28,11 @@ design:
       description: Easily manage files and folders in your downloads section.
     - title: Administrator interface
       description: The administrator area features a simple user interface focused on managing the different sections of the website.
-    - title: Open Data
-      description: All data can be made available using open standards.
-    - title: Open Graph
-      description: The [Open Graph](http://ogp.me/) protocol is used to integrate any web page into the social graph.
-    - title: Open Source license
-      description: All of our code is freely available under an open source license. Anyone can run it, build on it, or submit changes to it.
-    - title: Open Source stack
-      description: Purely built on an [Open Source software stack](/stack/).
     - title: Support
       description: A ticket system is integrated seamlessly, dedicated support is just one click away.
-    - title: Performance
-      description: Fully optimised for performance, loads on average in 0.7 seconds.
-    - title: Accessibility
-      description: Conforms to [WCAG 2.0](http://www.w3.org/TR/WCAG20/) level AAA. Leverages [WAI-ARIA](http://www.w3.org/TR/wai-aria/) & [HTML5](http://www.w3.org/TR/html5/) to further enhance accessibility
-    - title: Linked Data
-      description: Leverages [Microdata](https://en.wikipedia.org/wiki/Microdata_(HTML)) & [JSON-LD](https://en.wikipedia.org/wiki/JSON-LD) so data can be interlinked and becomes more useful through semantic queries.
-methodologies:
-  excerpt:
-  features:
-    - title: Mobile-First responsive design
-      description: Addressing the constraints of mobile, then progressively enhances the experience to take advantage of available screen space.
-    - title: Progressive enhancement
-      description: Leveraging web technologies in a [layered fashion](https://en.wikipedia.org/wiki/Progressive_enhancement) to allow everyone to access the content.
-    - title: Atomic design
-      description: "[Atomic design](http://bradfrost.com/blog/post/atomic-web-design/) introduces a methodology for which to create smart, deliberate interface systems."
-    - title: Agile
-      description: Following an [Agile methodology](https://en.wikipedia.org/wiki/Agile_software_development) helps us to build user-centred services quickly and affordably. With a focus on proof through doing and constant testing.
-    - title: BEM
-      description: BEM (Block Element Modifier) is a methodology, that helps you to achieve reusable components and code sharing in the front-end.
-architecture:
-  excerpt:
+    - title: Reuse of Open Data
+      description: Leveraging Open Data resources from other Governmental services to be more productive.
+- title: Architecture & Methodologies
   features:
     - title: Component based
       description: A [component](en.wikipedia.org/wiki/Component-based_software_engineering) is a package, service or resource that encapsulates a set of related functions.
@@ -51,3 +40,13 @@ architecture:
       description: "[HMVC](https://en.wikipedia.org/wiki/Hierarchical_model%E2%80%93view%E2%80%93controller) is an evolution of the MVC pattern used for modern web applications. The largest practical benefit is the widgetization of content structures."
     - title: RESTful API
       description: The platform is designed around the [HTTP protocol](http://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol). Each component automatically provides a [level 3](http://martinfowler.com/articles/richardsonMaturityModel.html) [JSON](http://en.wikipedia.org/wiki/JSON) [REST](https://en.wikipedia.org/wiki/Representational_state_transfer) API out of the box.
+    - title: Open Source license
+      description: All of our code is freely available under an open source license. Anyone can run it, build on it, or submit changes to it.
+    - title: Open Source stack
+      description: Purely built on an [Open Source software stack](/stack/).
+    - title: Atomic design
+      description: "[Atomic design](http://bradfrost.com/blog/post/atomic-web-design/) introduces a methodology for which to create smart, deliberate interface systems."
+    - title: Agile
+      description: Following an [Agile methodology](https://en.wikipedia.org/wiki/Agile_software_development) helps us to build user-centred services quickly and affordably. With a focus on proof through doing and constant testing.
+    - title: BEM
+      description: BEM (Block Element Modifier) is a methodology, that helps you to achieve reusable components and code sharing in the front-end.
