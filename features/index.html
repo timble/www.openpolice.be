@@ -6,15 +6,18 @@ title: Features
 ---
 
 <div class="grid_container">
-{% for feature in site.features %}
-    <div class="grid__item">
-        <div class="grid__item__image">
-            <img src="/{{ feature.image }}" />
-        </div>
-        <div class="grid__item__content">
-            <h2 class="grid__item__title" role="heading">{{ feature.title }}</h2>
-            {{ feature.output }}
-        </div>
-    </div>
-{% endfor %}
+{% assign features = site.data.features.design.features | sort: 'title') %}
+{% include features.html features=features %}
+</div>
+
+<h2>Methodologies</h2>
+<div class="grid_container">
+{% assign features = site.data.features.methodologies.features | sort: 'title') %}
+{% include features.html features=features %}
+</div>
+
+<h2>Architecture</h2>
+<div class="grid_container">
+{% assign features = site.data.features.architecture.features | sort: 'title') %}
+{% include features.html features=features %}
 </div>

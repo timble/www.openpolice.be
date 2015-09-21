@@ -1,0 +1,13 @@
+{% for feature in features %}
+<div class="grid__item">
+    <div class="grid__item__image">
+        <a class="thumbnail" href="/images/features/{{ feature.title | slugify }}.jpg" title="{{ feature.title }} - {{ feature.description | markdownify | strip_html }}" data-gallery="enabled">
+            <img src="/images/features/{{ feature.title | slugify }}.jpg" />
+        </a>
+    </div>
+    <div class="grid__item__content">
+        <h2 class="grid__item__title" role="heading">{{ feature.title }}</h2>
+        {{ feature.description | markdownify }}
+    </div>
+</div>
+{% endfor %}

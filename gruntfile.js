@@ -6,6 +6,10 @@ module.exports = function(grunt) {
     // load time-grunt and all grunt plugins found in the package.json
     require( 'load-grunt-tasks' )( grunt );
 
+    // Customise the browser used by BrowserSync, example: `grunt --canary`
+    var browser = 'default';
+    if(grunt.option('canary')){ browser = 'Google Chrome Canary'; };
+
     // grunt config
     grunt.initConfig({
 
@@ -80,7 +84,7 @@ module.exports = function(grunt) {
         browserSync: {
             dev: {
                 bsFiles: {
-                    src : ["_site/*.*"]
+                    src : ["_site/*.*", '_site/css/*.css',]
                 },
                 options: {
                     port: 6776, // OPPO (OP)en(PO)lice on phone keypad
@@ -88,6 +92,7 @@ module.exports = function(grunt) {
                     notify: false,
                     watchTask: true,
                     injectChanges: false,
+                    browser: browser,
                     server: {
                         baseDir: '_site'
                     }
