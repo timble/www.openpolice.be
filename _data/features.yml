@@ -31,7 +31,7 @@
     - title: Support system
       description: A ticket system is integrated seamlessly, dedicated support is just one click away.
     - title: Reuse of Open Data
-      description: Leveraging Open Data resources from other Governmental services to be more productive.
+      description: Leveraging Open Data resources from other Governmental services to be more productive like [CRAB](https://www.agiv.be/international/en/products/crab-en).
 - title: Architecture & Methodologies
   features:
     - title: Component based
