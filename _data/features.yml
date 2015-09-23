@@ -2,6 +2,8 @@
   features:
     - title: Open Data
       description: All data can be made available using open standards.
+    - title: Twitter Cards
+      description: With [Twitter Cards](https://dev.twitter.com/cards/overview) you can attach rich photos, videos and media experience to Tweets that drive traffic to your website.
     - title: Open Graph
       description: The [Open Graph](http://ogp.me/) protocol enables any web page to become a rich object in a social graph.
     - title: Performance
