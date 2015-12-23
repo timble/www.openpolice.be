@@ -151,18 +151,6 @@ module.exports = function(grunt) {
                     atBegin: true
                 }
             },
-            kss: {
-                files: [
-                    // Including
-                    '_styleguide/*.*',
-                    '_styleguide/**/*.*'
-                ],
-                tasks: ['kss'], // Compile
-                options: {
-                    interrupt: false,
-                    atBegin: true
-                }
-            },
             jekyll: {
                 files: [
                     // Including

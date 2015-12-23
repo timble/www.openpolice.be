@@ -8,7 +8,7 @@ title: Features
 {% for section in site.data.features %}
 <h2>{{ section.title }}</h2>
 <div class="grid_container">
-    {% assign features = section.features | sort: 'title') %}
+    {% assign features = section.features | sort: 'title' %}
     {% include features.html features=features %}
 </div>
 {% endfor %}

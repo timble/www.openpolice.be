@@ -6,7 +6,7 @@
         </a>
     </div>
     <div class="grid__item__content">
-        <h2 class="grid__item__title" role="heading">{{ feature.title }}</h2>
+        <h2 class="grid__item__title" role="heading">{{ feature.title }}{% if feature.status != nil %} <span class="label label--planned">Planned</span>{% endif %}</h2>
         {{ feature.description | markdownify }}
     </div>
 </div>
