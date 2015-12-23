@@ -81,6 +81,9 @@
     - title: HTTPS
       description: Leverages [HTTPS](https://en.wikipedia.org/wiki/HTTPS), a protocol for secure communication over a computer network.
       status: planned
+    - title: PHP 7
+      description: PHP 7 is the ultimate choice for web developers today. Up to 2x faster performance and 50% better memory consumption than PHP 5.6.
+      status: planned
 - title: Architecture
   features:
     - title: Component based
