@@ -45,6 +45,7 @@
       description: A ticket system is integrated seamlessly, dedicated support is just one click away.
     - title: Versioning
       description: "Sometimes, you just want to 'undo' edits and return to an earlier version of a document."
+      status: planned
     - title: Rich content editor
       description: Intuitive editor for web content which does not presuppose anything about how it will be rendered.
       status: planned
