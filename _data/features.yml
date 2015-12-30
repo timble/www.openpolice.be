@@ -31,6 +31,9 @@
   features:
     - title: Analytics
       description: The administrator area has an integrated Analytics dashboard.
+    - title: Broken Links Checker
+      description: Don't let broken links damage your site's usability. We'll notify you when we've found broken links.
+      status: planned
     - title: Content editor
       description: A simple editor allows webmasters to easily manage content.
     - title: Content templates
