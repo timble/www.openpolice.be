@@ -8,7 +8,7 @@ rooturl: home
 <div class="clearfix">
     <div class="homepage__sticky">
         <h1>Used by {{ total-v1 | plus:total-v2 }} police websites</h1>
-        <h2 id="version-2">Version 2</h2>
+        <h2 id="version-2">Version 2 - <small>Used by {{ total-v2 }} police websites</small></h2>
         <ul class="nav nav nav--pills column--double">
             {% for zone in site.data.zones-v2.items %}
             {% case zone.data.language %}
@@ -37,7 +37,7 @@ rooturl: home
             {% endif %}
             {% endfor %}
         </ul>
-        <h2 id="version-1">Version 1</h2>
+        <h2 id="version-1">Version 1 - <small>Used by {{ total-v1 }} police websites</small></h2>
         <ul class="nav nav nav--pills column--double">
             {% for zone in site.data.zones-v1.items %}
             {% case zone.data.language %}
