@@ -610,30 +610,6 @@
             }
         },
         {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5370",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5370",
-                "platform": "2",
-                "titles": {"nl": "HAZODI"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": "011 22 29 82",
-                "email": "politie@hazodi.be",
-                "twitter": "pzhazodi",
-                "facebook": "politieHAZODI",
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5372",
             "url": {
                 "type": "application/json",
@@ -649,30 +625,6 @@
                 "email": "politie@hano.be",
                 "twitter": null,
                 "facebook": "politiezone.HANO",
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5374",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5374",
-                "platform": "2",
-                "titles": {"nl": "West-Limburg"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": null,
-                "email": null,
-                "twitter": null,
-                "facebook": null,
                 "created_by": "0",
                 "created_on": "0000-00-00 00:00:00",
                 "modified_by": "0",
@@ -1400,6 +1352,30 @@
                 "locked_by": "0",
                 "locked_on": "0000-00-00 00:00:00"
             }
+        },
+        {
+          "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5370",
+          "url": {
+            "type": "application/json",
+            "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
+          },
+          "data": {
+            "id": "5907",
+            "platform": "2",
+            "titles": {"nl": "Limburg Regio Hoofdstad"},
+            "language": "1",
+            "phone_emergency": null,
+            "phone_information": "011 22 29 82",
+            "email": "info@politielrh.be",
+            "twitter": "pzhazodi",
+            "facebook": "politieHAZODI",
+            "created_by": "0",
+            "created_on": "0000-00-00 00:00:00",
+            "modified_by": "0",
+            "modified_on": "0000-00-00 00:00:00",
+            "locked_by": "0",
+            "locked_on": "0000-00-00 00:00:00"
+          }
         },
         {
           "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=fed",
