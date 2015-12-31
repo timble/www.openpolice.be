@@ -1066,54 +1066,6 @@
             }
         },
         {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5413",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5413",
-                "platform": "1",
-                "titles": {"nl": "Halle"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": null,
-                "email": null,
-                "twitter": null,
-                "facebook": null,
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
-            "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5414",
-            "url": {
-                "type": "application/json",
-                "template": "http://www.lokalepolitie.be/5388.json?view=zone?{&id}"
-            },
-            "data": {
-                "id": "5414",
-                "platform": "1",
-                "titles": {"nl": "Sint-Pieters-Leeuw"},
-                "language": "1",
-                "phone_emergency": null,
-                "phone_information": "02 371 22 28",
-                "email": null,
-                "twitter": "Politieleeuw",
-                "facebook": "politiezonesintpietersleeuw",
-                "created_by": "0",
-                "created_on": "0000-00-00 00:00:00",
-                "modified_by": "0",
-                "modified_on": "0000-00-00 00:00:00",
-                "locked_by": "0",
-                "locked_on": "0000-00-00 00:00:00"
-            }
-        },
-        {
             "href": "http://www.lokalepolitie.be/5388.json?view=zone&id=5415",
             "url": {
                 "type": "application/json",
