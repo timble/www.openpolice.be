@@ -63,3 +63,18 @@ blockquote {
     font-weight: normal !important;
   }
 }
+
+@media screen and (min-width: 767px) {
+  .header .organization__logo {
+    margin-top: 14px;
+    margin-left: 0;
+    width: 190px;
+    height: 45px;
+    background-size: 190px 45px;
+  }
+
+  .header .organization__name {
+    display: none;
+  }
+}
+
