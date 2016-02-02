@@ -17,7 +17,7 @@ collections:
     output: true
 
 # Code highlighting
-highlighter: pygments
+highlighter: rouge
 
 # Gems
 gems:
