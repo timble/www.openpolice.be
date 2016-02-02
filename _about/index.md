@@ -10,7 +10,7 @@ contents:
     - Contact
 ---
 
-We, [Timble](http://www.timble.net), are a team hired by the Belgian Police to build an **open government platform** for the internet websites of the [Belgian Local Police](http://en.wikipedia.org/wiki/Law_enforcement_in_Belgium#Local_Police).
+We, [Timble](http://www.timble.net), are a team building an **open government platform** for the internet websites of the [Belgian Local Police](http://en.wikipedia.org/wiki/Law_enforcement_in_Belgium#Local_Police).
 
 ## Task
 
@@ -29,7 +29,7 @@ The project aims to be a high level blueprint for the design of government and s
 
 To accomplish this, a choice is made to move away from big ready-made products and from outsourcing to large IT providers. Instead the architecture is build feature by feature, working from the start with a multidisciplinary technical and digital team and in direct connection with the platform stakeholders.
 
-This is a new approach to technology architecture for the Belgian Police which ensure that Police zones have a modern technical architecture needed to deliver great digital services.
+This is a new approach to technology architecture for the Belgian Local Police, and Belgian Government in general, which ensures that Police zones have a modern technical architecture needed to deliver great digital services.
 
 ## Methodology
 
@@ -39,7 +39,7 @@ For example, if we want to define a way of storing distributed data safely, an i
 
 ## Community
 
-Alongside the actual development of the project, we also actively work to encourage this new approach to architecture across Belgian Police departments.
+Alongside the actual development of the project, we also actively work to encourage this new approach to architecture across the Belgian Local Police zones.
 
 One of the ways this is done is by building and maintaining an active and open community of developers. Anyone should be able to contribute to the architecture, both inside and outside of the Police boundaries.
 

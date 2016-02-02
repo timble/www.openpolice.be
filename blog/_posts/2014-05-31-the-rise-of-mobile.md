@@ -7,9 +7,9 @@ image: 2014/2014-03-21/district-search.jpg
 rooturl: blog
 ---
 
-The objective of the Belgian Police Internet Platform is to provide all new and prospective information in the format that is right for our users, whatever their device. The new platform that is currently in rollout is the beginning of this process as we aim to improve our digital services.
+The objective of the Open Police platform is to provide all new and prospective information in the format that is right for our users, whatever their device. The new platform that is currently in rollout is the beginning of this process as we aim to improve our digital services.
 
-Here’s a graph showing how the devices people use to visit the website of their Police zone have changed. To be precise, the data is for visits collected across the 110 Police zones, Belgium counts 194 police zones, who are using v1 or v2 of the Belgian Police Internet Platform.
+Here’s a graph showing how the devices people use to visit the website of their Police zone have changed. To be precise, the data is for visits collected across the 110 Police zones, Belgium counts 194 police zones, who are using v1 or v2 of the Open Police platform.
 
 ![Percentages of visits from desktop mobile and tablet]({{site.url}}/images/blog/2014/percentages-of-visits-from-desktop-mobile-and-tablet.jpg)
 

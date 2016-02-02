@@ -7,7 +7,7 @@ index: 1
 
 ## Setup
 
-The Belgian Police Internet Platform uses a multi-site setup. All websites use the same codebase but the configuration, database, content and users are separate. This allows you to create a website with the content of your zone but based on the same look & feel.
+The Open Police platform uses a multi-site setup. All websites use the same codebase but the configuration, database, content and users are separate. This allows you to create a website with the content of your zone but based on the same look & feel.
 
 <a href="/images/documentation/multisite.png" data-gallery="enabled">
 ![](/images/documentation/multisite.png)

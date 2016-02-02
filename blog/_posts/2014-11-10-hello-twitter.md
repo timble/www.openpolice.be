@@ -6,9 +6,9 @@ image: 2014/twitter.png
 rooturl: blog
 ---
 
-You can now follow us on [Twitter (@openpoliceBE)](https://www.twitter.com/openpoliceBE) if you want to stay up to date about the development and iterations of the Belgian Police Web Platform.
+You can now follow us on [Twitter (@openpoliceBE)](https://www.twitter.com/openpoliceBE) if you want to stay up to date about the development and iterations of the Open Police platform.
 
-Our [Twitter account](https://www.twitter.com/openpoliceBE) is a next step in making the Belgian Police Web Platform even more open.
+Our [Twitter account](https://www.twitter.com/openpoliceBE) is a next step in making the Open Police platform even more open.
 
 ## Why open matters
 
@@ -18,7 +18,7 @@ All of our code is freely available under an open source license. Anyone can run
 
 ## Community
 
-Alongside the actual development of the project, we also actively work to encourage this new approach to architecture across Belgian Police departments.
+Alongside the actual development of the project, we also actively work to encourage this new approach to architecture across Belgian Local Police departments.
 
 One of the ways this is done is by building and maintaining an active and open community of developers. Anyone should be able to contribute to the architecture, both inside and outside of the Police boundaries.
 

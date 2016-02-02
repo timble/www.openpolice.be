@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Belgian Police Internet Platform released
+title: Open Police platform released
 author: Tom Janssens
 authorGplus: https://plus.google.com/+TomJanssensMe
 image: 2013/release.jpg

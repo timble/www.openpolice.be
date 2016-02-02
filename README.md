@@ -1,5 +1,5 @@
 # Open Police website
-Our open police website is a product blog about developing and iterating the Belgian Police Web Platform. For the people who publish content to their site and anyone else who is interested.
+Our open police website is a product blog about developing and iterating the Open Police platform. For the people who publish content to their site and anyone else who is interested.
 
 ## Installation & Usage
 Assuming you already have [Bundler](http://bundler.io/), [Bower](http://bower.io/), [node.js](http://nodejs.org/) and [Grunt](http://gruntjs.com/) installed:

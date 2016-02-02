@@ -24,9 +24,8 @@ Last week federal minister of the digital agenda, Alexander De Croo and his Digi
 
 ## We join hands
 
-
 We, <a href="http://www.timble.net">Timble</a>, strongly believe that an **open development model** is the only way to foster badly-needed government standards, remove the fear of proprietary lock-in for government agencies, and create a large ecosystem that spans the government as a whole.
 
-Therefore, all of the code of our **open government platform** for the **Belgian Police** is freely available under an open source license on [GitHub.com](https://github.com/belgianpolice). Anyone can run it, build on it, or submit changes to it.
+Therefore, all of the code of our **open government platform** for the **Belgian Local Police** is freely available under an open source license on [GitHub.com](https://github.com/belgianpolice). Anyone can run it, build on it, or submit changes to it.
 
-The Police Web Platform is the first Belgian government project that uses an **'open everything'** approach. Setting a benchmark in how governments can innovate using **open source** and **open standards**.
+The Open Police platform is the first Belgian government project that uses an **'open everything'** approach. Setting a benchmark in how governments can innovate using **open source** and **open standards**.
