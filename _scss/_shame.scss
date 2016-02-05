@@ -1,3 +1,7 @@
+.group {
+  @include cf();
+}
+
 // Specific styles for the documentation pages
 .documentation {
   counter-reset: section;

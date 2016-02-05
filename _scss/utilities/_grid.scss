@@ -25,4 +25,16 @@ $susy: (
   .stack-item__container {
     @include gallery(4 of 12);
   }
+
+  .one-half {
+    @include gallery(6 of 12);
+  }
+
+  .pricing__content {
+    @include span(first 5 of 12);
+  }
+
+  .pricing__image {
+    @include span(7 of 12);
+  }
 }

@@ -4,6 +4,7 @@ title: About
 rooturl: about
 contents:
     - Task
+    - Software as a Service
     - Strategy
     - Methodology
     - Community
@@ -11,6 +12,8 @@ contents:
 ---
 
 We, [Timble](http://www.timble.net), are a team building an **open government platform** for the internet websites of the [Belgian Local Police](http://en.wikipedia.org/wiki/Law_enforcement_in_Belgium#Local_Police).
+
+You might be aware that we do business a bit differently from most typical government IT contractors. We'd like to take a second to explain what that means and why it matters.
 
 ## Task
 
@@ -23,6 +26,14 @@ We provide functional and technical analysis, technical and strategic developmen
 * Daily operation of an online private **support** system for 350 content editors to allow them to report problems and communicate with the development team.
 * **Training** of content editors to allow them to manage the content of their website on the platform, including best practices on how to work with social media channels.
 
+## Software as a Service (SaaS)
+
+Software as a Service (SaaS) means that there's never any software to install, as everything runs on our servers. There are a multitude of benefits to this approach:
+
+- SaaS is usually orders of magnitude less expensive orders of magnitude less expensive than traditional enterprise software
+- There is no maintenance involved from the client's standpoint, and the software is always up-to-date
+- New features are always being added, and existing ones are constantly being improved
+
 ## Strategy
 
 The project aims to be a high level blueprint for the design of government and specifically Police web technology, based on modern, user focused and open source technologies and solutions. Solutions are build in a such a way they can be continually upgraded, changed and reintegrated to keep up with user needs.
@@ -33,9 +44,14 @@ This is a new approach to technology architecture for the Belgian Local Police, 
 
 ## Methodology
 
-The project is being developed and supported on a result basis using an [Agile iterative and incremental development methodology](http://en.wikipedia.org/wiki/Agile_software_development), with a focus on proof through doing and constant testing.
+The project is being developed and supported on a result basis using the [Manifesto for Agile Software Development](http://www.agilemanifesto.org/):
 
-For example, if we want to define a way of storing distributed data safely, an initial version of a proposed data network is build to prove how it works quickly and cheaply. This gives an approach that works which can then be shared across services. New versions are continually improved each time they are reused, from project to project, service to service.
+* **Individuals and interactions** over processes and tools
+* **Working software** over comprehensive documentation
+* **Customer collaboration** over contract negotiation
+* **Responding to change** over following a plan
+
+That is, while there is value in the items on the right, we value the items on the left more.
 
 ## Community
 

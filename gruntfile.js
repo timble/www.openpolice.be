@@ -171,6 +171,7 @@ module.exports = function(grunt) {
                     'images/**/*.*',
                     'img/*.*',
                     'js/*.*',
+                    'pricing/*.*',
                     'stack/*.*',
                     'styleguide/*.*',
                     'styleguide/**/*.*',

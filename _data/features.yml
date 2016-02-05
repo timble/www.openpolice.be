@@ -70,7 +70,7 @@
       status: planned
     - title: RSS
       description: All frequently updated information (news, traffic, press releases, etc) are available in [RSS](https://en.wikipedia.org/wiki/RSS) format.
-- title: Infrastucture
+- title: Infrastructure
   features:
     - title: Performance
       description: Fully optimised for performance, loads on average in 0.7 seconds.
