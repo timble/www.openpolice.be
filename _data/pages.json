@@ -31,6 +31,10 @@
             "url": "/blog.xml"
         },
         {
+            "text": "Slides",
+            "url": "/slides/"
+        },
+        {
             "text": "Styleguide",
             "url": "/styleguide/"
         },
