@@ -6,13 +6,12 @@ rooturl: pricing
 
 <div class="group" markdown="1">
 <div class="pricing__content" markdown="1">
-## Simple and transparent pricing
 
-### Urban <small>- Cluster 1 & 2</small>
+## Urban <small>- Cluster 1 & 2</small>
 
 7.200 € / year or **17.500 € / 3 years**
 
-### Nationwide <small>- Cluster 3, 4 & 5</small>
+## Nationwide <small>- Cluster 3, 4 & 5</small>
 
 4.200 € / year or **10.250 € / 3 years**
 
