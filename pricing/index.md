@@ -32,15 +32,15 @@ rooturl: pricing
 <div class="one-half" markdown="1">
 ### Support
 
-If you have questions or need help, you can create a [support ticket]({{ site.url }}/documentation/10-support.html) in the administrator area. During business hours you can usually expect a reply within a few hours or even less. On the weekend, it might take us a little longer to get back to you. We don't employ a dedicated support team.
+If you have questions or need help, you can create a [support ticket]({{ site.url }}/documentation/10-support.html) in the administrator area. During business hours you can usually expect a reply within a few hours or even less. On the weekend, it might take us a little longer to get back to you.
 
-The flipside to this is that the folks responding to support requests are often the very developers that built the product in the first place and know it inside and out.
+The folks responding to support requests are the very developers that built the product in the first place and know it inside and out.
 </div>
 
 <div class="one-half" markdown="1">
 ### Feature requests
 
-Our development is customer-driven, and there's a good chance that the feature you're requesting is already on our [roadmap]({{ site.url }}/features/). It also helps for us to understand why you're looking for that feature,and sometimes we can even recommend a current piece of functionality that can achieve the same result.
+Our development is customer-driven, and there's a good chance that the feature you're requesting is already on our [roadmap]({{ site.url }}/features/). It also helps for us to understand why you're looking for that feature, and sometimes we can even recommend a current piece of functionality that can achieve the same result.
 
 If a feature is not currently part of our [roadmap]({{ site.url }}/features/), we're always open to discuss building it on contract.
 </div>
