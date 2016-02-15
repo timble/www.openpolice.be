@@ -8,11 +8,11 @@
     <link rel="shortcut icon" type="image/ico" href="/images/favicon.ico" />
     <link rel="shortcut icon" type="image/png" href="/images/xtouch-icon.png" />
     <link rel="apple-touch-icon" type="image/png" href="/images/xtouch-icon.png"/>
-    <link rel="stylesheet" href="/css/default.css?{{'now' | date: '%s'}}">
-    <link rel="stylesheet" href="/css/style.css?{{'now' | date: '%s'}}">
+    <link rel="stylesheet" href="/css/default.css?{{ site.time | date: '%s'}}">
+    <link rel="stylesheet" href="/css/style.css?{{ site.time | date: '%s'}}">
     {% if page.extra_css %}<link rel="stylesheet" href="/{{ page.extra_css }}">{% endif %}
     {% if page.extra_head_markup %}{{page.extra_head_markup}}{% endif %}
-    {% if page.rooturl == 'documentation' %}<link rel="stylesheet" media="print" href="/css/print.css?{{'now' | date: '%s'}}"/>{% endif %}
+    {% if page.rooturl == 'documentation' %}<link rel="stylesheet" media="print" href="/css/print.css?{{ site.time | date: '%s'}}"/>{% endif %}
 
     <!--[if lte IE 7]>
     <link rel="stylesheet" href="/css/ie7.css">
