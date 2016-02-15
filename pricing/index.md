@@ -10,18 +10,18 @@ rooturl: pricing
 
 ### Urban <small>- Cluster 1 & 2</small>
 
-7.200 € / year
+7.200 € / year or **17.500 € / 3 years**
 
 ### Nationwide <small>- Cluster 3, 4 & 5</small>
 
-4.200 € / year
+4.200 € / year or **10.250 € / 3 years**
 
-<small>VAT included</small>
+<small>Prices include VAT</small>
 </div>
 
 <div class="pricing__image" markdown="1">
 ![]({{ site.url }}/images/pricing/clusters.jpg)
-<small>Source: <a href="https://www.belfius.be/common/NL/multimedia/MMDownloadableFile/PublicSocial/Expertise/financesCPAS/2014/MMDF%20financi%C3%ABle%20situatie%20van%20de%20politiezones.pdf">Belfius</a></small>
+<small>Source: <a href="https://www.belfius.be/common/NL/multimedia/MMDownloadableFile/PublicSocial/Expertise/financesCPAS/2014/MMDF%20financi%C3%ABle%20situatie%20van%20de%20politiezones.pdf">Belfius (PDF, 4,6MB)</a></small>
 </div>
 </div>
 
