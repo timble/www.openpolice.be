@@ -6,7 +6,7 @@ rooturl: slides
 
 ## 2016
 
-* [OKAL](https://docs.google.com/presentation/d/1jvq8pbKeCDSweRBa9jbDpFUY2EdJ5StQjIBNIAx_kwI/edit?usp=sharing)
+* [Design Principles - Open Belgium](https://docs.google.com/presentation/d/1pnsSP4xuTJat_aQ61P9QMGPSVK9zfnXwXbOItuvIKkM/pub?start=false&loop=false)
 
 ## 2015
 
