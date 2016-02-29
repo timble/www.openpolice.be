@@ -10,7 +10,7 @@ Since a few days, Google is adding a “mobile-friendly” label to their mobile
 
 Have you ever tapped on a Google Search result on your mobile phone, only to find yourself looking at a page where the text was too small, the links were tiny, and you had to scroll sideways to see all the content? This usually happens when the website has not been optimized to be viewed on a mobile phone.
 
-Although Google says the update is rolling out over the next few weeks, we've started seeing the label appear for the [20 police sites](http://www.openpolice.be/sites.html#version-2) who already on the new platform.
+Although Google says the update is rolling out over the next few weeks, we've started seeing the label appear for the [20 police sites](http://www.openpolice.be/sites/#version-2) who already on the new platform.
 
 A page is eligible for the “mobile-friendly” label if it meets the following criteria:
 
