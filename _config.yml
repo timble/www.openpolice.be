@@ -22,7 +22,7 @@ highlighter: rouge
 # Gems
 gems:
   - jekyll-sitemap
-  - jekyll-category-aware-prev-next
+  - jekyll-paginate
 
 # We don't want to publish some files
 exclude: [

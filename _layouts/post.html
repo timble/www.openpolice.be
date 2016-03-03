@@ -35,37 +35,37 @@ layout: compress
         </article>
         <hr />
 
-        {% if page.cat_previous.url or page.cat_next.url %}
+        {% if page.previous.url or page.next.url %}
         <div class="prev_next_post">
             <!-- prev and next pages -->
-            {% if page.cat_previous.url %}
+            {% if page.previous.url %}
             <div class="prevpost">
                 <h4>Previous post</h4>
                 <div class="media">
-                    {% if page.cat_previous.image %}
-                    <a class="thumbnail media__object" href="{{ page.cat_previous.url }}">
-                        <img width="64" height="48" src="/images/blog/{{ page.cat_previous.image }}">
+                    {% if page.previous.image %}
+                    <a class="thumbnail media__object" href="{{ page.previous.url }}">
+                        <img width="64" height="48" src="/images/blog/{{ page.previous.image }}">
                     </a>
                     {% endif %}
                     <div class="media__body">
-                        <a class="media__heading" href="{{ page.cat_previous.url }}">{{ page.cat_previous.title }}</a>
-                        <div class="muted smaller_font">{{ page.cat_previous.date | date: "%-d %B %Y" }}</div>
+                        <a class="media__heading" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+                        <div class="muted smaller_font">{{ page.previous.date | date: "%-d %B %Y" }}</div>
                     </div>
                 </div>
             </div>
             {% endif %}
-            {% if page.cat_next.url %}
+            {% if page.next.url %}
             <div class="nextpost">
                 <h4>Next post</h4>
                 <div class="media">
-                    {% if page.cat_next.image %}
-                    <a class="thumbnail media__object media__object--rev" href="{{ page.cat_next.url }}">
-                        <img width="64" height="48" src="/images/blog/{{ page.cat_next.image }}">
+                    {% if page.next.image %}
+                    <a class="thumbnail media__object media__object--rev" href="{{ page.next.url }}">
+                        <img width="64" height="48" src="/images/blog/{{ page.next.image }}">
                     </a>
                     {% endif %}
                     <div class="media__body">
-                        <a class="media__heading" href="{{ page.cat_next.url }}">{{ page.cat_next.title }}</a>
-                        <div class="muted smaller_font">{{ page.cat_next.date | date: "%-d %B %Y" }}</div>
+                        <a class="media__heading" href="{{ page.next.url }}">{{ page.next.title }}</a>
+                        <div class="muted smaller_font">{{ page.next.date | date: "%-d %B %Y" }}</div>
                     </div>
                 </div>
             </div>

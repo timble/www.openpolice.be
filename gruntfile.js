@@ -104,7 +104,7 @@ module.exports = function(grunt) {
         // Shell commands
         shell: {
             jekyllBuild: {
-                command: 'bundle exec jekyll build --config _config.yml,_config.local.yml'
+                command: 'bundle exec jekyll build --incremental --config _config.yml,_config.local.yml'
             },
             bower: {
                 command: 'bower update && bower install' // Run update before install to avoid version collisions
